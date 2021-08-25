@@ -31,7 +31,7 @@ import java.util.ArrayList;
 
 import static com.kos.crosstrial.adapters.StitchAdapter.stitchName;
 
-// v2.0 Trial
+// v2.0 Trial ////////
 public class MainActivity extends AppCompatActivity {
 
     private InterstitialAd mInterstitial;
