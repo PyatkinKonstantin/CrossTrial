@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="10dp"
+    android:background="@android:drawable/edit_text"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tv_fabricItem_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:fontFamily="@font/akadem"
+        android:hint="№"
+        android:paddingTop="0dp"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_fabricItem_Firm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:fontFamily="@font/akadem"
+        android:hint="Фирма"
+        android:paddingTop="0dp"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/tv_fabricItem_number"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_fabricItem_Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:fontFamily="@font/akadem"
+        android:hint="Название ткани"
+        android:paddingTop="0dp"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/tv_fabricItem_Firm"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_fabricItem_Artic1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:fontFamily="@font/akadem"
+        android:paddingTop="0dp"
+        android:text="Артикул:"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="@+id/tv_fabricItem_Firm"
+        app:layout_constraintTop_toBottomOf="@+id/tv_fabricItem_Firm" />
+
+    <TextView
+        android:id="@+id/tv_fabricItem_Artic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="0dp"
+        android:fontFamily="@font/akadem"
+        android:hint="Артикул"
+        android:paddingTop="0dp"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_fabricItem_Artic1"
+        app:layout_constraintStart_toEndOf="@+id/tv_fabricItem_Artic1" />
+
+    <TextView
+        android:id="@+id/tv_fabricItem_Kaunt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="0dp"
+        android:fontFamily="@font/akadem"
+        android:paddingTop="0dp"
+        android:text="Каунт:"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_fabricItem_Artic"
+        app:layout_constraintStart_toEndOf="@+id/tv_fabricItem_Artic" />
+
+    <TextView
+        android:id="@+id/tv_fabricItem_Kaunt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="0dp"
+        android:fontFamily="@font/akadem"
+        android:hint="Каунт"
+        android:paddingTop="0dp"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_fabricItem_Kaunt1"
+        app:layout_constraintStart_toEndOf="@+id/tv_fabricItem_Kaunt1" />
+
+    <TextView
+        android:id="@+id/tv_fabricItem_Color1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:fontFamily="@font/akadem"
+        android:paddingTop="0dp"
+        android:text="Цвет:"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="@+id/tv_fabricItem_Artic1"
+        app:layout_constraintTop_toBottomOf="@+id/tv_fabricItem_Artic1" />
+
+    <TextView
+        android:id="@+id/tv_fabricItem_Color"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="0dp"
+        android:fontFamily="@font/akadem"
+        android:hint="Цвет"
+        android:paddingTop="0dp"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_fabricItem_Color1"
+        app:layout_constraintStart_toEndOf="@+id/tv_fabricItem_Color1" />
+
+    <TextView
+        android:id="@+id/tv_fabricItem_MyNumber1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:fontFamily="@font/akadem"
+        android:paddingTop="0dp"
+        android:text="Номер в моей коллекции:"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="@+id/tv_fabricItem_Color1"
+        app:layout_constraintTop_toBottomOf="@+id/tv_fabricItem_Color1" />
+
+    <TextView
+        android:id="@+id/tv_fabricItem_MyNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="0dp"
+        android:fontFamily="@font/akadem"
+        android:hint="Номер в моей коллекции"
+        android:paddingTop="0dp"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_fabricItem_MyNumber1"
+        app:layout_constraintStart_toEndOf="@+id/tv_fabricItem_MyNumber1" />
+
+
+    <Button
+        android:id="@+id/bt_fabricItem_add"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="0dp"
+        android:backgroundTint="#00000000"
+        android:fontFamily="@font/akadem"
+        android:onClick="onClickDMC"
+        android:text="Добавить отрез"
+        android:textSize="8sp"
+        android:padding="0dp"
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_fabricItem_MyNumber1" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_fabricItem_sizes"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        app:layout_constraintStart_toStartOf="@+id/bt_fabricItem_add"
+        app:layout_constraintTop_toBottomOf="@+id/bt_fabricItem_add" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

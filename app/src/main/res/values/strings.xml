@@ -1,0 +1,1035 @@
+<resources>
+    <string name="app_name">Cross Stitch Floss Thread Accounting(Trial)</string>
+    <string name="new_stich">New project</string>
+    <string name="delete">-</string>
+    <string name="add">+</string>
+    <string name="lengthNit">Thread length</string>
+    <string name="total_nits">" Total number of threads"</string>
+    <string name="project_cancel">Cancel project</string>
+    <string name="project_finish">Finish project</string>
+    <string name="length_thread">Thread length</string>
+    <string name="number_color">Color number</string>
+    <string name="NumberNit">Thread number</string>
+    <string name="Projects">Project</string>
+    <string name="total_number_of_thread">Total number of thread</string>
+    <string name="sort_by_max">Sort by maximum</string>
+    <string name="sort_by_min">Sort by minimum</string>
+    <string name="sort_by_number">Sort by number</string>
+
+    <string name="dmc150">Dusty Rose - ultra vy dk</string>
+    <string name="dmc151">Dusty Rose - vy lt</string>
+    <string name="dmc152">Shell Pink - med lt</string>
+    <string name="dmc153">Violet - vy lt</string>
+    <string name="dmc154">Grape - vy dk</string>
+    <string name="dmc155">Blue Violet - med dk</string>
+    <string name="dmc156">Blue Violet - med lt</string>
+    <string name="dmc157">Cornflower Blue - vy lt</string>
+    <string name="dmc158">Cornflower Blue - med vy dk</string>
+    <string name="dmc159">Gray Blue - lt</string>
+    <string name="dmc160">Gray Blue - med</string>
+    <string name="dmc161">Gray Blue</string>
+    <string name="dmc162">Blue - ultra vy lt</string>
+    <string name="dmc163">Celadon Green - med</string>
+    <string name="dmc164">Forest Green - lt</string>
+    <string name="dmc165">Moss Green - vy lt</string>
+    <string name="dmc166">Moss Green - med lt</string>
+    <string name="dmc167">Yellow Beige - vy dk</string>
+    <string name="dmc168">Pewter - vy lt</string>
+    <string name="dmc169">Pewter - lt</string>
+    <string name="dmc208">Lavender - vy dk</string>
+    <string name="dmc209">Lavender - dk</string>
+    <string name="dmc210">Lavender - med</string>
+    <string name="dmc211">Lavender - lt</string>
+    <string name="dmc221">Shel lPink - vy dk</string>
+    <string name="dmc223">Shell Pink - lt</string>
+    <string name="dmc224">ShellPink - vy lt</string>
+    <string name="dmc225">ShellPink - ultra vy lt</string>
+    <string name="dmc300">Mahogany - vy dk</string>
+    <string name="dmc301">Mahogany - med</string>
+    <string name="dmc304">Christmas Red - med</string>
+    <string name="dmc307">Lemon</string>
+    <string name="dmc309">Rose - dk</string>
+    <string name="dmc310">Black</string>
+    <string name="dmc311">Navy Blue - med</string>
+    <string name="dmc312">Navy Blue - lt</string>
+    <string name="dmc315">Antique Mauve - med dk</string>
+    <string name="dmc316">Antique Mauve - med</string>
+    <string name="dmc317">Pewter Grey</string>
+    <string name="dmc318">Steel Grey - lt</string>
+    <string name="dmc319">Pistachio Green - vy dk</string>
+    <string name="dmc320">Pistachio Green - med</string>
+    <string name="dmc321">Christmas Red</string>
+    <string name="dmc322">NavyBlue - vy lt</string>
+    <string name="dmc326">Rose-vy dk</string>
+    <string name="dmc327">Violet - vy dk</string>
+    <string name="dmc333">BlueViolet - vy dk</string>
+    <string name="dmc334">BabyBlue - med</string>
+    <string name="dmc335">Rose</string>
+    <string name="dmc336">Navy Blue</string>
+    <string name="dmc340">Blue Violet - med</string>
+    <string name="dmc341">Blue Violet - lt</string>
+    <string name="dmc347">Salmon - vy dk</string>
+    <string name="dmc349">Coral - dk</string>
+    <string name="dmc350">Coral - med</string>
+    <string name="dmc351">Coral</string>
+    <string name="dmc352">Coral - lt</string>
+    <string name="dmc353">Peach</string>
+    <string name="dmc355">TerraCotta - dk</string>
+    <string name="dmc356">TerraCotta - med</string>
+    <string name="dmc367">PistachioGreen - dk</string>
+    <string name="dmc368">PistachioGreen - lt</string>
+    <string name="dmc369">PistachioGreen - vy lt</string>
+    <string name="dmc370">Mustard - med</string>
+    <string name="dmc371">Mustard</string>
+    <string name="dmc372">Mustard - lt</string>
+    <string name="dmc400">Mahogany - dk</string>
+    <string name="dmc402">Mahogany - vy lt</string>
+    <string name="dmc407">Desert Sand - dk</string>
+    <string name="dmc413">Pewter Grey - dk</string>
+    <string name="dmc414">Steel Grey - dk</string>
+    <string name="dmc415">Pearl Grey</string>
+    <string name="dmc420">Hazelnut Brown - dk</string>
+    <string name="dmc422">Hazelnut Brown - lt</string>
+    <string name="dmc433">Brown - med</string>
+    <string name="dmc434">Brown - lt</string>
+    <string name="dmc435">Brown - vy lt</string>
+    <string name="dmc436">Tan</string>
+    <string name="dmc437">Tan - lt</string>
+    <string name="dmc444">Lemon - dk</string>
+    <string name="dmc445">Lemon - lt</string>
+    <string name="dmc451">Shell Grey - dk</string>
+    <string name="dmc452">Shell Grey - med</string>
+    <string name="dmc453">Shell Grey - lt</string>
+    <string name="dmc469">Avocado Green</string>
+    <string name="dmc470">Avocado Green - lt</string>
+    <string name="dmc471">Avocado Green - vy lt</string>
+    <string name="dmc472">Avocado Green - ultra lt</string>
+    <string name="dmc498">Christmas Red - dk</string>
+    <string name="dmcMelange">Melange</string>
+    <string name="dmc500">Blue Green - vy dk</string>
+    <string name="dmc501">Blue Green - dk</string>
+    <string name="dmc502">Blue Green</string>
+    <string name="dmc503">Blue Green - med</string>
+    <string name="dmc504">Blue Green - vy lt</string>
+    <string name="dmc505">Jade</string>
+    <string name="dmc517">Wedgwood - dk</string>
+    <string name="dmc518">Wedgwood - lt</string>
+    <string name="dmc519">Sky Blue</string>
+    <string name="dmc520">Fern Green - dk</string>
+    <string name="dmc522">Fern Green</string>
+    <string name="dmc523">Fern Green - lt</string>
+    <string name="dmc524">Fern Green - vy lt</string>
+    <string name="dmc535">Ash Grey - vy lt</string>
+    <string name="dmc543">Beige Brown - ultra vy lt</string>
+    <string name="dmc550">Violet - vy dk</string>
+    <string name="dmc552">Violet - med</string>
+    <string name="dmc553">Violet</string>
+    <string name="dmc554">Violet - lt</string>
+    <string name="dmc561">Jade - vy dk</string>
+    <string name="dmc562">Jade - med</string>
+    <string name="dmc563">Jade - lt</string>
+    <string name="dmc564">Jade - vy lt</string>
+    <string name="dmc580">Moss Green - dk</string>
+    <string name="dmc581">Moss Green</string>
+    <string name="dmc597">Turquoise</string>
+    <string name="dmc598">Turquoise - lt</string>
+    <string name="dmc600">Cranberry - vy dk</string>
+    <string name="dmc601">Cranberry - dk</string>
+    <string name="dmcMetal">Metal effects</string>
+    <string name="dmc602">Cranberry - med</string>
+    <string name="dmc603">Cranberry</string>
+    <string name="dmc604">Cranberry - lt</string>
+    <string name="dmc605">Cranberry - vy lt</string>
+    <string name="dmc606">Bright Orange Red</string>
+    <string name="dmc608">Bright Orange</string>
+    <string name="dmc610">Drab Brown - vy dk</string>
+    <string name="dmc611">Drab Brown - dk</string>
+    <string name="dmc612">Drab Brown - med</string>
+    <string name="dmc613">Drab Brown - lt</string>
+    <string name="dmc632">Desert Sand - ultra vy dk</string>
+    <string name="dmc640">Beige Grey - vy dk</string>
+    <string name="dmc642">Beige Grey - dk</string>
+    <string name="dmc644">Beige Grey - med</string>
+    <string name="dmc645">Beaver Grey - vy dk</string>
+    <string name="dmc646">Beaver Grey - dk</string>
+    <string name="dmc647">Beaver Grey - med</string>
+    <string name="dmc648">Beaver Grey - lt</string>
+    <string name="dmc666">Christmas Red - bright</string>
+    <string name="gamma2130">Old Gold - med</string>
+    <string name="dmc676">Old Gold - lt</string>
+    <string name="dmc677">Old Gold - vy lt</string>
+    <string name="dmc680">Old Gold - dk</string>
+    <string name="dmc699">Christmas Green</string>
+    <string name="dmc700">Christmas Green - bright</string>
+    <string name="dmc701">Christmas Green - lt</string>
+    <string name="dmc702">Kelly Green</string>
+    <string name="dmc703">Chartreuse</string>
+    <string name="dmc704">Chartreuse - bright</string>
+    <string name="dmc712">Cream</string>
+    <string name="dmc718">Plum</string>
+    <string name="dmc720">Orange Spice - dk</string>
+    <string name="dmc721">Orange Spice - med</string>
+    <string name="dmc722">Orange Spice - lt</string>
+    <string name="dmc725">Topaz</string>
+    <string name="dmc726">Topaz - lt</string>
+    <string name="dmc727">Topaz - vy lt</string>
+    <string name="dmc728">Topaz</string>
+    <string name="dmc729">Old Gold - med</string>
+    <string name="dmc730">Olive Green - vy dk</string>
+    <string name="dmc731">Olive Green - dk</string>
+    <string name="dmc732">Olive Green</string>
+    <string name="dmc733">Olive Green - med</string>
+    <string name="dmc734">Olive Green - lt</string>
+    <string name="dmc738">Tan - vy lt</string>
+    <string name="dmc739">Tan - ultra vy lt</string>
+    <string name="dmc740">Tangerine</string>
+    <string name="dmc741">Tangerine - med</string>
+    <string name="dmc742">Tangerine - lt</string>
+    <string name="dmc743">Yellow - med</string>
+    <string name="dmc744">Yellow - pale</string>
+    <string name="dmc745">Yellow - lt pale</string>
+    <string name="dmc746">Off White</string>
+    <string name="dmc747">Sky Blue - vy lt</string>
+    <string name="dmc754">Peach - lt</string>
+    <string name="dmc758">Terra Cotta - vy lt</string>
+    <string name="dmc760">Salmon</string>
+    <string name="dmc761">Salmon - lt</string>
+    <string name="dmc762">Pearl Grey - vy lt</string>
+    <string name="dmc772">Yellow Green - vy lt</string>
+    <string name="dmc775">Baby Blue - vy lt</string>
+    <string name="dmc776">Pink - med</string>
+    <string name="dmc777">Raspberry - vy dk</string>
+    <string name="dmc778">Antique Mauve - vy lt</string>
+    <string name="dmc779">Cocoa - dk</string>
+    <string name="dmc780">Topaz - ultra vy dk</string>
+    <string name="dmc781">Topaz - vy dk</string>
+    <string name="dmc782">Topaz - dk</string>
+    <string name="dmc783">Topaz - med</string>
+    <string name="dmc791">Cornflower Blue - vy dk</string>
+    <string name="dmc792">Cornflower Blue - dk</string>
+    <string name="dmc793">Cornflower Blue - med</string>
+    <string name="dmc794">Cornflower Blue - lt</string>
+    <string name="dmc796">Royal Blue - dk</string>
+    <string name="dmc797">Royal Blue</string>
+    <string name="dmc798">Delft - dk</string>
+    <string name="dmc799">Delft - med</string>
+    <string name="dmc800">Delft - pale</string>
+    <string name="dmc801">Coffee Brown - dk</string>
+    <string name="dmc803">Baby blue - ul vy dk</string>
+    <string name="dmc806">Peacock Blue - dk</string>
+    <string name="dmc807">Peacock Blue</string>
+    <string name="dmc809">Delft</string>
+    <string name="dmc813">Blue - lt</string>
+    <string name="dmc814">Garnet - dk</string>
+    <string name="dmc815">Garnet - med</string>
+    <string name="dmc816">Garnet</string>
+    <string name="dmc817">Coral Red - vy dk</string>
+    <string name="dmc818">Baby Pink</string>
+    <string name="dmc819">Baby Pink - lt</string>
+    <string name="dmc820">Royal Blue - vy dk</string>
+    <string name="dmc822">Beige Grey - lt</string>
+    <string name="dmc823">Navy Blue - dk</string>
+    <string name="dmc824">Blue - vy dk</string>
+    <string name="dmc825">dmcBlue - dk\t</string>
+    <string name="dmc826">Blue - med</string>
+    <string name="dmc827">Blue - vy lt</string>
+    <string name="dmc828">Blue - ultra vy lt</string>
+    <string name="dmc829">Golden Olive - vy dk</string>
+    <string name="dmc830">Golden Olive - dk</string>
+    <string name="dmc831">Golden Olive - med</string>
+    <string name="dmc832">Golden Olive</string>
+    <string name="dmc833">Golden Olive - lt</string>
+    <string name="dmc834">Golden Olive - vy lt</string>
+    <string name="dmc838">Beige Brown - vy dk</string>
+    <string name="dmc839">Beige Brown - dk</string>
+    <string name="dmc840">Beige Brown - med</string>
+    <string name="dmc841">Beige Brown - lt</string>
+    <string name="dmc842">Beige Brown - vy lt</string>
+    <string name="dmc844">Beaver Grey - ultra dk</string>
+    <string name="dmc869">Hazelnut Brown - vy dk</string>
+    <string name="dmc890">Pistachio Green - ultra dk</string>
+    <string name="dmc891">Carnation - dk</string>
+    <string name="dmc892">Carnation - med</string>
+    <string name="dmc893">Carnation - lt</string>
+    <string name="dmc894">Carnation - vy lt</string>
+    <string name="dmc895">Hunter Green - vy dk</string>
+    <string name="dmc898">Coffee Brown - vy dk</string>
+    <string name="dmc899">Rose - med</string>
+    <string name="dmc900">Burnt Orange - dk</string>
+    <string name="dmc902">Garnet - vy dk</string>
+    <string name="dmc904">Parrot Green - vy dk</string>
+    <string name="dmc905">Parrot Green - dk</string>
+    <string name="dmc906">Parrot Green - med</string>
+    <string name="dmc907">Parrot Green - lt</string>
+    <string name="dmc909">Emerald Green - vy dk</string>
+    <string name="dmc910">Emerald Green - dk</string>
+    <string name="dmc911">Emerald Green - med</string>
+    <string name="dmc912">Emerald Green - lt</string>
+    <string name="dmc913">Nile Green - med</string>
+    <string name="dmc915">Plum - dk</string>
+    <string name="dmc917">Plum - med</string>
+    <string name="dmc918">Red Copper - dk</string>
+    <string name="dmc919">Red Copper</string>
+    <string name="dmc920">Copper - med</string>
+    <string name="dmc921">Copper</string>
+    <string name="dmc922">Copper - lt</string>
+    <string name="dmc924">Grey Green - vy dk</string>
+    <string name="dmc926">Grey Green - med</string>
+    <string name="dmc927">Grey Green - lt</string>
+    <string name="dmc928">Grey Green - vy lt</string>
+    <string name="dmc930">Antique Blue - dk</string>
+    <string name="dmc931">Antique Blue - med</string>
+    <string name="dmc932">Antique Blue - lt</string>
+    <string name="dmc934">Black Avocado Green - dk</string>
+    <string name="dmc935">Black Avocado Green - med</string>
+    <string name="dmc936">Avocado Green - vy dk</string>
+    <string name="dmc937">Avocado Green - med</string>
+    <string name="dmc938">Coffee Brown - ultra dk</string>
+    <string name="dmc939">Navy Blue - vy dk</string>
+    <string name="dmc943">Aquamarine - med</string>
+    <string name="dmc945">Tawny</string>
+    <string name="dmc946">Burnt Orange - med</string>
+    <string name="dmc947">Burnt Orange</string>
+    <string name="dmc948">Peach - vy lt</string>
+    <string name="dmc950">Desert Sand - lt</string>
+    <string name="dmc951">Tawny - lt</string>
+    <string name="dmc954">Nile Green</string>
+    <string name="dmc955">Nile Green - lt</string>
+    <string name="dmc956">Geranium</string>
+    <string name="dmc957">Geranium - pale</string>
+    <string name="dmc958">Seagreen - dk</string>
+    <string name="dmc959">Seagreen - med</string>
+    <string name="dmc961">Dusty Rose - dk</string>
+    <string name="dmc962">Dusty Rose - med</string>
+    <string name="dmc963">Dusty Rose - ultra vy lt</string>
+    <string name="dmc964">Seagreen - lt</string>
+    <string name="dmc966">Baby Green - med</string>
+    <string name="dmc967">Apricot - vy lt</string>
+    <string name="dmc970">Pumpkin - bright</string>
+    <string name="dmc971">Pumpkin</string>
+    <string name="dmc972">Canary - deep</string>
+    <string name="dmc973">Canary - bright</string>
+    <string name="dmc975">Golden Brown - dk</string>
+    <string name="dmc976">Golden Brown - med</string>
+    <string name="dmc977">Golden Brown - lt</string>
+    <string name="dmc986">Forest Green - vy dk</string>
+    <string name="dmc987">Forest Green - dk</string>
+    <string name="dmc988">Forest Green - med</string>
+    <string name="dmc989">Forest Green</string>
+    <string name="dmc991">Aquamarine - dk</string>
+    <string name="dmc992">Aquamarine - lt</string>
+    <string name="dmc993">Aquamarine - vy lt</string>
+    <string name="dmc995">Electric Blue - dk</string>
+    <string name="dmc996">Electric Blue - med</string>
+    <string name="dmc3011">Khaki Green - dk</string>
+    <string name="dmc3012">Khaki Green - med</string>
+    <string name="dmc3013">Khaki Green - lt</string>
+    <string name="dmc3021">Brown Grey - vy dk</string>
+    <string name="dmc3022">Brown Grey - med</string>
+    <string name="dmc3023">Brown Grey - lt</string>
+    <string name="dmc3024">Brown Grey - vy lt</string>
+    <string name="dmc3031">Mocha Brown - vy dk</string>
+    <string name="dmc3032">Mocha Brown - med</string>
+    <string name="dmc3033">Mocha Brown - vy lt</string>
+    <string name="dmc3041">Antique Violet - med</string>
+    <string name="dmc3042">Antique Violet - lt</string>
+    <string name="dmc3045">Yellow Beige - dk</string>
+    <string name="dmc3046">Yellow Beige - med</string>
+    <string name="dmc3047">Yellow Beige - lt</string>
+    <string name="dmc3051">Green Grey - dk</string>
+    <string name="dmc3052">Серо - зеленый, т.</string>
+    <string name="dmc3053">Green Grey</string>
+    <string name="dmc3064">Desert Sand</string>
+    <string name="dmc3072">Beaver Grey - vy lt</string>
+    <string name="dmc3078">Golden Yellow - vy lt</string>
+    <string name="dmc3325">Baby Blue - lt</string>
+    <string name="dmc3326">Rose - lt</string>
+    <string name="dmc3328">Salmon - dk</string>
+    <string name="dmc3340">Apricot - med</string>
+    <string name="dmc3341">Apricot</string>
+    <string name="dmc3345">Hunter Green - dk</string>
+    <string name="dmc3346">Hunter Green</string>
+    <string name="dmc3347">Yellow Green - med</string>
+    <string name="dmc3348">Yellow Green - lt</string>
+    <string name="dmc3350">Dusty Rose - ultra dk</string>
+    <string name="dmc3354">Dusty Rose - lt</string>
+    <string name="dmc3362">Pine Green - dk</string>
+    <string name="dmc3363">Pine Green - med</string>
+    <string name="dmc3364">Pine Green</string>
+    <string name="dmc3371">Black Brown</string>
+    <string name="dmc3607">Plum - lt</string>
+    <string name="dmc3608">Plum - vy lt</string>
+    <string name="dmc3609">Plum - ultra lt</string>
+    <string name="dmc3685">Mauve - vy dk</string>
+    <string name="dmc3687">Mauve</string>
+    <string name="dmc3688">Mauve - med</string>
+    <string name="dmc3689">Mauve - lt</string>
+    <string name="dmc3705">Melon - dk</string>
+    <string name="dmc3706">Melon - med</string>
+    <string name="dmc3708">Melon - lt</string>
+    <string name="dmc3712">Salmon - med</string>
+    <string name="dmc3713">Salmon - vy lt</string>
+    <string name="dmc3716">Dusty Rose - vy lt</string>
+    <string name="dmc3721">Shell Pink - dk</string>
+    <string name="dmc3722">Shell Pink - med</string>
+    <string name="dmc3726">Antique Mauve - dk</string>
+    <string name="dmc3727">Antique Mauve - lt</string>
+    <string name="dmc3731">Dusty Rose - vy dk</string>
+    <string name="dmc3733">Dusty Rose</string>
+    <string name="dmc3740">Antique Violet - dk</string>
+    <string name="dmc3743">Antique Violet - vy lt</string>
+    <string name="dmc3746">Blue Violet - dk</string>
+    <string name="dmc3747">Blue Violet - vy lt</string>
+    <string name="dmc3750">Antique Blue - vy dk</string>
+    <string name="dmc3752">Antique Blue - vy lt</string>
+    <string name="dmc3753">Antique Blue - ultra vy lt</string>
+    <string name="dmc3755">Baby Blue</string>
+    <string name="dmc3756">Baby Blue - ultra vy lt</string>
+    <string name="dmc3760">Wedgwood - med</string>
+    <string name="dmc3761">Sky Blue - lt</string>
+    <string name="dmc3765">Peacock Blue - vy dk</string>
+    <string name="dmc3766">Peacock Blue - lt</string>
+    <string name="dmc3768">Grey Green - dk</string>
+    <string name="dmc3770">Tawny - vy lt</string>
+    <string name="dmc3771">Terra Cotta - ultra vy lt</string>
+    <string name="dmc3772">Desert Sand - vy dk</string>
+    <string name="dmc3773">Desert Sand - med</string>
+    <string name="dmc3774">Desert Sand - vy lt</string>
+    <string name="dmc3776">Mahogany - lt</string>
+    <string name="dmc3777">Terra Cotta - vy dk</string>
+    <string name="dmc3778">Terra Cotta - lt</string>
+    <string name="dmc3779">Terra Cotta - ultra vy lt</string>
+    <string name="dmc3781">Mocha Brown - dk</string>
+    <string name="dmc3782">Mocha Brown - lt</string>
+    <string name="dmc3787">Brown Grey - dk</string>
+    <string name="dmc3790">Beige Grey - ultra dk</string>
+    <string name="dmc3799">Pewter Grey - vy dk</string>
+    <string name="dmc3801">Christmas Red - lt</string>
+    <string name="dmc3802">Antique Mauve - vy dk</string>
+    <string name="dmc3803">Mauve - dk</string>
+    <string name="dmc3804">Cyclamen Pink - dk</string>
+    <string name="dmc3805">Cyclamen Pink</string>
+    <string name="dmc3806">Cyclamen Pink - lt</string>
+    <string name="dmc3807">Cornflower Blue</string>
+    <string name="dmc3808">Turquoise - ultra vy dk</string>
+    <string name="dmc3809">Turquoise - vy dk</string>
+    <string name="dmc3810">Turquoise - dk</string>
+    <string name="dmc3811">Turquoise - vy lt</string>
+    <string name="dmc3812">Seagreen - vy dk</string>
+    <string name="dmc3813">Blue Green - lt</string>
+    <string name="dmc3814">Aquamarine</string>
+    <string name="dmc3815">Celadon Green - dk</string>
+    <string name="dmc3816">Celadon Green</string>
+    <string name="dmc3817">Celadon Green - lt</string>
+    <string name="dmc3818">Emerald Green - ultra vy dk</string>
+    <string name="dmc3819">Moss Green - lt</string>
+    <string name="dmc3820">Straw - dk</string>
+    <string name="dmc3821">Straw</string>
+    <string name="dmc3822">Straw - lt</string>
+    <string name="dmc3823">Yellow - ultra pale</string>
+    <string name="dmc3824">Apricot - lt</string>
+    <string name="dmc3825">Pumpkin - pale</string>
+    <string name="dmc3826">Golden Brown</string>
+    <string name="dmc3827">Golden Brown - pale</string>
+    <string name="dmc3828">Hazelnut Brown</string>
+    <string name="dmc3829">Old Gold - vy dk</string>
+    <string name="dmc3830">Terra Cotta</string>
+    <string name="dmc3831">Raspberry - dk</string>
+    <string name="dmc3832">Raspberry - med</string>
+    <string name="dmc3833">Raspberry - lt</string>
+    <string name="dmc3834">Grape - dk</string>
+    <string name="dmc3835">Grape - med</string>
+    <string name="dmc3836">Grape - lt</string>
+    <string name="dmc3837">Lavender - ultra dk</string>
+    <string name="dmc3838">Lavender Blue - dk</string>
+    <string name="dmc3839">Lavender Blue - med</string>
+    <string name="dmc3840">Lavender Blue - lt</string>
+    <string name="dmc3841">Baby Blue - pale</string>
+    <string name="dmc3842">Wedgwood - dk</string>
+    <string name="dmc3843">Electric Blue</string>
+    <string name="dmc3844">Bright Turquoise - dk</string>
+    <string name="dmc3845">Bright Turquoise - med</string>
+    <string name="dmc3846">Bright Turquoise - lt</string>
+    <string name="dmc3847">Teal Green - dk</string>
+    <string name="dmc3848">Teal Green - med</string>
+    <string name="dmc3849">Teal Green - lt</string>
+    <string name="dmc3850">Bright Green - dk</string>
+    <string name="dmc3851">Bright Green - lt</string>
+    <string name="dmc3852">Straw - vy dk</string>
+    <string name="dmc3853">Autumn Gold - dk</string>
+    <string name="dmc3854">Autumn Gold - med</string>
+    <string name="dmc3855">Autumn Gold - lt</string>
+    <string name="dmc3856">Mahogany - ultra vy lt</string>
+    <string name="dmc3857">Rosewood - dk</string>
+    <string name="dmc3858">Rosewood - med</string>
+    <string name="dmc3859">Rosewood - lt</string>
+    <string name="dmc3860">Cocoa</string>
+    <string name="dmc3861">Cocoa - lt</string>
+    <string name="dmc3862">Mocha Beige - dk</string>
+    <string name="dmc3863">Mocha Beige - med</string>
+    <string name="dmc3864">Mocha Beige - lt</string>
+    <string name="dmc3865">Winter White</string>
+    <string name="dmc3866">Mocha Brown - ultra vy lt</string>
+    <string name="dmc_blanc">White</string>
+    <string name="dmc_Ecru">Ecru</string>
+    <string name="dmc_B5200">Ultra white</string>
+    <string name="dmc1">White tin</string>
+    <string name="dmc2">Tin</string>
+    <string name="dmc3">Tin - md</string>
+    <string name="dmc4">Tin - dk</string>
+    <string name="dmc5">Driftwood - lt</string>
+    <string name="dmc6">Driftwood - med lt</string>
+    <string name="dmc7">Driftwood</string>
+    <string name="dmc8">Driftwood - dk</string>
+    <string name="dmc9">Cocoa - vy dk</string>
+    <string name="dmc10">Tender Green - vy lt</string>
+    <string name="dmc11">Tender Green - lt</string>
+    <string name="dmc12">Tender Green</string>
+    <string name="dmc13">Nile Green - med lt</string>
+    <string name="dmc14">Pale Apple Green</string>
+    <string name="dmc15">Apple Green</string>
+    <string name="dmc16">Chartreuse - lt</string>
+    <string name="dmc17">Yellow Plum - lt</string>
+    <string name="dmc18">Yellow Plum</string>
+    <string name="dmc19">Autumn Gold - med lt</string>
+    <string name="dmc20">Shrimp</string>
+    <string name="dmc21">Alizarin - lt</string>
+    <string name="dmc22">Alizarin</string>
+    <string name="dmc23">Apple Blossom</string>
+    <string name="dmc24">White Lavender</string>
+    <string name="dmc25">Lavender - ultra lt</string>
+    <string name="dmc26">Pale Lavender</string>
+    <string name="dmc27">White Violet</string>
+    <string name="dmc28">Eggplant - md lt</string>
+    <string name="dmc29">Eggplant</string>
+    <string name="dmc30">Blueberry - med lt</string>
+    <string name="dmc31">Blueberry</string>
+    <string name="dmc32">Blueberry - dk</string>
+    <string name="dmc33">Fuchsia</string>
+    <string name="dmc34">Fuchsia - dk</string>
+    <string name="dmc35">Fuchsia - vy dk</string>
+    <string name="recovery_copy">Save</string>
+    <string name="recovery">Backup load</string>
+    <string name="gamma0001">Kremoviy</string>
+    <string name="gamma0206">Golden Yellow</string>
+    <string name="gamma0212">Kelly Green - dk</string>
+    <string name="gamma0213">Kelly Green -  vy dk</string>
+    <string name="gamma0316">Kelly Green -  lt</string>
+    <string name="gamma0419">Antique Violet - dk</string>
+    <string name="gamma0616">Yellow Green - dk</string>
+    <string name="gamma0652">Olive Green - vy lt</string>
+    <string name="gamma0676">Shell Grey - dk</string>
+    <string name="gamma0729">Violet - dk</string>
+    <string name="gamma0758">Baby Blue - dk</string>
+    <string name="gamma0805">Tan - md</string>
+    <string name="gamma0806">Tan - dk</string>
+    <string name="gamma0807">Tan - vy dk</string>
+    <string name="gamma0877">Antique Mauve - lt</string>
+    <string name="gamma0871">Garnet - ultra dk</string>
+    <string name="gamma0859">Turquoise - ultra dk</string>
+    <string name="gamma0953">Blue Green - vy lt</string>
+    <string name="gamma5130">Lemon - vy lt</string>
+    <string name="gamma4195">Grey - ultra dk</string>
+
+
+    <string name="gamma5166">Blue - lt</string>
+    <string name="gamma5167">Blue - dk</string>
+    <string name="gamma5168">Blue</string>
+    <string name="gamma5169">Grey-blue</string>
+    <string name="gamma5170">Blue - grey</string>
+    <string name="gamma5171">Blue - grey</string>
+    <string name="gamma5172">Blue - dk</string>
+    <string name="gamma5173">Blue - lt lt</string>
+    <string name="gamma5174">Sea wave</string>
+    <string name="gamma5175">Sea wave</string>
+    <string name="gamma5176">Yellow</string>
+    <string name="gamma5177">Yellow -dk</string>
+    <string name="gamma5178">Orange</string>
+    <string name="gamma5179">Yellow - lt</string>
+    <string name="gamma5180">Lemon</string>
+    <string name="gamma5181">Yellow saturated</string>
+    <string name="gamma5182">Grey - lt lt</string>
+    <string name="gamma5184">Black - grey</string>
+    <string name="gamma5185">Blue - grey - dk</string>
+    <string name="gamma5186">Grey</string>
+    <string name="gamma5188">Grey</string>
+    <string name="gamma5191">Grey - green</string>
+    <string name="gamma5192">Grey - green</string>
+    <string name="gamma5193">" Beige - lilac"</string>
+    <string name="gamma5194">Grey - lilac</string>
+    <string name="gamma5195">Green - dk dk</string>
+    <string name="gamma5196">Salad - lt</string>
+    <string name="gamma5197">Turquoise</string>
+    <string name="gamma5198">Turquoise - dk</string>
+    <string name="gamma5199">Brown-red - dk</string>
+    <string name="gamma5201">Beige</string>
+    <string name="gamma5202">Brown - lt</string>
+    <string name="gamma5203">"Brown - red "</string>
+    <string name="gamma5204">Lilac - dk dk</string>
+    <string name="gamma5205">Purple - dk dk</string>
+    <string name="gamma5206">Lilac - lt</string>
+    <string name="gamma5207">Mint - lt</string>
+    <string name="gamma5208">Mint</string>
+    <string name="gamma5209">Green - lt</string>
+    <string name="gamma5210">Green</string>
+    <string name="gamma5211">Green</string>
+    <string name="gamma5213">Beige lt lt</string>
+    <string name="gamma5214">Beige lt</string>
+    <string name="gamma5215">Beige</string>
+    <string name="gamma5216">Orange - red</string>
+    <string name="gamma5217">Rose - lt lt</string>
+    <string name="gamma5219">Beige - rose</string>
+    <string name="gamma5220">Grey - dk</string>
+    <string name="gamma5221">Grey</string>
+    <string name="gamma5200">Beige lt</string>
+    <string name="gamma5212">Green - dk</string>
+
+    <string name="Kreinik001">Silver</string>
+    <string name="Kreinik001HL">Silver High Lustre</string>
+    <string name="Kreinik001L">Solar Silver</string>
+    <string name="Kreinik001V">Vintage Silver</string>
+    <string name="Kreinik001C">"Silver Cord"</string>
+    <string name="Kreinik001P">Silver Cable</string>
+    <string name="Kreinik001J">Japan Silver</string>
+
+    <string name="Kreinik002Gold">Silver</string>
+    <string name="Kreinik002HL">Gold High Lustre</string>
+    <string name="Kreinik002L">Chromo Gold</string>
+    <string name="Kreinik002V">Gold Vintage</string>
+    <string name="Kreinik002C">Gold Cord</string>
+    <string name="Kreinik002J">Japan Gold</string>
+    <string name="Kreinik002P">Gold Cable</string>
+
+    <string name="Kreinik003Red">Red</string>
+    <string name="Kreinik003HL">Red High Lustre</string>
+    <string name="Kreinik003V">Vintage Red</string>
+
+    <string name="Kreinik005Black">Black</string>
+    <string name="Kreinik005C">Black Cord</string>
+    <string name="Kreinik005HL">Black High Lustre</string>
+    <string name="Kreinik005L">Blinding Black</string>
+
+    <string name="Kreinik006Blue">Blue</string>
+    <string name="Kreinik006HL">Blue High Lustre</string>
+
+    <string name="Kreinik007Pink">Pink</string>
+    <string name="Kreinik007C">Pink Cord</string>
+    <string name="Kreinik007HL">Pink High Lustre</string>
+    <string name="Kreinik007L">Power Pink</string>
+
+    <string name="Kreinik008Green">Green</string>
+    <string name="Kreinik008J">Japan Green</string>
+    <string name="Kreinik008C">Green Cord</string>
+    <string name="Kreinik008HL">Green High Lustre</string>
+    <string name="Kreinik008L">Kinetic Kelly</string>
+
+    <string name="Kreinik009">Emerald</string>
+    <string name="Kreinik009HL">Emerald High Lustre</string>
+    <string name="Kreinik009V">Vintage Emerald</string>
+
+    <string name="Kreinik010HL">Steel Grey High Lustre</string>
+
+    <string name="Kreinik011HL">Gun Metal High Lustre</string>
+    <string name="Kreinik011C">Gun Metal Cord</string>
+
+    <string name="Kreinik012">Purple</string>
+    <string name="Kreinik012HL">Purple High Lustre</string>
+    <string name="Kreinik012C">Purple Cord</string>
+
+    <string name="Kreinik013">Beidge</string>
+
+    <string name="Kreinik014">Sky Blue</string>
+    <string name="Kreinik014HL">Sky Blue High Lustre</string>
+
+    <string name="Kreinik015">Chartreuse</string>
+    <string name="Kreinik015HL">Chartreuse High Lustre</string>
+    <string name="Kreinik015L">Laser Lime</string>
+
+    <string name="Kreinik016L">Olive Moss</string>
+
+    <string name="Kreinik017HL">White Gold High Lustre</string>
+
+    <string name="Kreinik018">Navy</string>
+    <string name="Kreinik018HL">Navy High Lustre</string>
+    <string name="Kreinik018V">Vintage Navy</string>
+
+    <string name="Kreinik019">Pewter</string>
+
+    <string name="Kreinik021">Coppper</string>
+    <string name="Kreinik021J">Japan Coppper</string>
+    <string name="Kreinik021HL">Coppper High Lustre</string>
+    <string name="Kreinik021L">Coptic Copper</string>
+    <string name="Kreinik021C">Copper Cord</string>
+
+    <string name="Kreinik022">Brown</string>
+    <string name="Kreinik022L">Molten Mocha</string>
+
+    <string name="Kreinik023">Lilac</string>
+
+    <string name="Kreinik024">Fuchsia</string>
+    <string name="Kreinik024HL">Fuchsia High Lustre</string>
+    <string name="Kreinik024L">Fiery Fuchsia</string>
+
+    <string name="Kreinik025">Grey</string>
+
+    <string name="Kreinik026">Amethyst</string>
+    <string name="Kreinik026L">Puchy Purple</string>
+    <string name="Kreinik026V">Vintage Amethyst</string>
+
+    <string name="Kreinik027">Orange</string>
+    <string name="Kreinik027L">Orangeruptis</string>
+
+    <string name="Kreinik028">Citron</string>
+    <string name="Kreinik028L">Solar Flair</string>
+
+    <string name="Kreinik029">Turquoise</string>
+    <string name="Kreinik029L">Dyelectric Blue</string>
+
+    <string name="Kreinik031">Crimson</string>
+
+    <string name="Kreinik032">Pearl</string>
+
+    <string name="Kreinik033">Royal Blue</string>
+    <string name="Kreinik033L">Royal Blast</string>
+
+    <string name="Kreinik034">Confetti</string>
+    <string name="Kreinik034C">Confetti Cord</string>
+
+    <string name="Kreinik041">Confetti Pink</string>
+    <string name="Kreinik041C">Confetti Pink Cord</string>
+
+    <string name="Kreinik042">Confetti Fuchsia</string>
+    <string name="Kreinik042L">Optic Opal</string>
+
+    <string name="Kreinik043">Confetti Green</string>
+
+    <string name="Kreinik044">Confetti Blue</string>
+
+    <string name="Kreinik045">Confetti Gold</string>
+
+    <string name="Kreinik051F">Tangerine GlowInTheDark</string>
+    <string name="Kreinik051HL">Sapphire High Lustre</string>
+
+    <string name="Kreinik052F">Grapefruit GlowInTheDark</string>
+    <string name="Kreinik052HL">Bronze High Lustre</string>
+
+    <string name="Kreinik053F">Dark Lime GlowInTheDark</string>
+
+    <string name="Kreinik054F">Lemon Lime GlowInTheDark</string>
+
+    <string name="Kreinik055F">Watermelon GlowInTheDark</string>
+
+    <string name="Kreinik056F">BlueBerry GlowInTheDark</string>
+
+    <string name="Kreinik057F">Grape GlowInTheDark</string>
+
+    <string name="Kreinik060">Midnight</string>
+
+    <string name="Kreinik061">Ruby</string>
+
+    <string name="Kreinik070">Mardi Grass</string>
+
+    <string name="Kreinik071">Misty Gold</string>
+
+    <string name="Kreinik072">Cocoa Brown</string>
+
+    <string name="Kreinik080HL">Garnet HighLustre</string>
+    <string name="Kreinik080C">Garnet Cord</string>
+
+    <string name="Kreinik085">Peacock</string>
+
+    <string name="Kreinik086C">Fern Cord</string>
+
+    <string name="Kreinik087C">Meadow Grass Cord</string>
+
+    <string name="Kreinik089">Aspen Green</string>
+
+    <string name="Kreinik091">Star Yellow</string>
+
+    <string name="Kreinik092">Star Pink</string>
+
+    <string name="Kreinik093">Star Mauve</string>
+
+    <string name="Kreinik094">Star Blue</string>
+
+    <string name="Kreinik095">Star Burst</string>
+
+    <string name="Kreinik096">Sea Glass</string>
+
+    <string name="Kreinik100">White</string>
+    <string name="Kreinik100HL">White High Lustre</string>
+
+    <string name="Kreinik101">Platinum</string>
+
+    <string name="Kreinik102">Vatican Gold</string>
+    <string name="Kreinik102HL">Vatican Gold High Lustre</string>
+    <string name="Kreinik102C">Vatican Gold Cord</string>
+
+    <string name="Kreinik104C">Colonial Gold</string>
+
+    <string name="Kreinik105C">Antique Silver Cord</string>
+
+    <string name="Kreinik107J">Flamingo Pink</string>
+
+    <string name="Kreinik108J">Parrot Green</string>
+
+    <string name="Kreinik110J">Japan Black Onyx</string>
+
+    <string name="Kreinik115J">Lime Green</string>
+
+    <string name="Kreinik127">Yellow Orange</string>
+
+    <string name="Kreinik128J">Papaya Orange</string>
+
+    <string name="Kreinik131J">Japan Cojo Salmon</string>
+
+    <string name="Kreinik132J">Japan Larkspur</string>
+
+    <string name="Kreinik133J">Japan Sunny</string>
+
+    <string name="Kreinik134J">Japan Glacier</string>
+
+    <string name="Kreinik135J">Japan Aurora</string>
+
+    <string name="Kreinik150V">Vintage Amber</string>
+
+    <string name="Kreinik152V">Vintage Sienna</string>
+
+    <string name="Kreinik153V">Vintage Burgundy</string>
+
+    <string name="Kreinik154V">Vintage Verdigris</string>
+
+    <string name="Kreinik160J">Japan Rustic Gold</string>
+
+    <string name="Kreinik165J">Japan Oriental Bronze</string>
+
+    <string name="Kreinik170J">Japan Natural Pewter</string>
+
+    <string name="Kreinik191">Pale Yellow</string>
+
+    <string name="Kreinik192">Pale Pink</string>
+
+    <string name="Kreinik193">Pale Mauve</string>
+
+    <string name="Kreinik194">Pale Blue</string>
+
+    <string name="Kreinik195">Sun Burst</string>
+
+    <string name="Kreinik198">Pale Green</string>
+
+    <string name="Kreinik200J">Japan Hot Chocolate</string>
+
+    <string name="Kreinik201C">Chocolate Cord</string>
+
+    <string name="Kreinik202HL">Aztec Gold HighLustre</string>
+    <string name="Kreinik202C">Indigo Cord</string>
+
+    <string name="Kreinik203">Flame</string>
+
+    <string name="Kreinik205C">Antique Gold Cord</string>
+
+    <string name="Kreinik208C">Wine</string>
+
+    <string name="Kreinik210">Gold Dust</string>
+
+    <string name="Kreinik212">Golden Sand</string>
+
+    <string name="Kreinik215C">Antique Copper Cord</string>
+
+    <string name="Kreinik216J">Japan Native Copper</string>
+
+    <string name="Kreinik220J">Japan Burnished Gold</string>
+
+    <string name="Kreinik221">Antigue Gold</string>
+
+    <string name="Kreinik225C">Slate Cord</string>
+
+    <string name="Kreinik235">Red Ember</string>
+
+    <string name="Kreinik238">Christmas</string>
+
+    <string name="Kreinik242HL">Magenta Sunset</string>
+
+    <string name="Kreinik245J">Japan Bright Magenta</string>
+
+    <string name="Kreinik271">Plum</string>
+
+    <string name="Kreinik273">Orange</string>
+
+    <string name="Kreinik280J">Japan Country Blue</string>
+
+    <string name="Kreinik307">Deep Coral</string>
+
+    <string name="Kreinik308">Colonial Red</string>
+
+    <string name="Kreinik321J">Dark Japan Gold</string>
+
+    <string name="Kreinik326">Hibiscus</string>
+
+    <string name="Kreinik329">Bahama Blue</string>
+
+    <string name="Kreinik332">Candy Cane</string>
+    <string name="Kreinik339">Tropical Teal</string>
+    <string name="Kreinik393">Silver Night</string>
+    <string name="Kreinik421">Azalea</string>
+    <string name="Kreinik622">Wedgewood Blue</string>
+    <string name="Kreinik623">Twilight Blue</string>
+    <string name="Kreinik684">Aquamarine</string>
+    <string name="Kreinik713">Pink Mauve</string>
+    <string name="Kreinik829">Mint Julep</string>
+    <string name="Kreinik850">Mallard</string>
+    <string name="Kreinik1000">Solid Silver</string>
+    <string name="Kreinik1100">Misty Lime</string>
+    <string name="Kreinik1200">Misty Apricot</string>
+    <string name="Kreinik1223">Passion Plum</string>
+    <string name="Kreinik1232HL">Lavender Pearl High Lustre</string>
+    <string name="Kreinik1300">Misty Violet</string>
+    <string name="Kreinik1432">Blue Ice</string>
+    <string name="Kreinik1500">Misty Rainbow</string>
+    <string name="Kreinik1600">Misty Lavender</string>
+    <string name="Kreinik1700">Misty Gold</string>
+    <string name="Kreinik1800">Misty Sunrise</string>
+    <string name="Kreinik1900">Misty Sunset</string>
+    <string name="Kreinik2000">Solid Gold</string>
+    <string name="Kreinik2094HL">Heather High Lustre</string>
+    <string name="Kreinik2100">Solid Coppper</string>
+    <string name="Kreinik2122">Curry</string>
+    <string name="Kreinik2132HL">CopperPearlHighLustre</string>
+    <string name="Kreinik2829">Seafoam</string>
+    <string name="Kreinik3200">Solid Pearl</string>
+    <string name="Kreinik3202">Cats Eye</string>
+    <string name="Kreinik3214">Blue Zircon</string>
+    <string name="Kreinik3215">Peridot</string>
+    <string name="Kreinik3221">Heliodor</string>
+    <string name="Kreinik3223">Ametrine</string>
+    <string name="Kreinik3228">Topaz</string>
+    <string name="Kreinik3231">Moonstone</string>
+    <string name="Kreinik3232">Brazilianite</string>
+    <string name="Kreinik3237">Rose Quartz</string>
+    <string name="Kreinik3240">Opal</string>
+    <string name="Kreinik3250">Aventurine</string>
+    <string name="Kreinik3260">GoldTourmaline</string>
+    <string name="Kreinik3270">Amber</string>
+    <string name="Kreinik3280">Citrine</string>
+    <string name="Kreinik3503">Red Flamenco</string>
+    <string name="Kreinik3506">Blue Samba</string>
+    <string name="Kreinik3508">Rhumba Green</string>
+    <string name="Kreinik3509">Cha Cha Verde</string>
+    <string name="Kreinik3514">Blue Merenque</string>
+    <string name="Kreinik3533">Purple Mambo</string>
+    <string name="Kreinik3540">Bolero Black</string>
+    <string name="Kreinik4010HL">Indigo Blue</string>
+    <string name="Kreinik4011V">Vintage Viridian</string>
+    <string name="Kreinik4012">Stormy Weather</string>
+    <string name="Kreinik4013">Purple Haze</string>
+    <string name="Kreinik4204">Storm Cloud</string>
+    <string name="Kreinik4205">Ironwood</string>
+    <string name="Kreinik4206">Moth Orchid</string>
+    <string name="Kreinik4503">Red Snapper</string>
+    <string name="Kreinik4505">Zebra</string>
+    <string name="Kreinik4507">Salmon</string>
+    <string name="Kreinik4522">Gnu</string>
+    <string name="Kreinik4536">Tiger</string>
+    <string name="Kreinik4639">Light Aqua</string>
+    <string name="Kreinik5001">Brass Key</string>
+    <string name="Kreinik5002">Pixiedust</string>
+    <string name="Kreinik5003">Dragonfly</string>
+    <string name="Kreinik5004">Love Potion</string>
+    <string name="Kreinik5005">Gold Coin</string>
+    <string name="Kreinik5006">Ore</string>
+    <string name="Kreinik5007">Brocade</string>
+    <string name="Kreinik5008">Leprechaun</string>
+    <string name="Kreinik5009">Mermaid</string>
+    <string name="Kreinik5010">Knight</string>
+    <string name="Kreinik5011">Elfin Green</string>
+    <string name="Kreinik5012">Shamrock</string>
+    <string name="Kreinik5013">Plum Berry</string>
+    <string name="Kreinik5025">Jammin Yam</string>
+    <string name="Kreinik5026">Sweet Tart</string>
+    <string name="Kreinik5027">Electric Apple</string>
+    <string name="Kreinik5028">Dandelion Gold</string>
+    <string name="Kreinik5500">Pink Lemonade</string>
+    <string name="Kreinik5505">Red Pepper</string>
+    <string name="Kreinik5510">Persimmon</string>
+    <string name="Kreinik5515">Clementine</string>
+    <string name="Kreinik5520">Ginger</string>
+    <string name="Kreinik5525">Lemon</string>
+    <string name="Kreinik5530">Rosemary Green</string>
+    <string name="Kreinik5535">Oregano</string>
+    <string name="Kreinik5540">Boysenberry Blue</string>
+    <string name="Kreinik5545">Currant Purple</string>
+    <string name="Kreinik5550">Nutmeg</string>
+    <string name="Kreinik5555">Oyster</string>
+    <string name="Kreinik5730">Celadon</string>
+    <string name="Kreinik5740">Sugar Plum</string>
+    <string name="Kreinik5760">Marshmallow</string>
+    <string name="Kreinik5804">Calypso</string>
+    <string name="Kreinik5805">Golden Pimento</string>
+    <string name="Kreinik5815">Golden Chardonnay</string>
+    <string name="Kreinik5835">Golden Olive</string>
+    <string name="Kreinik5845">Golden Cabernet</string>
+    <string name="Kreinik5982">Forest Green</string>
+    <string name="Kreinik9032">Chrystalline</string>
+    <string name="Kreinik9100">Sunlight</string>
+    <string name="Kreinik9132">Lemon Grass</string>
+    <string name="Kreinik9192">Light Peach</string>
+    <string name="Kreinik9194">Star Green</string>
+    <string name="Kreinik9200">Blossom</string>
+    <string name="Kreinik9294">Periwinkle</string>
+    <string name="Kreinik9300">Orchid</string>
+    <string name="Kreinik9400">Baby BLue</string>
+    <string name="Kreinik9432">Rainbow Pearl</string>
+    <string name="Kreinik9591">Buttercup</string>
+    <string name="Kreinik9592">Peony</string>
+    <string name="Kreinik9593">Wisteria</string>
+    <string name="Kreinik9594">Bluebonnet</string>
+    <string name="Kreinik9732">Blue Grass</string>
+
+    <string name="gammaMelange">Melange</string>
+    <string name="gammaMetallic">Metallic</string>
+    <string name="dmcColorVariations">Color Variations</string>
+
+    <string name="pnk0101">Noname</string>
+    <string name="backup_copy">Click the "Backup copy" button to create a backup.  The save file is located at documents / CrossStichCount / recover</string>
+    <string name="backup_load">Click the \"Restore\" button to restore the backup</string>
+    <string name="ins1">"1. Thread base "</string>
+    <string name="ins2">2. Enter the thread number, length and press \"+\".  If you want to decrease, enter the number, length and press \"-\".</string>
+    <string name="ins3">3. To add a new project, click \"New Project\" on the start page and click \"+\".</string>
+    <string name="ins4">4. Click on the name of the project.</string>
+    <string name="ins5">5. To add a thread to the project, select the thread manufacturer, enter the number, length and press \"+\". If you need to delete a thread, press \"-\".</string>
+    <string name="ins6">6. If you change your mind about embroidering the current project, click \"Cancel Project\". This will remove the project name from the main screen, and all threads of the current process will be added back to the thread base. If you have completed the project and you do not need it to be displayed on the main screen, click \"Finish project\".</string>
+    <string name="back">Main page</string>
+    <string name="total">Total</string>
+    <string name="action_tools">actionsTools</string>
+    <string name="action_settings">actionSettings</string>
+
+    <string name="skein">Skein</string>
+    <string name="length">Length</string>
+    <string name="firm">Firm</string>
+    <string name="nameThread">Color name</string>
+    <string name="number">Number</string>
+    <string name="sort_by_numberNalich">Available</string>
+    <string name="all_threads">All threads</string>
+    <string name="available_threads">Available threads</string>
+    <string name="_20">20</string>
+    <string name="Number">Number</string>
+    <string name="Length">Length</string>
+    <string name="cancelProject">Cancel project ?</string>
+    <string name="delete_thread">Finish project ?</string>
+    <string name="Osnovi">Fabric</string>
+    <string name="Fabric">Fabric</string>
+    <string name="save">Save</string>
+    <string name="load">Load</string>
+    <string name="in_stock">In stock</string>
+    <string name="load_state">The load will overwrite the current state of the application.Load?</string>
+    <string name="loadText">Load the last saved application state</string>
+    <string name="yes">Yes</string>
+    <string name="No">No</string>
+    <string name="pathOfSave">The save file is located at: documents/CrossStitchAccount/recover.mp4</string>
+    <string name="titleOfFabric">Title of fabric</string>
+    <string name="color">Color</string>
+    <string name="kaunt">Count</string>
+    <string name="articul">Articul</string>
+
+
+</resources>

@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activityes.ThreadsActivity">
+
+    <ImageView
+        android:id="@+id/header_Threads"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:foreground="@drawable/headerempty"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/bt_sort2"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:background="@android:drawable/ic_menu_sort_by_size"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="13dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/bt_sort"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:background="#00FFFFFF"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:onClick="onClickSort"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/bt_home_threads"
+        android:layout_width="50dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="0dp"
+        android:padding="12dp"
+        android:backgroundTint="#00000000"
+        app:icon="@drawable/ba"
+        app:iconSize="26dp"
+        app:iconTint="#000000"
+        android:onClick="onClickHome"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/bt_dmc"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:backgroundTint="#00000000"
+                android:fontFamily="@font/akadem"
+                android:onClick="onClickDMC"
+                android:text="DMC"
+                android:textColor="#000000" />
+
+            <Button
+                android:id="@+id/bt_cxc"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_marginStart="5dp"
+                android:backgroundTint="#00000000"
+                android:fontFamily="@font/akadem"
+                android:onClick="onClickCXC"
+                android:text="CXC"
+                android:textColor="#000000" />
+
+            <Button
+                android:id="@+id/bt_pnk"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_marginStart="5dp"
+                android:backgroundTint="#00000000"
+                android:fontFamily="@font/akadem"
+                android:onClick="onClickPnk"
+                android:text="pnk"
+                android:textColor="#000000"
+                app:layout_constraintBottom_toBottomOf="@+id/bt_cxc"
+                app:layout_constraintStart_toEndOf="@+id/bt_cxc" />
+
+            <Button
+                android:id="@+id/bt_gamma"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_marginStart="5dp"
+                android:backgroundTint="#00000000"
+                android:fontFamily="@font/akadem"
+                android:onClick="onClickGamma"
+                android:text="Gamma"
+                android:textColor="#000000"
+                app:layout_constraintBottom_toBottomOf="@+id/bt_pnk"
+                app:layout_constraintStart_toEndOf="@+id/bt_pnk" />
+
+            <Button
+                android:id="@+id/bt_anchor"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_marginStart="5dp"
+                android:backgroundTint="#00000000"
+                android:fontFamily="@font/akadem"
+                android:onClick="onClickAnchor"
+                android:text="anchor"
+                android:textColor="#000000"
+                app:layout_constraintBottom_toBottomOf="@+id/bt_gamma"
+                app:layout_constraintStart_toEndOf="@+id/bt_gamma" />
+
+            <Button
+                android:id="@+id/bt_kreinik"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_marginStart="5dp"
+                android:backgroundTint="#00000000"
+                android:fontFamily="@font/akadem"
+                android:onClick="onClickKreinik"
+                android:text="kreinik"
+                android:textColor="#000000"
+                app:layout_constraintBottom_toBottomOf="@+id/bt_anchor"
+                app:layout_constraintStart_toEndOf="@+id/bt_anchor" />
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_rightActivity"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="0dp"
+        android:isScrollContainer="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/header_Threads" />
+
+    <TextView
+        android:id="@+id/tv_sort_thread"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="21dp"
+        android:fontFamily="@font/akadem"
+        android:text="Упорядочить"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="@+id/bt_sort2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/in_stock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="10dp"
+        android:fontFamily="@font/akadem"
+        android:textSize="15sp"
+        android:text="@string/in_stock"
+        app:layout_constraintEnd_toStartOf="@+id/bt_home_threads"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/headerempty"
+    android:padding="10dp">
+
+
+    <EditText
+        android:id="@+id/et_dialog_current_number"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop="8dp"
+        android:autofillHints=""
+        android:fontFamily="@font/akadem"
+        android:hint="@string/Number"
+        android:inputType="text"
+        android:gravity="center"
+        android:padding="0dp"
+        android:textColor="@color/black"
+        android:textColorHighlight="@color/black"
+        android:textColorLink="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/et_dialog_current_length"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="12dp"
+        android:autofillHints=""
+        android:fontFamily="@font/akadem"
+        android:hint="@string/Length"
+        android:inputType="numberDecimal"
+        android:padding="0dp"
+        android:textColor="@color/black"
+        android:textColorHighlight="@color/black"
+        android:textColorLink="@color/white"
+        android:textSize="20sp"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="@+id/et_dialog_current_number"
+        app:layout_constraintStart_toEndOf="@+id/et_dialog_current_number" />
+
+    <ImageButton
+        android:id="@+id/bt_dialog_current_plus"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="12dp"
+        android:background="@drawable/plus"
+        android:onClick="bt_dialogAddCurrentThread"
+        app:layout_constraintBottom_toBottomOf="@+id/et_dialog_current_length"
+        app:layout_constraintStart_toEndOf="@+id/et_dialog_current_length" />
+
+    <Spinner
+        android:id="@+id/sp_spinner"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="56dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </Spinner>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/akadem"
+        android:text="Номер нити:"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

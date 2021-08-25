@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:background="@drawable/footer"
+    android:animateLayoutChanges="true">
+
+    <EditText
+        android:id="@+id/tv_dialogFabric_Firm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:ems="10"
+        android:fontFamily="@font/akadem"
+        android:hint="Название фирмы"
+        android:inputType="textPersonName"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/tv_dialogFabric_Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:ems="10"
+        android:fontFamily="@font/akadem"
+        android:hint="Название ткани"
+        android:inputType="textPersonName"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@+id/tv_dialogFabric_Firm"
+        app:layout_constraintTop_toBottomOf="@+id/tv_dialogFabric_Firm" />
+
+    <EditText
+        android:id="@+id/tv_dialogFabric_Articul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:ems="10"
+        android:fontFamily="@font/akadem"
+        android:hint="Артикул"
+        android:inputType="textPersonName"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@+id/tv_dialogFabric_Name"
+        app:layout_constraintTop_toBottomOf="@+id/tv_dialogFabric_Name" />
+
+    <EditText
+        android:id="@+id/tv_dialogFabric_Kaunt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:ems="10"
+        android:fontFamily="@font/akadem"
+        android:hint="Каунт"
+        android:inputType="textPersonName"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@+id/tv_dialogFabric_Articul"
+        app:layout_constraintTop_toBottomOf="@+id/tv_dialogFabric_Articul" />
+
+    <EditText
+        android:id="@+id/tv_dialogFabric_Color"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:ems="10"
+        android:fontFamily="@font/akadem"
+        android:hint="Цвет"
+        android:inputType="textPersonName"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@+id/tv_dialogFabric_Kaunt"
+        app:layout_constraintTop_toBottomOf="@+id/tv_dialogFabric_Kaunt" />
+
+    <EditText
+        android:id="@+id/tv_dialogFabric_Length"
+        android:layout_width="67dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="@font/akadem"
+        android:hint="Длина"
+        android:inputType="number"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@+id/tv_dialogFabric_Number"
+        app:layout_constraintTop_toBottomOf="@+id/tv_dialogFabric_Number" />
+
+    <EditText
+        android:id="@+id/tv_dialogFabric_Width"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="@font/akadem"
+        android:hint="Ширина"
+        android:inputType="number"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_dialogFabric_Length"
+        app:layout_constraintStart_toEndOf="@+id/tv_dialogFabric_Length" />
+
+    <EditText
+        android:id="@+id/tv_dialogFabric_Number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:ems="10"
+        android:fontFamily="@font/akadem"
+        android:hint="Номер в моей коллекции"
+        android:inputType="textPersonName"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@+id/tv_dialogFabric_Color"
+        app:layout_constraintTop_toBottomOf="@+id/tv_dialogFabric_Color" />
+
+    <ImageButton
+        android:id="@+id/bt_plusFabric"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/plus"
+        android:onClick="onClickPlusFabric"
+        app:layout_constraintStart_toEndOf="@+id/tv_dialogFabric_Number"
+        app:layout_constraintTop_toBottomOf="@+id/tv_dialogFabric_Number" />
+
+    <ImageButton
+        android:id="@+id/bt_cancelOsn"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/cancel"
+        android:onClick="onClickCancelOsn"
+        app:layout_constraintStart_toEndOf="@+id/tv_dialogFabric_Firm"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

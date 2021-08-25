@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/linearLayout_itemCutFabric"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="2dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/tv_itemCutFabric_otrez"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:fontFamily="@font/akadem"
+            android:paddingTop="0dp"
+            android:text="Отрез"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_itemCutFabric_otrezNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:fontFamily="@font/akadem"
+            android:paddingTop="0dp"
+            android:text="1"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            app:layout_constraintBottom_toBottomOf="@+id/tv_itemCutFabric_otrez"
+            app:layout_constraintStart_toEndOf="@+id/tv_itemCutFabric_otrez" />
+
+        <TextView
+            android:id="@+id/tv_itemCutFabric_dvoetochie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:fontFamily="@font/akadem"
+            android:paddingTop="0dp"
+            android:text=":"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            app:layout_constraintBottom_toBottomOf="@+id/tv_itemCutFabric_otrezNumber"
+            app:layout_constraintStart_toEndOf="@+id/tv_itemCutFabric_otrezNumber" />
+
+        <TextView
+            android:id="@+id/tv_itemCutFabric_Length"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:fontFamily="@font/akadem"
+            android:gravity="right"
+            android:hint="140"
+            android:paddingTop="0dp"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            app:layout_constraintBottom_toBottomOf="@+id/tv_itemCutFabric_dvoetochie"
+            app:layout_constraintStart_toEndOf="@+id/tv_itemCutFabric_dvoetochie" />
+
+        <TextView
+            android:id="@+id/tv_itemCutFabric_osnovaX"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginBottom="0dp"
+            android:fontFamily="@font/akadem"
+            android:paddingTop="0dp"
+            android:text=" x "
+            android:textColor="#000000"
+            android:textSize="15sp"
+            app:layout_constraintBottom_toBottomOf="@+id/tv_itemCutFabric_Length"
+            app:layout_constraintStart_toEndOf="@+id/tv_itemCutFabric_Length" />
+
+        <TextView
+            android:id="@+id/tv_itemCutFabric_Width"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginBottom="0dp"
+            android:fontFamily="@font/akadem"
+            android:gravity="start"
+            android:hint="140"
+            android:paddingTop="0dp"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            app:layout_constraintBottom_toBottomOf="@+id/tv_itemCutFabric_osnovaX"
+            app:layout_constraintStart_toEndOf="@+id/tv_itemCutFabric_osnovaX" />
+
+        <TextView
+            android:id="@+id/tv_itemCutFabric_CM"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginBottom="0dp"
+            android:fontFamily="@font/akadem"
+            android:paddingTop="0dp"
+            android:text="см"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            app:layout_constraintBottom_toBottomOf="@+id/tv_itemCutFabric_Width"
+            app:layout_constraintStart_toEndOf="@+id/tv_itemCutFabric_Width" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/deleteOtrez"
+        android:layout_width="43dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="0dp"
+        android:background="#00FFFFFF"
+        android:onClick="deleteOtrez"
+        app:icon="@drawable/minus"
+        app:iconSize="18dp"
+        app:iconTint="#000000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

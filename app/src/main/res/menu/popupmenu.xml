@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/menugroup1">
+
+        <item
+            android:id="@+id/menu1"
+            android:title="@string/project_cancel" />
+        <item
+            android:id="@+id/menu2"
+            android:title="@string/project_finish" />
+    </group>
+
+</menu>

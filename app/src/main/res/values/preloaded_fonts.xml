@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/aldrich</item>
+        <item>@font/alex_brush</item>
+        <item>@font/almendra_italic</item>
+        <item>@font/amita_bold</item>
+        <item>@font/arizonia</item>
+        <item>@font/bangers</item>
+        <item>@font/dynalight</item>
+        <item>@font/mr_dafoe</item>
+        <item>@font/mr_de_haviland</item>
+        <item>@font/zeyada</item>
+    </array>
+</resources>

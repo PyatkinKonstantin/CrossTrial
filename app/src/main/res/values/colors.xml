@@ -1,0 +1,2295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="med">#FFF2B0</color>
+    <color name="min">#FFB8B8</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="Blue_main">#0035BD</color>
+    <color name="bebebe">#bebebe</color>
+
+    <color name="dmcWhite">#E5E7E7</color>
+    <color name="dmcEcru">#D4CFAF</color>
+    <color name="dmcUltraWhite">#F5F6F6</color>
+
+    <color name="dmc1">#C7C5C8</color>
+    <color name="dmc2">#C3C2C7</color>
+    <color name="dmc3">#A09FA7</color>
+    <color name="dmc4">#757077</color>
+    <color name="dmc5">#C0B6AD</color>
+    <color name="dmc6">#A99A95</color>
+    <color name="dmc7">#8E776F</color>
+    <color name="dmc8">#4D3229</color>
+    <color name="dmc9">#372124</color>
+    <color name="dmc10">#D7D5BC</color>
+    <color name="dmc11">#DED58A</color>
+    <color name="dmc12">#DAD36B</color>
+    <color name="dmc13">#9ACAA4</color>
+    <color name="dmc14">#DEE2B0</color>
+    <color name="dmc15">#A5AA74</color>
+    <color name="dmc16">#B7BC5E</color>
+    <color name="dmc17">#DCC76C</color>
+    <color name="dmc18">#C2AD44</color>
+    <color name="dmc19">#E9BD72</color>
+    <color name="dmc20">#E3BEAC</color>
+    <color name="dmc21">#C97269</color>
+    <color name="dmc22">#A63531</color>
+    <color name="dmc23">#F3E2E8</color>
+    <color name="dmc24">#E4DAE2</color>
+    <color name="dmc25">#D5CCDF</color>
+    <color name="dmc26">#C8C0D7</color>
+    <color name="dmc27">#D9D9E1</color>
+    <color name="dmc28">#7A7394</color>
+    <color name="dmc29">#514064</color>
+    <color name="dmc30">#7875A4</color>
+    <color name="dmc31">#5A5995</color>
+    <color name="dmc32">#3F3C73</color>
+    <color name="dmc33">#813D7A</color>
+    <color name="dmc34">#6C1854</color>
+    <color name="dmc35">#511839</color>
+
+    <color name="dmc48">#CE4383</color>
+    <color name="dmc51">#F1761D</color>
+    <color name="dmc52">#6A4A9C</color>
+    <color name="dmc53">#24292D</color>
+    <color name="dmc57">#CC323F</color>
+    <color name="dmc61">#D4B760</color>
+    <color name="dmc62">#EAB6B8</color>
+    <color name="dmc67">#75A7CA</color>
+    <color name="dmc69">#681109</color>
+    <color name="dmc75">#370609</color>
+    <color name="dmc90">#E3AD16</color>
+    <color name="dmc91">#2B5992</color>
+    <color name="dmc92">#A4BE54</color>
+    <color name="dmc93">#86AADC</color>
+    <color name="dmc94">#616B2C</color>
+    <color name="dmc95">#672F81</color>
+    <color name="dmc99">#88263F</color>
+    <color name="dmc101">#7CAF60</color>
+    <color name="dmc102">#492A6D</color>
+    <color name="dmc103">#304880</color>
+    <color name="dmc104">#F0E83E</color>
+    <color name="dmc105">#C5B083</color>
+    <color name="dmc106">#D92914</color>
+    <color name="dmc107">#B9224B</color>
+    <color name="dmc108">#DD8B0B</color>
+    <color name="dmc111">#CA9210</color>
+    <color name="dmc112">#DC4161</color>
+    <color name="dmc114">#83B54C</color>
+    <color name="dmc115">#65060B</color>
+    <color name="dmc116">#D661A6</color>
+    <color name="dmc121">#87AEE1</color>
+    <color name="dmc122">#517D20</color>
+    <color name="dmc123">#296B69</color>
+    <color name="dmc125">#84BB7F</color>
+    <color name="dmc126">#240B47</color>
+
+    <color name="dmc150">#6C1327</color>
+    <color name="dmc151">#D399A9</color>
+    <color name="dmc152">#B3807B</color>
+    <color name="dmc153">#AB00DA</color>
+    <color name="dmc154">#5A1549</color>
+    <color name="dmc155">#6663AF</color>
+    <color name="dmc156">#6C7AB7</color>
+    <color name="dmc157">#839AC5</color>
+    <color name="dmc158">#2D366E</color>
+    <color name="dmc159">#9EA5C9</color>
+    <color name="dmc160">#696F9F</color>
+    <color name="dmc161">#3D4473</color>
+    <color name="dmc162">#A1BDD1</color>
+    <color name="dmc163">#4A7957</color>
+    <color name="dmc164">#92BB79</color>
+    <color name="dmc165">#B5B64F</color>
+    <color name="dmc166">#868F17</color>
+    <color name="dmc167">#725A28</color>
+    <color name="dmc168">#A3AEB1</color>
+    <color name="dmc169">#566666</color>
+
+    <color name="dmc208">#5D3D7F</color>
+    <color name="dmc209">#7E609E</color>
+    <color name="dmc210">#AF94D2</color>
+    <color name="dmc211">#D9C6F1</color>
+    <color name="dmc221">#540F11</color>
+    <color name="dmc223">#8C5050</color>
+    <color name="dmc224">#BE8F86</color>
+    <color name="dmc225">#DBBAB0</color>
+
+    <color name="dmc300">#4C1F06</color>
+    <color name="dmc301">#793A0F</color>
+    <color name="dmc304">#7B0F1C</color>
+    <color name="dmc307">#E1D21F</color>
+    <color name="dmc309">#9B2839</color>
+    <color name="dmc310">#07080A</color>
+    <color name="dmc311">#112551</color>
+    <color name="dmc312">#203974</color>
+    <color name="dmc315">#512935</color>
+    <color name="dmc316">#97627C</color>
+    <color name="dmc317">#444B5A</color>
+    <color name="dmc318">#7A859B</color>
+    <color name="dmc319">#163014</color>
+    <color name="dmc320">#608854</color>
+    <color name="dmc321">#910810</color>
+    <color name="dmc322">#3D5B9B</color>
+    <color name="dmc326">#750920</color>
+    <color name="dmc327">#4F2E59</color>
+    <color name="dmc333">#3D3783</color>
+    <color name="dmc334">#4A6BA0</color>
+    <color name="dmc335">#BA455F</color>
+    <color name="dmc336">#111D43</color>
+    <color name="dmc340">#7276BF</color>
+    <color name="dmc341">#7C8DC3</color>
+    <color name="dmc347">#A4282A</color>
+    <color name="dmc349">#A31417</color>
+    <color name="dmc350">#BF352A</color>
+    <color name="dmc351">#D04639</color>
+    <color name="dmc352">#DC765F</color>
+    <color name="dmc353">#F1B4A1</color>
+    <color name="dmc355">#6C1F15</color>
+    <color name="dmc356">#A0523A</color>
+    <color name="dmc367">#345B2F</color>
+    <color name="dmc368">#779E60</color>
+    <color name="dmc369">#ABCA8C</color>
+    <color name="dmc370">#747237</color>
+    <color name="dmc371">#6E6730</color>
+    <color name="dmc372">#848A57</color>
+
+    <color name="dmc400">#662A0E</color>
+    <color name="dmc402">#C47B51</color>
+    <color name="dmc407">#845A41</color>
+    <color name="dmc413">#2C353A</color>
+    <color name="dmc414">#636776</color>
+    <color name="dmc415">#AAADBC</color>
+    <color name="dmc420">#755626</color>
+    <color name="dmc422">#A49055</color>
+    <color name="dmc433">#553719</color>
+    <color name="dmc434">#71481C</color>
+    <color name="dmc435">#986536</color>
+    <color name="dmc436">#A97C40</color>
+    <color name="dmc437">#C1995C</color>
+    <color name="dmc444">#E2BF17</color>
+    <color name="dmc445">#EFEB6C</color>
+    <color name="dmc451">#695B56</color>
+    <color name="gamma0676">#432E28</color>
+    <color name="dmc452">#92817B</color>
+    <color name="dmc453">#C5BFB2</color>
+    <color name="dmc469">#405C19</color>
+    <color name="dmc470">#67852B</color>
+    <color name="dmc471">#839D41</color>
+    <color name="dmc472">#A5B452</color>
+    <color name="dmc498">#710D19</color>
+
+    <color name="dmc500">#162D20</color>
+    <color name="dmc501">#2B4C39</color>
+    <color name="dmc502">#557860</color>
+    <color name="gamma0953">#809C8F</color>
+    <color name="dmc503">#65907C</color>
+    <color name="dmc505">#2B5931</color>
+    <color name="dmc517">#27487D</color>
+    <color name="dmc518">#466A8B</color>
+    <color name="dmc519">#718FAB</color>
+    <color name="dmc520">#384E2D</color>
+    <color name="dmc522">#6D865F</color>
+    <color name="dmc523">#8FA481</color>
+    <color name="dmc524">#A5AE8A</color>
+    <color name="dmc535">#434540</color>
+    <color name="dmc543">#DACBB3</color>
+    <color name="dmc550">#2B0F3C</color>
+    <color name="dmc552">#5C3576</color>
+    <color name="dmc553">#795291</color>
+    <color name="dmc554">#AC84BB</color>
+    <color name="dmc561">#224E33</color>
+    <color name="dmc562">#467D4D</color>
+    <color name="dmc563">#91C4A2</color>
+    <color name="dmc564">#9CC9A1</color>
+    <color name="dmc580">#495316</color>
+    <color name="dmc581">#61791A</color>
+    <color name="dmc597">#538296</color>
+    <color name="dmc598">#84ACB3</color>
+
+    <color name="dmc600">#8F173B</color>
+    <color name="dmc601">#A8244B</color>
+    <color name="dmc602">#AE2E5E</color>
+    <color name="dmc603">#D2648C</color>
+    <color name="dmc604">#DE86B0</color>
+    <color name="dmc605">#C685A1</color>
+    <color name="dmc606">#C31B0E</color>
+    <color name="dmc608">#EB3418</color>
+    <color name="dmc610">#51431C</color>
+    <color name="dmc611">#61582C</color>
+    <color name="dmc612">#6B5D2E</color>
+    <color name="dmc613">#BBB991</color>
+    <color name="dmc632">#5F3421</color>
+    <color name="dmc640">#696349</color>
+    <color name="dmc642">#7A7A58</color>
+    <color name="dmc644">#B1B390</color>
+    <color name="dmc645">#464B40</color>
+    <color name="dmc646">#5E604D</color>
+    <color name="dmc647">#747E64</color>
+    <color name="dmc648">#959587</color>
+    <color name="dmc666">#BE1617</color>
+    <color name="gamma2130">#A58C3A</color>
+    <color name="dmc676">#CDB257</color>
+    <color name="dmc677">#D1C77F</color>
+    <color name="dmc680">#987C2D</color>
+    <color name="dmc699">#0D3D19</color>
+
+    <color name="dmc700">#1F5524</color>
+    <color name="dmc701">#246025</color>
+    <color name="dmc702">#477F38</color>
+    <color name="dmc703">#63953F</color>
+    <color name="dmc704">#74A538</color>
+    <color name="dmc712">#E7E2C3</color>
+    <color name="dmc718">#771C52</color>
+    <color name="dmc720">#C0430B</color>
+    <color name="dmc721">#D85622</color>
+    <color name="dmc722">#E27E3D</color>
+    <color name="dmc725">#CB9C23</color>
+    <color name="dmc726">#ECC73E</color>
+    <color name="dmc727">#EBD860</color>
+    <color name="dmc728">#D09E27</color>
+    <color name="dmc729">#AA8A35</color>
+    <color name="dmc730">#454815</color>
+    <color name="dmc731">#806623</color>
+    <color name="dmc732">#46480F</color>
+    <color name="dmc733">#656517</color>
+    <color name="dmc734">#919137</color>
+    <color name="dmc738">#C2A971</color>
+    <color name="dmc739">#C7BB86</color>
+    <color name="dmc740">#CA3C04</color>
+    <color name="dmc741">#DA630D</color>
+    <color name="dmc742">#CE861E</color>
+    <color name="dmc743">#D5A32A</color>
+    <color name="dmc744">#DABB4E</color>
+    <color name="dmc745">#E7E3BF</color>
+    <color name="dmc746">#DEDAB6</color>
+    <color name="dmc747">#B8D3DA</color>
+    <color name="dmc754">#E8AC8D</color>
+    <color name="dmc758">#CC906E</color>
+    <color name="dmc760">#D4726F</color>
+    <color name="dmc761">#E1A0A1</color>
+    <color name="dmc762">#CBD0D4</color>
+    <color name="dmc772">#C5D596</color>
+    <color name="dmc775">#C1D4E2</color>
+    <color name="dmc776">#EEAEB0</color>
+    <color name="dmc777">#570717</color>
+    <color name="dmc778">#BC9297</color>
+    <color name="dmc779">#4A322A</color>
+    <color name="dmc780">#6E3D0E</color>
+    <color name="dmc781">#874F19</color>
+    <color name="dmc782">#916113</color>
+    <color name="dmc783">#AE7E16</color>
+    <color name="dmc791">#1A205E</color>
+    <color name="dmc792">#343B88</color>
+    <color name="dmc793">#45578C</color>
+    <color name="dmc794">#617BAD</color>
+    <color name="dmc796">#101D6D</color>
+    <color name="dmc797">#1C2C77</color>
+    <color name="dmc798">#254096</color>
+    <color name="dmc799">#506FAF</color>
+
+    <color name="dmc800">#95AFCF</color>
+    <color name="dmc801">#4A3115</color>
+    <color name="dmc803">#132B55</color>
+    <color name="dmc806">#437490</color>
+    <color name="gamma0758">#25447A</color>
+    <color name="dmc807">#4A799B</color>
+    <color name="dmc809">#6A7FC6</color>
+    <color name="dmc813">#6082B6</color>
+    <color name="gamma0871">#29030C</color>
+    <color name="dmc814">#4F0C1C</color>
+    <color name="dmc815">#570A10</color>
+    <color name="dmc816">#70111C</color>
+    <color name="dmc817">#9A140E</color>
+    <color name="dmc818">#E4BDBB</color>
+    <color name="dmc819">#E9D2D4</color>
+    <color name="dmc820">#06105D</color>
+    <color name="dmc822">#CECAA7</color>
+    <color name="dmc823">#0F102F</color>
+    <color name="dmc824">#142C68</color>
+    <color name="dmc825">#234689</color>
+    <color name="dmc826">#4169AD</color>
+    <color name="dmc827">#80A1C9</color>
+    <color name="dmc828">#9FB4B4</color>
+    <color name="dmc829">#4B3A14</color>
+    <color name="dmc830">#4F481E</color>
+    <color name="dmc831">#605815</color>
+    <color name="dmc832">#837828</color>
+    <color name="dmc833">#7A711A</color>
+    <color name="dmc834">#B3AA49</color>
+    <color name="dmc838">#2C1910</color>
+    <color name="dmc839">#4A3628</color>
+    <color name="dmc840">#756549</color>
+    <color name="dmc841">#8E7B5D</color>
+    <color name="dmc842">#AC9B7E</color>
+    <color name="dmc844">#37372D</color>
+    <color name="dmc869">#584311</color>
+    <color name="dmc890">#102C0E</color>
+    <color name="dmc891">#D42C3D</color>
+    <color name="dmc892">#DD3748</color>
+    <color name="dmc893">#DE4B67</color>
+    <color name="dmc894">#E57893</color>
+    <color name="dmc895">#273C1B</color>
+    <color name="dmc898">#392610</color>
+    <color name="dmc899">#C15970</color>
+
+    <color name="dmc900">#A2230E</color>
+    <color name="dmc902">#3D0916</color>
+    <color name="dmc904">#2D5517</color>
+    <color name="dmc905">#366715</color>
+    <color name="dmc906">#498913</color>
+    <color name="dmc907">#76A620</color>
+    <color name="dmc909">#105228</color>
+    <color name="dmc910">#1E5C2D</color>
+    <color name="dmc911">#377F49</color>
+    <color name="dmc912">#4B8A5B</color>
+    <color name="dmc913">#67A26E</color>
+    <color name="dmc915">#4E0421</color>
+    <color name="dmc917">#761855</color>
+    <color name="dmc918">#66210F</color>
+    <color name="dmc919">#7A200B</color>
+    <color name="dmc920">#893511</color>
+    <color name="dmc921">#AD5326</color>
+    <color name="dmc922">#BB5B29</color>
+    <color name="dmc924">#203642</color>
+    <color name="dmc926">#66797B</color>
+    <color name="dmc927">#96ABA5</color>
+    <color name="dmc928">#AEBDB5</color>
+    <color name="dmc930">#2D4057</color>
+    <color name="dmc931">#49637C</color>
+    <color name="dmc932">#7794AB</color>
+    <color name="dmc934">#16220C</color>
+    <color name="dmc935">#2B3A1E</color>
+    <color name="dmc936">#2F3E14</color>
+    <color name="dmc937">#3E5016</color>
+    <color name="dmc938">#2C1C0E</color>
+    <color name="dmc939">#070818</color>
+    <color name="dmc943">#327D72</color>
+    <color name="dmc945">#CBA77F</color>
+    <color name="dmc946">#C63617</color>
+    <color name="dmc947">#D32E08</color>
+    <color name="dmc948">#E5C8AB</color>
+    <color name="dmc950">#CEA986</color>
+    <color name="dmc951">#D4BE9B</color>
+    <color name="dmc954">#76AC78</color>
+    <color name="dmc955">#A1CEA2</color>
+    <color name="dmc956">#DD4A6D</color>
+    <color name="dmc957">#EB809F</color>
+    <color name="dmc958">#4C9792</color>
+    <color name="dmc959">#68ACAA</color>
+    <color name="dmc961">#C14866</color>
+    <color name="dmc962">#C86882</color>
+    <color name="dmc963">#DEB1BA</color>
+    <color name="dmc964">#9CCCCC</color>
+    <color name="dmc966">#88B388</color>
+    <color name="dmc967">#E2A590</color>
+    <color name="dmc970">#D9460D</color>
+    <color name="dmc971">#C04D20</color>
+    <color name="dmc972">#D19111</color>
+    <color name="dmc973">#E4C521</color>
+    <color name="dmc975">#69350D</color>
+    <color name="dmc976">#AB6917</color>
+    <color name="dmc977">#C28333</color>
+    <color name="dmc986">#214812</color>
+    <color name="dmc987">#406732</color>
+    <color name="dmc988">#588A34</color>
+    <color name="dmc989">#799F58</color>
+    <color name="dmc991">#1E5249</color>
+    <color name="dmc992">#58988B</color>
+    <color name="dmc993">#73AD9B</color>
+    <color name="dmc995">#0A47BE</color>
+    <color name="dmc996">#4183E2</color>
+
+    <color name="dmc3011">#404316</color>
+    <color name="dmc3012">#6E6D36</color>
+    <color name="dmc3013">#989A5F</color>
+    <color name="dmc3021">#2B2715</color>
+    <color name="dmc3022">#697251</color>
+    <color name="dmc3023">#888C6D</color>
+    <color name="dmc3024">#A9ABA0</color>
+    <color name="dmc3031">#2E2514</color>
+    <color name="dmc3032">#807A54</color>
+    <color name="dmc3033">#CAC5A6</color>
+    <color name="dmc3041">#634F60</color>
+    <color name="dmc3042">#8F8191</color>
+    <color name="dmc3045">#998240</color>
+    <color name="dmc3046">#B8A862</color>
+    <color name="dmc3047">#D6CD8E</color>
+    <color name="dmc3051">#3C4122</color>
+    <color name="dmc3052">#5C693D</color>
+    <color name="dmc3053">#7D895B</color>
+    <color name="dmc3064">#B5825D</color>
+    <color name="dmc3072">#BBC3B1</color>
+    <color name="dmc3078">#DFD575</color>
+
+    <color name="dmc3325">#86A0CB</color>
+    <color name="dmc3326">#E696A1</color>
+    <color name="dmc3328">#B74544</color>
+    <color name="dmc3340">#D94F2C</color>
+    <color name="dmc3341">#E67052</color>
+    <color name="dmc3345">#264415</color>
+    <color name="dmc3346">#4E6E30</color>
+    <color name="dmc3347">#5A783C</color>
+    <color name="dmc3348">#9AA44D</color>
+    <color name="dmc3350">#86233C</color>
+    <color name="dmc3354">#CE8A9A</color>
+    <color name="dmc3362">#2B411D</color>
+    <color name="dmc3363">#365224</color>
+    <color name="dmc3364">#5C723C</color>
+    <color name="dmc3371">#170D0A</color>
+
+    <color name="dmc3607">#A14688</color>
+    <color name="dmc3608">#BE6E9D</color>
+    <color name="dmc3609">#D48FC7</color>
+    <color name="dmc3685">#4A0F21</color>
+    <color name="dmc3687">#924161</color>
+    <color name="dmc3688">#994F6A</color>
+    <color name="dmc3689">#CA8DAB</color>
+
+    <color name="dmc3705">#D4373A</color>
+    <color name="dmc3706">#EB6276</color>
+    <color name="dmc3708">#EB829E</color>
+    <color name="dmc3712">#C25C58</color>
+    <color name="dmc3713">#E3B8B2</color>
+    <color name="dmc3716">#DB8C9D</color>
+    <color name="dmc3721">#702D2D</color>
+    <color name="dmc3722">#7B3B3B</color>
+    <color name="dmc3726">#693E42</color>
+    <color name="dmc3727">#AF8298</color>
+    <color name="dmc3731">#A53D56</color>
+    <color name="dmc3733">#BB6174</color>
+    <color name="dmc3740">#493543</color>
+    <color name="dmc3743">#B5A5B5</color>
+    <color name="dmc3746">#5150A0</color>
+    <color name="dmc3747">#AEB4CF</color>
+    <color name="dmc3750">#13243C</color>
+    <color name="dmc3752">#8EA7BC</color>
+    <color name="dmc3753">#BBCFDB</color>
+    <color name="dmc3755">#7392CB</color>
+    <color name="dmc3756">#D8E0E1</color>
+    <color name="dmc3760">#335383</color>
+    <color name="dmc3761">#90ACBA</color>
+    <color name="dmc3765">#254D7D</color>
+    <color name="dmc3766">#76A2B7</color>
+    <color name="dmc3768">#41545C</color>
+    <color name="dmc3770">#EEDDBE</color>
+    <color name="dmc3771">#D2926C</color>
+    <color name="dmc3772">#7E573A</color>
+    <color name="dmc3773">#D3B48B</color>
+    <color name="dmc3774">#D6BE9E</color>
+    <color name="dmc3776">#AA602A</color>
+    <color name="dmc3777">#661512</color>
+    <color name="dmc3778">#AD6A4D</color>
+    <color name="dmc3779">#D0987D</color>
+    <color name="dmc3781">#45391E</color>
+    <color name="dmc3782">#958A66</color>
+    <color name="dmc3787">#4B4C3A</color>
+    <color name="dmc3790">#56482F</color>
+    <color name="dmc3799">#2B2F31</color>
+    <color name="dmc3801">#DA3235</color>
+    <color name="dmc3802">#3E101E</color>
+    <color name="dmc3803">#671F3D</color>
+    <color name="dmc3804">#992553</color>
+    <color name="dmc3805">#972A5B</color>
+    <color name="dmc3806">#BD547F</color>
+    <color name="dmc3807">#3F4993</color>
+    <color name="dmc3808">#12314C</color>
+    <color name="dmc3809">#214C63</color>
+    <color name="dmc3810">#437389</color>
+    <color name="dmc3811">#9EC4C5</color>
+    <color name="dmc3812">#217072</color>
+    <color name="dmc3813">#90B09B</color>
+    <color name="dmc3814">#347063</color>
+    <color name="dmc3815">#3E684E</color>
+    <color name="dmc3816">#648F7C</color>
+    <color name="dmc3817">#9AC2A6</color>
+    <color name="dmc3818">#194426</color>
+    <color name="dmc3819">#B7B947</color>
+    <color name="dmc3820">#C19D30</color>
+    <color name="dmc3821">#CCAF3D</color>
+    <color name="dmc3822">#D5BC4D</color>
+    <color name="dmc3823">#F3EFB3</color>
+    <color name="dmc3824">#E89078</color>
+    <color name="dmc3825">#F0A065</color>
+    <color name="dmc3826">#834514</color>
+    <color name="dmc3827">#D19B45</color>
+    <color name="dmc3828">#80682C</color>
+    <color name="dmc3829">#7D5D16</color>
+    <color name="dmc3830">#903829</color>
+    <color name="dmc3831">#922131</color>
+    <color name="dmc3832">#BD3C48</color>
+    <color name="dmc3833">#CE6474</color>
+    <color name="dmc3834">#4C2648</color>
+    <color name="dmc3835">#56395D</color>
+    <color name="dmc3836">#967397</color>
+    <color name="dmc3837">#482D70</color>
+    <color name="dmc3838">#374993</color>
+    <color name="dmc3839">#3C4E98</color>
+    <color name="dmc3840">#839BCE</color>
+    <color name="dmc3841">#A5BFD6</color>
+    <color name="dmc3842">#A5BFD6</color>
+    <color name="dmc3843">#2C6BD5</color>
+    <color name="dmc3844">#1875C0</color>
+    <color name="dmc3845">#3BA3E0</color>
+    <color name="dmc3846">#45A6DC</color>
+    <color name="dmc3847">#1A4B50</color>
+    <color name="dmc3848">#386C71</color>
+    <color name="dmc3849">#5D9196</color>
+    <color name="dmc3850">#266857</color>
+    <color name="dmc3851">#569F8C</color>
+    <color name="dmc3852">#AC821C</color>
+    <color name="dmc3853">#BE621F</color>
+    <color name="dmc3854">#DE9340</color>
+    <color name="dmc3855">#ECC96C</color>
+    <color name="dmc3856">#DEAD6C</color>
+    <color name="dmc3857">#3D120F</color>
+    <color name="dmc3858">#5E2D29</color>
+    <color name="dmc3859">#945B4D</color>
+    <color name="dmc3860">#58433B</color>
+    <color name="dmc3861">#806963</color>
+    <color name="dmc3862">#6C532F</color>
+    <color name="dmc3863">#886E48</color>
+    <color name="dmc3864">#A08A66</color>
+    <color name="dmc3865">#EBECE7</color>
+    <color name="dmc3866">#D5D3C3</color>
+
+    <color name="dmc4000">#413121</color>
+    <color name="dmc4010">#838CAC</color>
+    <color name="dmc4015">#B2B2BC</color>
+    <color name="dmc4017">#8DA4A3</color>
+    <color name="dmc4020">#A6B6C2</color>
+    <color name="dmc4022">#1D85B2</color>
+    <color name="dmc4025">#396878</color>
+    <color name="dmc4030">#3F5C6C</color>
+    <color name="dmc4042">#3A804C</color>
+    <color name="dmc4040">#ABE8D8</color>
+    <color name="dmc4045">#3D7150</color>
+    <color name="dmc4047">#287E45</color>
+    <color name="dmc4050">#73AB84</color>
+    <color name="dmc4060">#CBCA93</color>
+    <color name="dmc4065">#919570</color>
+    <color name="dmc4066">#5C6D29</color>
+    <color name="dmc4068">#4A4911</color>
+    <color name="dmc4069">#8BB43C</color>
+    <color name="dmc4070">#AA8C3D</color>
+    <color name="dmc4072">#C8A85C</color>
+    <color name="dmc4073">#B87E34</color>
+    <color name="dmc4075">#E4B84F</color>
+    <color name="dmc4077">#F2EBA4</color>
+    <color name="dmc4080">#E5C56B</color>
+    <color name="dmc4090">#DBA672</color>
+    <color name="dmc4095">#E8AD8B</color>
+    <color name="dmc4100">#E5B36A</color>
+    <color name="dmc4110">#E47989</color>
+    <color name="dmc4120">#B67776</color>
+    <color name="dmc4122">#EC702A</color>
+    <color name="dmc4124">#C8512F</color>
+    <color name="dmc4126">#BF6B45</color>
+    <color name="dmc4128">#D3995B</color>
+    <color name="dmc4129">#9A6A22</color>
+    <color name="dmc4130">#B6705E</color>
+    <color name="dmc4135">#723A28</color>
+    <color name="dmc4140">#815452</color>
+    <color name="dmc4145">#C3B5A2</color>
+    <color name="dmc4150">#D7C5AD</color>
+    <color name="dmc4160">#D3B291</color>
+    <color name="dmc4170">#C39B9A</color>
+    <color name="dmc4180">#CD648D</color>
+    <color name="dmc4190">#F28F81</color>
+    <color name="dmc4200">#B44554</color>
+    <color name="dmc4205">#972023</color>
+    <color name="dmc4210">#800E41</color>
+    <color name="dmc4211">#941E34</color>
+    <color name="dmc4212">#542654</color>
+    <color name="dmc4214">#CBAABC</color>
+    <color name="dmc4215">#BBA7D3</color>
+    <color name="dmc4220">#A3A9C2</color>
+    <color name="dmc4230">#6F88AE</color>
+    <color name="dmc4235">#6B79A6</color>
+    <color name="dmc4237">#2F4D80</color>
+    <color name="dmc4240">#3C5888</color>
+    <color name="dmc4245">#333777</color>
+    <color name="dmc4250">#9164A3</color>
+    <color name="dmc4255">#81438D</color>
+    <color name="dmc4260">#CF90B4</color>
+    <color name="dmc4265">#9664A2</color>
+
+    <color name="gamma0859">#0E2D3E</color>
+    <color name="gamma4195">#332932</color>
+    <color name="gamma5130">#ECDFA6</color>
+
+    <color name="gamma5166">#7AB6D7</color>
+    <color name="gamma5167">#61AFD4</color>
+    <color name="gamma5168">#2F73B8</color>
+    <color name="gamma5169">#B0D1E0</color>
+    <color name="gamma5170">#3B597A</color>
+    <color name="gamma5171">#28466B</color>
+    <color name="gamma5172">#192031</color>
+    <color name="gamma5173">#E7F0EA</color>
+    <color name="gamma5174">#5A8D9E</color>
+    <color name="gamma5175">#173233</color>
+    <color name="gamma5176">#FAF3B2</color>
+    <color name="gamma5177">#EED04C</color>
+    <color name="gamma5178">#E5A322</color>
+    <color name="gamma5179">#F6F4E3</color>
+    <color name="gamma5180">#FFF98E</color>
+    <color name="gamma5181">#FCE303</color>
+    <color name="gamma5182">#C8CAC9</color>
+    <color name="gamma5184">#2B2E24</color>
+    <color name="gamma5185">#222C37</color>
+    <color name="gamma5186">#88A0A7</color>
+    <color name="gamma5188">#6A7B84</color>
+    <color name="gamma5191">#535A4E</color>
+    <color name="gamma5192">#313C2E</color>
+    <color name="gamma5193">#776672</color>
+    <color name="gamma5194">#68637E</color>
+    <color name="gamma5195">#212F23</color>
+    <color name="gamma5196">#DBF2A7</color>
+    <color name="gamma5197">#33AC96</color>
+    <color name="gamma5198">#00886C</color>
+    <color name="gamma5199">#2E2731</color>
+    <color name="gamma5200">#F2E0C9</color>
+    <color name="gamma5201">#F4CCA8</color>
+    <color name="gamma5202">#C99A76</color>
+    <color name="gamma5203">#88463A</color>
+    <color name="gamma5204">#2C253E</color>
+    <color name="gamma5205">#37212C</color>
+    <color name="gamma5206">#F0E5F1</color>
+    <color name="gamma5207">#C3ECC1</color>
+    <color name="gamma5208">#9CCA96</color>
+    <color name="gamma5209">#77BF7E</color>
+    <color name="gamma5210">#5DAB7B</color>
+    <color name="gamma5211">#3FA048</color>
+    <color name="gamma5212">#267030</color>
+    <color name="gamma5213">#F5F1DF</color>
+    <color name="gamma5214">#F4E8D5</color>
+    <color name="gamma5215">#E6D3B9</color>
+    <color name="gamma5216">#C95516</color>
+    <color name="gamma5217">#F0DFDE</color>
+    <color name="gamma5219">#E3B786</color>
+    <color name="gamma5220">#4F5A6A</color>
+    <color name="gamma5221">#B8C7D1</color>
+
+    <color name="gammaMelange_p1">#ED6386</color>
+    <color name="gammaMelange_p2">#EB9ABA</color>
+    <color name="gammaMelange_p3">#E52744</color>
+    <color name="gammaMelange_p4">#F6819C</color>
+    <color name="gammaMelange_p5">#840E17</color>
+    <color name="gammaMelange_p6">#CB6675</color>
+    <color name="gammaMelange_p7">#A388BC</color>
+    <color name="gammaMelange_p8">#508EB5</color>
+    <color name="gammaMelange_p9">#3873A5</color>
+    <color name="gammaMelange_p10">#4F93AC</color>
+    <color name="gammaMelange_p11">#54A464</color>
+    <color name="gammaMelange_p12">#97CF90</color>
+    <color name="gammaMelange_p13">#E3DF8D</color>
+    <color name="gammaMelange_p14">#DADA81</color>
+    <color name="gammaMelange_p15">#E8D18C</color>
+    <color name="gammaMelange_p16">#F39D4E</color>
+    <color name="gammaMelange_p17">#905231</color>
+    <color name="gammaMelange_p18">#DC8A5A</color>
+    <color name="gammaMelange_p19">#DAA98A</color>
+    <color name="gammaMelange_p20">#E46F55</color>
+    <color name="gammaMelange_p21">#963630</color>
+    <color name="gammaMelange_p22">#9E4040</color>
+    <color name="gammaMelange_p23">#9E6363</color>
+    <color name="gammaMelange_p24">#976B70</color>
+    <color name="gammaMelange_p25">#895762</color>
+    <color name="gammaMelange_p26">#7C4C61</color>
+    <color name="gammaMelange_p27">#6A3F51</color>
+    <color name="gammaMelange_p28">#95506E</color>
+    <color name="gammaMelange_p29">#85586E</color>
+    <color name="gammaMelange_p30">#724A64</color>
+    <color name="gammaMelange_p31">#5E475C</color>
+    <color name="gammaMelange_p32">#48464C</color>
+    <color name="gammaMelange_p33">#3B3C61</color>
+    <color name="gammaMelange_p34">#648E80</color>
+    <color name="gammaMelange_p35">#416C59</color>
+    <color name="gammaMelange_p36">#594636</color>
+    <color name="gammaMelange_p37">#A29147</color>
+    <color name="gammaMelange_p38">#A17253</color>
+    <color name="gammaMelange_p39">#825138</color>
+    <color name="gammaMelange_p40">#9F604F</color>
+    <color name="gammaMelange_p41">#A18987</color>
+    <color name="gammaMelange_p42">#6E6D75</color>
+    <color name="gammaMelange_p43">#42435F</color>
+    <color name="gammaMelange_p44">#848D77</color>
+    <color name="gammaMelange_p45">#474330</color>
+
+    <color name="gammaMetallic_M1" >#B1A79C</color>
+    <color name="gammaMetallic_M2" >#A19877</color>
+    <color name="gammaMetallic_M3" >#A67F35</color>
+    <color name="gammaMetallic_M4" >#D7BD93</color>
+    <color name="gammaMetallic_M5" >#444644</color>
+    <color name="gammaMetallic_M6" >#433B31</color>
+    <color name="gammaMetallic_M7" >#9A387D</color>
+    <color name="gammaMetallic_M8" >#6D3B77</color>
+    <color name="gammaMetallic_M9" >#874F40</color>
+    <color name="gammaMetallic_M10">#7A1C19</color>
+    <color name="gammaMetallic_M11">#892725</color>
+    <color name="gammaMetallic_M12">#4C989E</color>
+    <color name="gammaMetallic_M13">#28777C</color>
+    <color name="gammaMetallic_M14">#406423</color>
+    <color name="gammaMetallic_M15">#1F572A</color>
+    <color name="gammaMetallic_M16">#115431</color>
+    <color name="gammaMetallic_M17">#0F3972</color>
+    <color name="gammaMetallic_M18">#1A205C</color>
+    <color name="gammaMetallic_M19">#3F1A19</color>
+    <color name="gammaMetallic_M20">#7B4753</color>
+    <color name="gammaMetallic_M21">#3E6898</color>
+    <color name="gammaMetallic_M22">#6A7879</color>
+    <color name="gammaMetallic_M23">#50221D</color>
+    <color name="gammaMetallic_M24">#343A3A</color>
+    <color name="gammaMetallic_M25">#B094AD</color>
+    <color name="gammaMetallic_M26">#E3ACC0</color>
+    <color name="gammaMetallic_M27">#CE9E72</color>
+    <color name="gammaMetallic_M28">#DF5C7F</color>
+    <color name="gammaMetallic_M29">#F0E7E7</color>
+    <color name="gammaMetallic_M30">#386840</color>
+    <color name="gammaMetallic_M31">#A66B50</color>
+    <color name="gammaMetallic_M32">#805B85</color>
+
+    <color name="pnk0101">#FFFFFF</color>
+    <color name="pnk0102">#DCD9CB</color>
+    <color name="pnk0103">#D8D1BE</color>
+    <color name="pnk0104">#DBD5C5</color>
+    <color name="pnk0200">#E4E1C2</color>
+    <color name="pnk0202">#DADC99</color>
+    <color name="pnk0206">#DFDC70</color>
+    <color name="pnk0207">#DFDC70</color>
+    <color name="pnk0208">#DFC600</color>
+    <color name="pnk0209">#E5CF00</color>
+    <color name="pnk0300">#DDD59F</color>
+    <color name="pnk0301">#DFD381</color>
+    <color name="pnk0303">#E4CD56</color>
+    <color name="pnk0304">#D9BB5F</color>
+    <color name="pnk0305">#E5BE20</color>
+    <color name="pnk0306">#D0A536</color>
+    <color name="pnk0402">#DABD74</color>
+    <color name="pnk0404">#D2AA51</color>
+    <color name="pnk0501">#E2DBB3</color>
+    <color name="pnk0502">#E6DBA4</color>
+    <color name="pnk0504">#E2CC7E</color>
+    <color name="pnk0506">#E3C668</color>
+    <color name="pnk0508">#DEB74D</color>
+    <color name="pnk0510">#DFAA2E</color>
+    <color name="pnk0512">#CF9340</color>
+    <color name="pnk0600">#E2CFB4</color>
+    <color name="pnk0602">#DFC3A5</color>
+    <color name="pnk0604">#E3B07C</color>
+    <color name="pnk0606">#E2914E</color>
+    <color name="pnk0607">#E28F30</color>
+    <color name="pnk0608">#E28533</color>
+    <color name="pnk0701">#E6BDAA</color>
+    <color name="pnk0702">#E8B190</color>
+    <color name="pnk0704">#E4966D</color>
+    <color name="pnk0706">#E2894F</color>
+    <color name="pnk0709">#D16C3F</color>
+    <color name="pnk0710">#D97733</color>
+    <color name="pnk0711">#D06A21</color>
+    <color name="pnk0712">#C95C36</color>
+    <color name="pnk0713">#BD5E14</color>
+    <color name="pnk0716">#B43B33</color>
+    <color name="pnk0800">#E5B0A1</color>
+    <color name="pnk0801">#E5B0A3</color>
+    <color name="pnk0802">#DD9783</color>
+    <color name="pnk0804">#D5766B</color>
+    <color name="pnk0806">#C86358</color>
+    <color name="pnk0808">#CB5B52</color>
+    <color name="pnk0810">#BA413C</color>
+    <color name="pnk0811">#AC3536</color>
+    <color name="pnk0902">#AB3A4B</color>
+    <color name="pnk0904">#A22E39</color>
+    <color name="pnk0905">#9F263B</color>
+    <color name="pnk0906">#A12433</color>
+    <color name="pnk0907">#8F3B42</color>
+    <color name="pnk0908">#8A2E3D</color>
+
+    <color name="pnk0909">#7F2739</color>
+    <color name="pnk1001">#E9E0E2</color>
+    <color name="pnk1002">#DFCBCF</color>
+    <color name="pnk1004">#E0BCC1</color>
+    <color name="pnk1005">#D3B0BE</color>
+    <color name="pnk1006">#DEA7B4</color>
+    <color name="pnk1008">#CC8F9E</color>
+    <color name="pnk1010">#D68298</color>
+    <color name="pnk1011">#D47C7B</color>
+    <color name="pnk1012">#CF7983</color>
+    <color name="pnk1013">#CC5E64</color>
+    <color name="pnk1014">#C64C57</color>
+    <color name="pnk1102">#DCCCCF</color>
+    <color name="pnk1104">#D49EB8</color>
+    <color name="pnk1106">#C9769D</color>
+    <color name="pnk1108">#C8608E</color>
+    <color name="pnk1110">#B84073</color>
+    <color name="pnk1112">#9B2267</color>
+    <color name="pnk1200">#872741</color>
+    <color name="pnk1201">#7A2538</color>
+    <color name="pnk1204">#662530</color>
+    <color name="pnk1206">#6C2248</color>
+    <color name="pnk1208">#641D38</color>
+    <color name="pnk1302">#673E4D</color>
+    <color name="pnk1303">#562F3B</color>
+    <color name="pnk1304">#4E303B</color>
+    <color name="pnk1402">#DACACE</color>
+    <color name="pnk1404">#C687B0</color>
+    <color name="pnk1406">#BF79A6</color>
+    <color name="pnk1408">#B86098</color>
+    <color name="pnk1410">#A6508C</color>
+    <color name="pnk1411">#8B2F69</color>
+    <color name="pnk1412">#733157</color>
+    <color name="pnk1502">#C37F9D</color>
+    <color name="pnk1504">#BA7290</color>
+    <color name="pnk1506">#A35375</color>
+    <color name="pnk1507">#9B4864</color>
+    <color name="pnk1508">#98546D</color>
+    <color name="pnk1510">#803C58</color>
+    <color name="pnk1511">#762A3D</color>
+    <color name="pnk1602">#DBB39E</color>
+    <color name="pnk1604">#C28060</color>
+    <color name="pnk1606">#BA6A4B</color>
+    <color name="pnk1608">#AF5E3D</color>
+    <color name="pnk1610">#B96B50</color>
+    <color name="pnk1612">#A0543D</color>
+    <color name="pnk1614">#884432</color>
+    <color name="pnk1616">#72312A</color>
+    <color name="pnk1702">#CDB0C8</color>
+    <color name="pnk1704">#BF95BB</color>
+    <color name="pnk1706">#B27FAC</color>
+    <color name="pnk1708">#9F6098</color>
+    <color name="pnk1710">#894985</color>
+    <color name="pnk1712">#783970</color>
+    <color name="pnk1714">#4E2D41</color>
+
+    <color name="pnk1802">#AD8FA1</color>
+    <color name="pnk1804">#A47D91</color>
+    <color name="pnk1806">#86566E</color>
+    <color name="pnk1808">#753D54</color>
+    <color name="pnk1902">#C1ADB4</color>
+    <color name="pnk1904">#AF939D</color>
+    <color name="pnk1906">#9C7E8B</color>
+    <color name="pnk1908">#8E6B78</color>
+    <color name="pnk1909">#694146</color>
+    <color name="pnk1910">#694146</color>
+    <color name="pnk2001">#A2879E</color>
+    <color name="pnk2002">#9C7EA0</color>
+    <color name="pnk2003">#7E5776</color>
+    <color name="pnk2004">#684F72</color>
+    <color name="pnk2005">#5B3551</color>
+    <color name="pnk2006">#3F2639</color>
+    <color name="pnk2102">#CFC0CC</color>
+    <color name="pnk2104">#C7B1CA</color>
+    <color name="pnk2106">#A17FAF</color>
+    <color name="pnk2108">#8C6093</color>
+    <color name="pnk2110">#784680</color>
+    <color name="pnk2112">#67376F</color>
+    <color name="pnk2202">#B7A7C6</color>
+    <color name="pnk2203">#AB94BA</color>
+    <color name="pnk2204">#9A80AF</color>
+    <color name="pnk2206">#85679B</color>
+    <color name="pnk2208">#72568D</color>
+    <color name="pnk2210">#5D407D</color>
+    <color name="pnk2212">#67376F</color>
+    <color name="pnk2214">#4E3165</color>
+    <color name="pnk2302">#B8B1C9</color>
+    <color name="pnk2304">#9D92BC</color>
+    <color name="pnk2306">#877CAE</color>
+    <color name="pnk2308">#69578F</color>
+    <color name="pnk2310">#514176</color>
+    <color name="pnk2312">#413368</color>
+    <color name="pnk2402">#BFBFCD</color>
+    <color name="pnk2403">#ABB2C9</color>
+    <color name="pnk2404">#888DB4</color>
+    <color name="pnk2405">#838CB1</color>
+    <color name="pnk2406">#7175A8</color>
+    <color name="pnk2407">#575E93</color>
+    <color name="pnk2408">#545990</color>
+    <color name="pnk2410">#464882</color>
+    <color name="pnk2411">#464882</color>
+    <color name="pnk2412">#343B69</color>
+    <color name="pnk2413">#2D3567</color>
+    <color name="pnk2414">#312F4D</color>
+    <color name="pnk2415">#343247</color>
+    <color name="pnk2501">#A2B9CE</color>
+    <color name="pnk2502">#97B2CC</color>
+    <color name="pnk2504">#7594BA</color>
+    <color name="pnk2506">#6384B1</color>
+    <color name="pnk2507">#5470A0</color>
+    <color name="pnk2508">#4D72A4</color>
+
+    <color name="pnk2602">#C3CED8</color>
+    <color name="pnk2604">#C3CED8</color>
+    <color name="pnk2606">#8399B9</color>
+    <color name="pnk2608">#647AA6</color>
+    <color name="pnk2610">#445B91</color>
+    <color name="pnk2612">#394673</color>
+    <color name="pnk2614">#2A3A61</color>
+    <color name="pnk2701">#B0C0C8</color>
+    <color name="pnk2702">#B2C3D2</color>
+    <color name="pnk2704">#A5C1D7</color>
+    <color name="pnk2706">#7EA7D0</color>
+    <color name="pnk2708">#5383BC</color>
+    <color name="pnk2710">#4073B3</color>
+    <color name="pnk2712">#2A68A2</color>
+    <color name="pnk2714">#235398</color>
+    <color name="pnk2802">#B8C2CA</color>
+    <color name="pnk2804">#9AA9BB</color>
+    <color name="pnk2806">#7B8DA4</color>
+    <color name="pnk2808">#5E7189</color>
+    <color name="pnk2810">#4B5E77</color>
+    <color name="pnk2812">#32455F</color>
+    <color name="pnk2814">#29384F</color>
+    <color name="pnk2902">#8BA1B2</color>
+    <color name="pnk2904">#46647F</color>
+    <color name="pnk2906">#385470</color>
+    <color name="pnk2908">#223E56</color>
+    <color name="pnk3002">#BDD6D4</color>
+    <color name="pnk3004">#93C9D1</color>
+    <color name="pnk3008">#5FADC3</color>
+    <color name="pnk3010">#2988A3</color>
+    <color name="pnk3011">#1877A4</color>
+    <color name="pnk3100">#A7C0CC</color>
+    <color name="pnk3102">#94BACD</color>
+    <color name="pnk3104">#6CA0C1</color>
+    <color name="pnk3106">#4E90B4</color>
+    <color name="pnk3202">#91B6CD</color>
+    <color name="pnk3204">#6294BB</color>
+    <color name="pnk3206">#4D7EA9</color>
+    <color name="pnk3300">#BFD3D7</color>
+    <color name="pnk3302">#ABC7CB</color>
+    <color name="pnk3304">#4E7C9D</color>
+    <color name="pnk3306">#3D6F8A</color>
+    <color name="pnk3401">#9FB8BB</color>
+    <color name="pnk3402">#7A9A9F</color>
+    <color name="pnk3403">#7498A6</color>
+    <color name="pnk3404">#5E7F88</color>
+    <color name="pnk3406">#3E6A7C</color>
+    <color name="pnk3408">#416268</color>
+    <color name="pnk3410">#3A6274</color>
+    <color name="pnk3502">#BBD3CE</color>
+    <color name="pnk3504">#98BDB8</color>
+    <color name="pnk3506">#79ADAA</color>
+    <color name="pnk3508">#62A2A1</color>
+    <color name="pnk3510">#448D8D</color>
+    <color name="pnk3514">#2F7A7B</color>
+
+    <color name="pnk3600">#A5BCBF</color>
+    <color name="pnk3602">#688F8E</color>
+    <color name="pnk3606">#4E7474</color>
+    <color name="pnk3607">#345E5F</color>
+    <color name="pnk3608">#3D6760</color>
+    <color name="pnk3610">#316C5F</color>
+    <color name="pnk3702">#566452</color>
+    <color name="pnk3704">#4C5E4D</color>
+    <color name="pnk3800">#6D806E</color>
+    <color name="pnk3802">#5D6E5D</color>
+    <color name="pnk3804">#485545</color>
+    <color name="pnk3805">#3F5038</color>
+    <color name="pnk3806">#37483E</color>
+    <color name="pnk3807">#2F3F2F</color>
+    <color name="pnk3808">#303E3C</color>
+    <color name="pnk3901">#BFD3B4</color>
+    <color name="pnk3902">#A2C4A4</color>
+    <color name="pnk3904">#94B788</color>
+    <color name="pnk3906">#6EA070</color>
+    <color name="pnk3907">#6A8D6E</color>
+    <color name="pnk3908">#638C4F</color>
+    <color name="pnk3909">#7F9944</color>
+    <color name="pnk3910">#527A43</color>
+    <color name="pnk3912">#4A6645</color>
+    <color name="pnk3913">#506F54</color>
+    <color name="pnk3914">#3D5838</color>
+    <color name="pnk4002">#CAD2A6</color>
+    <color name="pnk4004">#B5C494</color>
+    <color name="pnk4005">#9CB081</color>
+    <color name="pnk4006">#879D64</color>
+    <color name="pnk4008">#76853C</color>
+    <color name="pnk4010">#71864C</color>
+    <color name="pnk4102">#AECEC0</color>
+    <color name="pnk4103">#619E83</color>
+    <color name="pnk4104">#77AD95</color>
+    <color name="pnk4106">#81B28E</color>
+    <color name="pnk4107">#487F53</color>
+    <color name="pnk4108">#487A5A</color>
+    <color name="pnk4109">#467342</color>
+    <color name="pnk4110">#31694B</color>
+    <color name="pnk4111">#2E5E3B</color>
+    <color name="pnk4112">#2F5541</color>
+    <color name="pnk4202">#314136</color>
+    <color name="pnk4204">#2E403E</color>
+    <color name="pnk4304">#8F8F73</color>
+    <color name="pnk4306">#49553C</color>
+    <color name="pnk4308">#3A4330</color>
+    <color name="pnk4402">#99A280</color>
+    <color name="pnk4404">#7E8A61</color>
+    <color name="pnk4406">#797D54</color>
+    <color name="pnk4408">#575637</color>
+    <color name="pnk4500">#B9B567</color>
+    <color name="pnk4501">#ABAE75</color>
+    <color name="pnk4502">#9C9E54</color>
+    <color name="pnk4503">#808E4D</color>
+
+    <color name="pnk4504">#80824C</color>
+    <color name="pnk4505">#7A7333</color>
+    <color name="pnk4506">#736E3E</color>
+    <color name="pnk4508">#515133</color>
+    <color name="pnk4510">#42422A</color>
+    <color name="pnk4602">#AFB18E</color>
+    <color name="pnk4604">#878D62</color>
+    <color name="pnk4608">#6E784D</color>
+    <color name="pnk4609">#666B3A</color>
+    <color name="pnk4702">#CFD66F</color>
+    <color name="pnk4704">#C1CF5F</color>
+    <color name="pnk4706">#ACC347</color>
+    <color name="pnk4707">#9DB335</color>
+    <color name="pnk4708">#7F9329</color>
+    <color name="pnk4802">#D0D299</color>
+    <color name="pnk4803">#C2B76A</color>
+    <color name="pnk4804">#C0BD64</color>
+    <color name="pnk4805">#918A35</color>
+    <color name="pnk4806">#8A9638</color>
+    <color name="pnk4902">#CADA8A</color>
+    <color name="pnk4904">#BAD15A</color>
+    <color name="pnk5000">#D8CD9C</color>
+    <color name="pnk5001">#BCAB60</color>
+    <color name="pnk5002">#B19954</color>
+    <color name="pnk5004">#A48133</color>
+    <color name="pnk5006">#B2821C</color>
+    <color name="pnk5102">#8C886B</color>
+    <color name="pnk5104">#756336</color>
+    <color name="pnk5200">#A3966C</color>
+    <color name="pnk5201">#908359</color>
+    <color name="pnk5202">#847448</color>
+    <color name="pnk5203">#756336</color>
+    <color name="pnk5204">#645938</color>
+    <color name="pnk5301">#B3A154</color>
+    <color name="pnk5302">#826B2B</color>
+    <color name="pnk5303">#8E793E</color>
+    <color name="pnk5304">#786E38</color>
+    <color name="pnk5306">#6E5934</color>
+    <color name="pnk5401">#DBB774</color>
+    <color name="pnk5402">#D3A663</color>
+    <color name="pnk5404">#C7914F</color>
+    <color name="pnk5405">#CC8F52</color>
+    <color name="pnk5406">#C4814C</color>
+    <color name="pnk5408">#B86D3D</color>
+    <color name="pnk5502">#D1B375</color>
+    <color name="pnk5504">#C7914F</color>
+    <color name="pnk5506">#9D703B</color>
+    <color name="pnk5601">#C5A69A</color>
+    <color name="pnk5602">#C1908B</color>
+    <color name="pnk5603">#B18C86</color>
+    <color name="pnk5604">#B78279</color>
+    <color name="pnk5605">#9B5F60</color>
+    <color name="pnk5606">#8E4F4E</color>
+    <color name="pnk5610">#7B3F3B</color>
+    <color name="pnk5702">#B49491</color>
+
+    <color name="pnk5704">#9C7872</color>
+    <color name="pnk5708">#745155</color>
+    <color name="pnk5709">#623936</color>
+    <color name="pnk5710">#463535</color>
+    <color name="pnk5711">#45322A</color>
+    <color name="pnk5802">#C6A985</color>
+    <color name="pnk5803">#D3B085</color>
+    <color name="pnk5804">#C2A07E</color>
+    <color name="pnk5806">#AB7D56</color>
+    <color name="pnk5808">#9E6E4B</color>
+    <color name="pnk5810">#794C36</color>
+    <color name="pnk5812">#4E241A</color>
+    <color name="pnk5901">#D6C59E</color>
+    <color name="pnk5902">#D3BE9C</color>
+    <color name="pnk5903">#BE9A66</color>
+    <color name="pnk5904">#BFA181</color>
+    <color name="pnk5905">#AC8449</color>
+    <color name="pnk5906">#9F795B</color>
+    <color name="pnk5907">#8D6430</color>
+    <color name="pnk5910">#815940</color>
+    <color name="pnk5911">#6C492F</color>
+    <color name="pnk5912">#5B3D31</color>
+    <color name="pnk6001">#C6BCA4</color>
+    <color name="pnk6002">#AC9F8B</color>
+    <color name="pnk6004">#988871</color>
+    <color name="pnk6006">#8C795F</color>
+    <color name="pnk6007">#756551</color>
+    <color name="pnk6008">#8B7359</color>
+    <color name="pnk6012">#84674D</color>
+    <color name="pnk6100">#C5BFAB</color>
+    <color name="pnk6102">#B6A68B</color>
+    <color name="pnk6104">#A99879</color>
+    <color name="pnk6106">#9C8466</color>
+    <color name="pnk6200">#CFC0B0</color>
+    <color name="pnk6202">#BFA487</color>
+    <color name="pnk6203">#A9967F</color>
+    <color name="pnk6204">#9B785F</color>
+    <color name="pnk6206">#937059</color>
+    <color name="pnk6207">#887355</color>
+    <color name="pnk6300">#D5BFA9</color>
+    <color name="pnk6301">#CAAF9A</color>
+    <color name="pnk6302">#AF8878</color>
+    <color name="pnk6304">#9E7360</color>
+    <color name="pnk6306">#A37057</color>
+    <color name="pnk6400">#DCD7CA</color>
+    <color name="pnk6401">#B6ABA2</color>
+    <color name="pnk6402">#A89891</color>
+    <color name="pnk6404">#99877B</color>
+    <color name="pnk6406">#7B6B5F</color>
+    <color name="pnk6501">#C0B29C</color>
+    <color name="pnk6502">#B7A895</color>
+    <color name="pnk6504">#988273</color>
+    <color name="pnk6506">#846E63</color>
+    <color name="pnk6508">#6B533B</color>
+    <color name="pnk6509">#6C563C</color>
+
+    <color name="pnk6510">#69533B</color>
+    <color name="pnk6511">#574B39</color>
+    <color name="pnk6512">#5B4841</color>
+    <color name="pnk6513">#4E3B2F</color>
+    <color name="pnk6514">#4C352E</color>
+    <color name="pnk6515">#564638</color>
+    <color name="pnk6516">#382D2C</color>
+    <color name="pnk6600">#B4B2A9</color>
+    <color name="pnk6601">#A4A298</color>
+    <color name="pnk6602">#B0A791</color>
+    <color name="pnk6604">#968C74</color>
+    <color name="pnk6606">#8C836B</color>
+    <color name="pnk6608">#837A63</color>
+    <color name="pnk6700">#C1C1B6</color>
+    <color name="pnk6702">#A5A596</color>
+    <color name="pnk6704">#919587</color>
+    <color name="pnk6706">#878A7A</color>
+    <color name="pnk6708">#6F6A5E</color>
+    <color name="pnk6712">#50463B</color>
+    <color name="pnk6801">#B6B6AB</color>
+    <color name="pnk6802">#A3A6A2</color>
+    <color name="pnk6804">#838782</color>
+    <color name="pnk6806">#62625F</color>
+    <color name="pnk6808">#5A5B55</color>
+    <color name="pnk6902">#B3BCC1</color>
+    <color name="pnk6904">#96A2B0</color>
+    <color name="pnk6906">#7B8A9C</color>
+    <color name="pnk6908">#526073</color>
+    <color name="pnk6910">#414A56</color>
+    <color name="pnk7000">#E8EBE8</color>
+    <color name="pnk7001">#A5A2A5</color>
+    <color name="pnk7002">#ADB2B3</color>
+    <color name="pnk7003">#888B98</color>
+    <color name="pnk7004">#6A6B75</color>
+    <color name="pnk7006">#919BA3</color>
+    <color name="pnk7008">#525261</color>
+    <color name="pnk7102">#BCC0C0</color>
+    <color name="pnk7104">#A2ABB4</color>
+    <color name="pnk7106">#8E98A1</color>
+    <color name="pnk7108">#828D99</color>
+    <color name="pnk7110">#5B6064</color>
+    <color name="pnk7112">#494F54</color>
+    <color name="pnk7114">#3D444F</color>
+    <color name="pnk7201">#A9B0B6</color>
+    <color name="pnk7202">#999EA1</color>
+    <color name="pnk7203">#777D84</color>
+    <color name="pnk7204">#73767D</color>
+    <color name="pnk7206">#595D66</color>
+    <color name="pnk7208">#4A4B53</color>
+    <color name="pnk7210">#36363C</color>
+    <color name="pnk7212">#363B41</color>
+    <color name="pnk7214">#232426</color>
+    <color name="pnk7302">#D7C16C</color>
+    <color name="pnk7306">#CCA630</color>
+    <color name="pnk7308">#BC962A</color>
+
+    <color name="pnk7310">#B58926</color>
+    <color name="pnk7402">#E4A371</color>
+    <color name="pnk7406">#BE6C3D</color>
+    <color name="pnk7410">#A04431</color>
+    <color name="pnk7500">#D5BCB7</color>
+    <color name="pnk7501">#D9BBB7</color>
+    <color name="pnk7506">#AE5669</color>
+    <color name="pnk7509">#822238</color>
+    <color name="pnk7602">#C1848B</color>
+    <color name="pnk7606">#944751</color>
+    <color name="pnk7802">#C49EAA</color>
+    <color name="pnk7804">#AF748F</color>
+    <color name="pnk7902">#BBAEB8</color>
+    <color name="pnk7904">#AB9CA7</color>
+    <color name="pnk7906">#836979</color>
+    <color name="pnk7908">#694D5B</color>
+    <color name="pnk8003">#7570A6</color>
+    <color name="pnk8004">#635992</color>
+    <color name="pnk8102">#7A87A8</color>
+    <color name="pnk8103">#6F799E</color>
+    <color name="pnk8104">#55608D</color>
+    <color name="pnk8105">#495378</color>
+    <color name="pnk8201">#9BABC3</color>
+    <color name="pnk8206">#7684AF</color>
+    <color name="pnk8207">#3C4476</color>
+    <color name="pnk8208">#495588</color>
+    <color name="pnk8210">#262C5D</color>
+    <color name="pnk8300">#D9DBD7</color>
+    <color name="pnk8302">#B5C1C7</color>
+    <color name="pnk8310">#527498</color>
+    <color name="pnk8312">#45688F</color>
+    <color name="pnk8314">#1F3759</color>
+    <color name="pnk8402">#5794BF</color>
+    <color name="pnk8406">#2563A0</color>
+    <color name="pnk8502">#9BB8A8</color>
+    <color name="pnk8504">#87AA99</color>
+    <color name="pnk8506">#546F5C</color>
+    <color name="pnk8604">#94A980</color>
+    <color name="pnk8606">#798B6C</color>
+    <color name="pnk8702">#A1A171</color>
+    <color name="pnk8704">#838252</color>
+    <color name="pnk8706">#68683C</color>
+    <color name="pnk8802">#6F913A</color>
+    <color name="pnk8806">#566E42</color>
+    <color name="pnk8900">#D0C394</color>
+    <color name="pnk8901">#C6B780</color>
+    <color name="pnk8904">#A79E52</color>
+    <color name="pnk8906">#938A35</color>
+    <color name="pnk9000">#F2DECC</color>
+    <color name="pnk9006">#84453E</color>
+    <color name="pnk9008">#BCA56D</color>
+    <color name="pnk9101">#BCA56D</color>
+    <color name="pnk9102">#9C854E</color>
+    <color name="pnk9104">#896E3E</color>
+    <color name="pnk9106">#775E32</color>
+
+    <color name="pnk9202">#CF897A</color>
+    <color name="pnk9204">#BF7A6D</color>
+    <color name="pnk9206">#AE665C</color>
+    <color name="pnk9207">#F5E4C9</color>
+    <color name="pnk9208">#CD876B</color>
+    <color name="pnk9210">#9F502E</color>
+    <color name="pnk9212">#90482E</color>
+    <color name="pnk9214">#D69986</color>
+    <color name="pnk9216">#9B3832</color>
+    <color name="pnk9218">#8F3D38</color>
+    <color name="pnk9220">#E2767A</color>
+    <color name="pnk9222">#CE575A</color>
+    <color name="pnk9224">#B40032</color>
+    <color name="pnk9226">#C56680</color>
+    <color name="pnk9228">#B73B6D</color>
+    <color name="pnk9230">#701C40</color>
+    <color name="pnk9232">#5F273B</color>
+    <color name="pnk9234">#C97E8A</color>
+    <color name="pnk9236">#B96675</color>
+    <color name="pnk9238">#5F273D</color>
+    <color name="pnk9240">#C66B86</color>
+    <color name="pnk9242">#974655</color>
+    <color name="pnk9244">#A03577</color>
+    <color name="pnk9248">#6A7FA0</color>
+    <color name="pnk9250">#273B54</color>
+    <color name="pnk9252">#272B3B</color>
+    <color name="pnk9254">#8CAFC2</color>
+    <color name="pnk9256">#7093AF</color>
+    <color name="pnk9258">#40709D</color>
+    <color name="pnk9262">#629FA3</color>
+    <color name="pnk9264">#006B82</color>
+    <color name="pnk9266">#7AA3C2</color>
+    <color name="pnk9268">#0080AF</color>
+    <color name="pnk9270">#509881</color>
+    <color name="pnk9272">#008A77</color>
+    <color name="pnk9274">#35816F</color>
+    <color name="pnk9276">#95B2A0</color>
+    <color name="pnk9278">#48725F</color>
+    <color name="pnk9280">#446B5A</color>
+    <color name="pnk9282">#9DADA4</color>
+    <color name="pnk9284">#919982</color>
+    <color name="pnk9286">#4E6F62</color>
+    <color name="pnk9288">#384446</color>
+    <color name="pnk9290">#597632</color>
+    <color name="pnk9292">#425432</color>
+    <color name="pnk9294">#DCCFA0</color>
+    <color name="pnk9296">#AD9E74</color>
+    <color name="pnk9298">#A48F5D</color>
+    <color name="pnk9300">#626242</color>
+    <color name="pnk9304">#835C44</color>
+    <color name="pnk9306">#6B4C54</color>
+    <color name="pnk9308">#503B35</color>
+    <color name="pnk9310">#A29C8F</color>
+    <color name="pnk9312">#655D54</color>
+    <color name="pnk9314">#524A46</color>
+
+
+    <color name="anchor0001">#F4F2FF</color>
+    <color name="anchor0002">#EBEAE8</color>
+    <color name="anchor0006">#F7BBB3</color>
+    <color name="anchor0008">#ED9798</color>
+    <color name="anchor0009">#DE7C7D</color>
+    <color name="anchor0010">#C95E64</color>
+    <color name="anchor0011">#C74954</color>
+    <color name="anchor0013">#A12338</color>
+    <color name="anchor0019">#991A38</color>
+    <color name="anchor0020">#791E2F</color>
+    <color name="anchor0022">#63242D</color>
+    <color name="anchor0023">#F1B2BB</color>
+    <color name="anchor0024">#EAA1B2</color>
+    <color name="anchor0025">#ED93AD</color>
+    <color name="anchor0026">#E87B9A</color>
+    <color name="anchor0027">#E1648C</color>
+    <color name="anchor0028">#D33E68</color>
+    <color name="anchor0029">#B9144E</color>
+    <color name="anchor0031">#E5738C</color>
+    <color name="anchor0033">#DF5B72</color>
+    <color name="anchor0035">#D03753</color>
+    <color name="anchor0036">#DF8E9F</color>
+    <color name="anchor0038">#CD4B71</color>
+    <color name="anchor0039">#A43953</color>
+    <color name="anchor0040">#DF5B8A</color>
+    <color name="anchor0041">#D04B76</color>
+    <color name="anchor0042">#9E3252</color>
+    <color name="anchor0043">#7A283E</color>
+    <color name="anchor0044">#6B1C2F</color>
+    <color name="anchor0045">#5F2531</color>
+    <color name="anchor0046">#BA012B</color>
+    <color name="anchor0047">#98002F</color>
+    <color name="anchor0048">#F0C0CE</color>
+    <color name="anchor0049">#DAA3B8</color>
+    <color name="anchor0050">#EB94B4</color>
+    <color name="anchor0052">#E46D97</color>
+    <color name="anchor0054">#D6457C</color>
+    <color name="anchor0055">#E079A6</color>
+    <color name="anchor0057">#C0447A</color>
+    <color name="anchor0059">#942148</color>
+    <color name="anchor0060">#CE86AB</color>
+    <color name="anchor0062">#C0558D</color>
+    <color name="anchor0063">#B43A73</color>
+    <color name="anchor0065">#892750</color>
+    <color name="anchor0066">#CA7EA5</color>
+    <color name="anchor0068">#A44472</color>
+    <color name="anchor0069">#823054</color>
+    <color name="anchor0070">#5F1F41</color>
+    <color name="anchor0072">#542037</color>
+    <color name="anchor0073">#E7ACC0</color>
+    <color name="anchor0074">#DC96B0</color>
+    <color name="anchor0075">#DB80A3</color>
+    <color name="anchor0076">#B75B80</color>
+    <color name="anchor0077">#A4416F</color>
+    <color name="anchor0078">#933160</color>
+    <color name="anchor0085">#CE97C1</color>
+    <color name="anchor0086">#B96EA9</color>
+    <color name="anchor0087">#A44B8D</color>
+    <color name="anchor0088">#9B367C</color>
+    <color name="anchor0089">#90276A</color>
+    <color name="anchor0090">#B88BB2</color>
+    <color name="anchor0092">#8E5091</color>
+    <color name="anchor0094">#7A3178</color>
+    <color name="anchor0095">#C7A1C6</color>
+    <color name="anchor0096">#B485B1</color>
+    <color name="anchor0097">#9A69A1</color>
+    <color name="anchor0098">#8E5E9C</color>
+    <color name="anchor0099">#7D4689</color>
+    <color name="anchor0100">#6D3B76</color>
+    <color name="anchor0101">#573069</color>
+    <color name="anchor0102">#47215E</color>
+    <color name="anchor0103">#D5B2D0</color>
+    <color name="anchor0108">#A897C3</color>
+    <color name="anchor0109">#8B77AC</color>
+    <color name="anchor0110">#715DA2</color>
+    <color name="anchor0111">#634287</color>
+    <color name="anchor0112">#58347E</color>
+    <color name="anchor0117">#8997BC</color>
+    <color name="anchor0118">#6972AB</color>
+    <color name="anchor0119">#504786</color>
+    <color name="anchor0120">#A0B4CF</color>
+    <color name="anchor0121">#7389B0</color>
+    <color name="anchor0122">#565D87</color>
+    <color name="anchor0123">#3A4266</color>
+    <color name="anchor0127">#2C2A42</color>
+    <color name="anchor0128">#ACC1D6</color>
+    <color name="anchor0129">#81A0BF</color>
+    <color name="anchor0130">#7598BE</color>
+    <color name="anchor0131">#476EA7</color>
+    <color name="anchor0132">#2A4E8C</color>
+    <color name="anchor0133">#284483</color>
+    <color name="anchor0134">#25346D</color>
+    <color name="anchor0136">#617DA5</color>
+    <color name="anchor0137">#46659C</color>
+    <color name="anchor0139">#274078</color>
+    <color name="anchor0140">#7096BB</color>
+    <color name="anchor0142">#3C69A2</color>
+    <color name="anchor0143">#254E84</color>
+    <color name="anchor0144">#84A2BC</color>
+    <color name="anchor0145">#6888AE</color>
+    <color name="anchor0146">#4870A4</color>
+    <color name="anchor0147">#2E5286</color>
+    <color name="anchor0148">#23466C</color>
+    <color name="anchor0149">#1E385D</color>
+    <color name="anchor0150">#20314B</color>
+    <color name="anchor0152">#2A293B</color>
+    <color name="anchor0158">#B1C9CB</color>
+    <color name="anchor0159">#92B1C6</color>
+    <color name="anchor0160">#81AEC3</color>
+    <color name="anchor0161">#548CA7</color>
+    <color name="anchor0162">#23648A</color>
+    <color name="anchor0164">#014B6E</color>
+    <color name="anchor0167">#7CAEB5</color>
+    <color name="anchor0168">#518F9C</color>
+    <color name="anchor0169">#1B6F8B</color>
+    <color name="anchor0170">#005773</color>
+    <color name="anchor0175">#728EB5</color>
+    <color name="anchor0176">#6376A1</color>
+    <color name="anchor0177">#455589</color>
+    <color name="anchor0178">#3B3D6E</color>
+    <color name="anchor0185">#70BCAF</color>
+    <color name="anchor0186">#54AF9E</color>
+    <color name="anchor0187">#009C8B</color>
+    <color name="anchor0188">#008572</color>
+    <color name="anchor0189">#007966</color>
+    <color name="anchor0203">#7AB189</color>
+    <color name="anchor0204">#67A57E</color>
+    <color name="anchor0205">#4B926A</color>
+    <color name="anchor0206">#95B99D</color>
+    <color name="anchor0208">#689B7C</color>
+    <color name="anchor0209">#50986A</color>
+    <color name="anchor0210">#497657</color>
+    <color name="anchor0211">#346C51</color>
+    <color name="anchor0212">#345948</color>
+    <color name="anchor0213">#B1B8A6</color>
+    <color name="anchor0214">#92A48A</color>
+    <color name="anchor0215">#718B70</color>
+    <color name="anchor0216">#5F7A69</color>
+    <color name="anchor0217">#426551</color>
+    <color name="anchor0218">#375345</color>
+    <color name="anchor0225">#67A866</color>
+    <color name="anchor0226">#579858</color>
+    <color name="anchor0227">#318248</color>
+    <color name="anchor0228">#007541</color>
+    <color name="anchor0229">#006F3C</color>
+    <color name="anchor0230">#007549</color>
+    <color name="anchor0231">#ACA0A0</color>
+    <color name="anchor0232">#9B8F91</color>
+    <color name="anchor0233">#81747B</color>
+    <color name="anchor0234">#B1B0AE</color>
+    <color name="anchor0235">#78777C</color>
+    <color name="anchor0236">#494850</color>
+    <color name="anchor0238">#689F4C</color>
+    <color name="anchor0239">#4C8A37</color>
+    <color name="anchor0240">#92B280</color>
+    <color name="anchor0241">#81AE75</color>
+    <color name="anchor0242">#699C64</color>
+    <color name="anchor0243">#578C58</color>
+    <color name="anchor0244">#427C4A</color>
+    <color name="anchor0245">#2C6B36</color>
+    <color name="anchor0246">#2F5836</color>
+    <color name="anchor0253">#C0CB7D</color>
+    <color name="anchor0254">#B1BB62</color>
+    <color name="anchor0255">#839532</color>
+    <color name="anchor0256">#6B8732</color>
+    <color name="anchor0257">#5D803E</color>
+    <color name="anchor0258">#4C7637</color>
+    <color name="anchor0259">#C9CF9F</color>
+    <color name="anchor0260">#A8AE82</color>
+    <color name="anchor0261">#879770</color>
+    <color name="anchor0262">#5D654D</color>
+    <color name="anchor0263">#474F3A</color>
+    <color name="anchor0264">#A9B381</color>
+    <color name="anchor0265">#8D9F63</color>
+    <color name="anchor0266">#7C854E</color>
+    <color name="anchor0267">#6B723F</color>
+    <color name="anchor0268">#515B38</color>
+    <color name="anchor0269">#454E33</color>
+    <color name="anchor0271">#F2CACB</color>
+    <color name="anchor0273">#5B544E</color>
+    <color name="anchor0274">#ADB7B9</color>
+    <color name="anchor0275">#EFDEC2</color>
+    <color name="anchor0276">#DCC5B5</color>
+    <color name="anchor0277">#785430</color>
+    <color name="anchor0278">#C8BE5F</color>
+    <color name="anchor0279">#BCA641</color>
+    <color name="anchor0280">#A18D46</color>
+    <color name="anchor0281">#746430</color>
+    <color name="anchor0288">#F3DA63</color>
+    <color name="anchor0289">#F3D54F</color>
+    <color name="anchor0290">#F5C702</color>
+    <color name="anchor0291">#FFB703</color>
+    <color name="anchor0292">#F2D89B</color>
+    <color name="anchor0293">#F4D175</color>
+    <color name="anchor0295">#F8CD67</color>
+    <color name="anchor0297">#F2B617</color>
+    <color name="anchor0298">#EDA802</color>
+    <color name="anchor0300">#F3D3A0</color>
+    <color name="anchor0301">#F7C880</color>
+    <color name="anchor0302">#F8A853</color>
+    <color name="anchor0303">#F39233</color>
+    <color name="anchor0304">#E17614</color>
+    <color name="anchor0305">#EEC15C</color>
+    <color name="anchor0306">#D28F38</color>
+    <color name="anchor0307">#C47D2D</color>
+    <color name="anchor0308">#A36125</color>
+    <color name="anchor0309">#92572F</color>
+    <color name="anchor0310">#7C4C28</color>
+    <color name="anchor0311">#E4A96F</color>
+    <color name="anchor0313">#ED9C5B</color>
+    <color name="anchor0314">#ED802E</color>
+    <color name="anchor0316">#DD6202</color>
+    <color name="anchor0323">#EA7959</color>
+    <color name="anchor0324">#D9663A</color>
+    <color name="anchor0326">#B14227</color>
+    <color name="anchor0328">#EA7063</color>
+    <color name="anchor0329">#EA5C44</color>
+    <color name="anchor0330">#E45032</color>
+    <color name="anchor0332">#DD3F22</color>
+    <color name="anchor0333">#D13631</color>
+    <color name="anchor0334">#C31423</color>
+    <color name="anchor0335">#D01027</color>
+    <color name="anchor0336">#DB927F</color>
+    <color name="anchor0337">#C47564</color>
+    <color name="anchor0338">#B96052</color>
+    <color name="anchor0339">#A1473E</color>
+    <color name="anchor0340">#8E3A30</color>
+    <color name="anchor0341">#883531</color>
+    <color name="anchor0342">#BBABC8</color>
+    <color name="anchor0343">#8A9CAA</color>
+    <color name="anchor0347">#BC896A</color>
+    <color name="anchor0349">#995A3B</color>
+    <color name="anchor0351">#773D2F</color>
+    <color name="anchor0352">#683730</color>
+    <color name="anchor0355">#864D39</color>
+    <color name="anchor0357">#6A3F2F</color>
+    <color name="anchor0358">#6A4638</color>
+    <color name="anchor0359">#5A3A2F</color>
+    <color name="anchor0360">#543932</color>
+    <color name="anchor0361">#D6AF88</color>
+    <color name="anchor0362">#C59567</color>
+    <color name="anchor0363">#C68953</color>
+    <color name="anchor0365">#9C6135</color>
+    <color name="anchor0366">#D4B394</color>
+    <color name="anchor0367">#C79D84</color>
+    <color name="anchor0368">#B98C6B</color>
+    <color name="anchor0369">#A87153</color>
+    <color name="anchor0370">#854D36</color>
+    <color name="anchor0371">#764936</color>
+    <color name="anchor0372">#B8997C</color>
+    <color name="anchor0373">#A07D5D</color>
+    <color name="anchor0374">#986F4F</color>
+    <color name="anchor0375">#835F3F</color>
+    <color name="anchor0376">#BEA095</color>
+    <color name="anchor0378">#98766C</color>
+    <color name="anchor0379">#8D685F</color>
+    <color name="anchor0380">#4C3734</color>
+    <color name="anchor0381">#412F2D</color>
+    <color name="anchor0382">#3E3232</color>
+    <color name="anchor0386">#F6DCB9</color>
+    <color name="anchor0387">#D4C1B0</color>
+    <color name="anchor0388">#B6A092</color>
+    <color name="anchor0390">#C3B6A6</color>
+    <color name="anchor0391">#B6A998</color>
+    <color name="anchor0392">#928171</color>
+    <color name="anchor0393">#77675A</color>
+    <color name="anchor0397">#B6B2AF</color>
+    <color name="anchor0398">#9F9DA2</color>
+    <color name="anchor0399">#88868B</color>
+    <color name="anchor0400">#5D5A63</color>
+    <color name="anchor0401">#48454E</color>
+    <color name="anchor0403">#29292B</color>
+    <color name="anchor0410">#0073AC</color>
+    <color name="anchor0433">#019ED3</color>
+    <color name="anchor0681">#5D5842</color>
+    <color name="anchor0683">#374744</color>
+    <color name="anchor0778">#E1BBA8</color>
+    <color name="anchor0779">#5C7A82</color>
+    <color name="anchor0830">#BCAF9C</color>
+    <color name="anchor0831">#AC9C85</color>
+    <color name="anchor0832">#8C7661</color>
+    <color name="anchor0842">#B1AC82</color>
+    <color name="anchor0843">#878356</color>
+    <color name="anchor0844">#7A714A</color>
+    <color name="anchor0845">#695F3C</color>
+    <color name="anchor0846">#4D4930</color>
+    <color name="anchor0847">#BBC1BD</color>
+    <color name="anchor0848">#9EA7A6</color>
+    <color name="anchor0849">#879296</color>
+    <color name="anchor0850">#6E8388</color>
+    <color name="anchor0851">#355560</color>
+    <color name="anchor0852">#C6B695</color>
+    <color name="anchor0853">#A29575</color>
+    <color name="anchor0854">#968662</color>
+    <color name="anchor0855">#8C7A54</color>
+    <color name="anchor0856">#786B4B</color>
+    <color name="anchor0858">#959D85</color>
+    <color name="anchor0859">#7F8169</color>
+    <color name="anchor0860">#70735E</color>
+    <color name="anchor0861">#545945</color>
+    <color name="anchor0862">#424638</color>
+    <color name="anchor0868">#D39387</color>
+    <color name="anchor0869">#B29EAA</color>
+    <color name="anchor0870">#9C869D</color>
+    <color name="anchor0871">#7C647C</color>
+    <color name="anchor0872">#6E566E</color>
+    <color name="anchor0873">#573E53</color>
+    <color name="anchor0874">#C3A461</color>
+    <color name="anchor0875">#8AA191</color>
+    <color name="anchor0876">#668073</color>
+    <color name="anchor0877">#516F63</color>
+    <color name="anchor0878">#435A50</color>
+    <color name="anchor0879">#334E45</color>
+    <color name="anchor0880">#D4B49F</color>
+    <color name="anchor0881">#D4B19B</color>
+    <color name="anchor0882">#C38876</color>
+    <color name="anchor0883">#AD7260</color>
+    <color name="anchor0884">#965444</color>
+    <color name="anchor0885">#D2C1A3</color>
+    <color name="anchor0886">#C4A880</color>
+    <color name="anchor0887">#BDA171</color>
+    <color name="anchor0888">#9C7C53</color>
+    <color name="anchor0889">#72573A</color>
+    <color name="anchor0890">#B68753</color>
+    <color name="anchor0891">#D09F65</color>
+    <color name="anchor0892">#DBBDB5</color>
+    <color name="anchor0893">#D09FA2</color>
+    <color name="anchor0894">#C08189</color>
+    <color name="anchor0895">#B76E79</color>
+    <color name="anchor0896">#83444D</color>
+    <color name="anchor0897">#692F3B</color>
+    <color name="anchor0898">#816A52</color>
+    <color name="anchor0899">#9C8D80</color>
+    <color name="anchor0900">#A2A29A</color>
+    <color name="anchor0901">#A4723F</color>
+    <color name="anchor0903">#7E6B5A</color>
+    <color name="anchor0904">#64584A</color>
+    <color name="anchor0905">#4F4138</color>
+    <color name="anchor0906">#62462E</color>
+    <color name="anchor0907">#AA7E3F</color>
+    <color name="anchor0914">#AD7568</color>
+    <color name="anchor0920">#708A97</color>
+    <color name="anchor0921">#5E727D</color>
+    <color name="anchor0922">#536370</color>
+    <color name="anchor0923">#005E3C</color>
+    <color name="anchor0924">#645B32</color>
+    <color name="anchor0925">#DC590B</color>
+    <color name="anchor0926">#E3D6C5</color>
+    <color name="anchor0928">#8FBEC4</color>
+    <color name="anchor0933">#D1B5A7</color>
+    <color name="anchor0936">#704741</color>
+    <color name="anchor0939">#727F9F</color>
+    <color name="anchor0940">#415989</color>
+    <color name="anchor0941">#444A7C</color>
+    <color name="anchor0942">#D2AF85</color>
+    <color name="anchor0943">#B28B62</color>
+    <color name="anchor0944">#755033</color>
+    <color name="anchor0945">#B49664</color>
+    <color name="anchor0956">#BDA986</color>
+    <color name="anchor0968">#D4A5AB</color>
+    <color name="anchor0969">#B37988</color>
+    <color name="anchor0970">#95536E</color>
+    <color name="anchor0972">#7F385A</color>
+    <color name="anchor0975">#A0B4BD</color>
+    <color name="anchor0976">#89A0B2</color>
+    <color name="anchor0977">#6287A4</color>
+    <color name="anchor0978">#4C718E</color>
+    <color name="anchor0979">#35597B</color>
+    <color name="anchor1001">#BC6E40</color>
+    <color name="anchor1002">#D08752</color>
+    <color name="anchor1003">#CB6A47</color>
+    <color name="anchor1004">#9E4630</color>
+    <color name="anchor1005">#800D34</color>
+    <color name="anchor1006">#8C1237</color>
+    <color name="anchor1007">#985E5C</color>
+    <color name="anchor1008">#BF8D84</color>
+    <color name="anchor1009">#F5D2BE</color>
+    <color name="anchor1010">#EFC9B2</color>
+    <color name="anchor1011">#F2D1C2</color>
+    <color name="anchor1012">#EABBAB</color>
+    <color name="anchor1013">#B66C63</color>
+    <color name="anchor1014">#8B343A</color>
+    <color name="anchor1015">#7C2933</color>
+    <color name="anchor1016">#BF8A9E</color>
+    <color name="anchor1017">#AC798C</color>
+    <color name="anchor1018">#8F5969</color>
+    <color name="anchor1019">#7D4755</color>
+    <color name="anchor1020">#E0B5BC</color>
+    <color name="anchor1021">#DCA1A7</color>
+    <color name="anchor1022">#D08186</color>
+    <color name="anchor1023">#C36774</color>
+    <color name="anchor1024">#A60B2D</color>
+    <color name="anchor1025">#A12D42</color>
+    <color name="anchor1026">#DDB7B6</color>
+    <color name="anchor1027">#9F5562</color>
+    <color name="anchor1028">#702647</color>
+    <color name="anchor1029">#6B1F46</color>
+    <color name="anchor1030">#6E65A4</color>
+    <color name="anchor1031">#B4C6D4</color>
+    <color name="anchor1032">#A3B9C4</color>
+    <color name="anchor1033">#8C9DAD</color>
+    <color name="anchor1034">#63788D</color>
+    <color name="anchor1035">#415465</color>
+    <color name="anchor1036">#314963</color>
+    <color name="anchor1037">#CCD6D8</color>
+    <color name="anchor1038">#72A3B2</color>
+    <color name="anchor1039">#5690A6</color>
+    <color name="anchor1040">#84847C</color>
+    <color name="anchor1041">#4E4A47</color>
+    <color name="anchor1042">#B1C0AD</color>
+    <color name="anchor1043">#B8D0A0</color>
+    <color name="anchor1044">#3A4932</color>
+    <color name="anchor1045">#B47F57</color>
+    <color name="anchor1046">#A5673E</color>
+    <color name="anchor1047">#D68B61</color>
+    <color name="anchor1048">#B56647</color>
+    <color name="anchor1049">#A25C3A</color>
+    <color name="anchor1050">#62483B</color>
+    <color name="anchor1060">#A1BFC1</color>
+    <color name="anchor1062">#789CA8</color>
+    <color name="anchor1064">#618F9C</color>
+    <color name="anchor1066">#316978</color>
+    <color name="anchor1068">#255A68</color>
+    <color name="anchor1070">#5FA897</color>
+    <color name="anchor1072">#4D9F89</color>
+    <color name="anchor1074">#3D8B7D</color>
+    <color name="anchor1076">#3D8B7D</color>
+    <color name="anchor1080">#C0A496</color>
+    <color name="anchor1082">#A1877A</color>
+    <color name="anchor1084">#8E7066</color>
+    <color name="anchor1086">#695242</color>
+    <color name="anchor1088">#4F3C36</color>
+    <color name="anchor1089">#008FC7</color>
+    <color name="anchor1090">#4CACDC</color>
+    <color name="anchor1092">#9CD5CC</color>
+    <color name="anchor1094">#E699BB</color>
+    <color name="anchor1096">#A1AFB8</color>
+    <color name="anchor1098">#C9153A</color>
+    <color name="anchor1218">#9B593F</color>
+    <color name="anchor4146">#D5A79A</color>
+    <color name="anchor5975">#A24D4A</color>
+    <color name="anchor8581">#797A6C</color>
+    <color name="anchor9046">#B1022D</color>
+    <color name="anchor9159">#9ABBCA</color>
+    <color name="anchor9575">#CE8979</color>
+
+    <color name="anchorMelange1201">#E18FA6</color>
+    <color name="anchorMelange1202">#CB4F4F</color>
+    <color name="anchorMelange1203">#CD2246</color>
+    <color name="anchorMelange1204">#B12346</color>
+    <color name="anchorMelange1206">#80192E</color>
+    <color name="anchorMelange1209">#D3A9BF</color>
+    <color name="anchorMelange1210">#17528B</color>
+    <color name="anchorMelange1211">#5984A8</color>
+    <color name="anchorMelange1212">#90A9C0</color>
+    <color name="anchorMelange1213">#37774C</color>
+    <color name="anchorMelange1215">#597A36</color>
+    <color name="anchorMelange1216">#7E7B40</color>
+    <color name="anchorMelange1217">#FBE752</color>
+    <color name="anchorMelange1218">#C5773F</color>
+    <color name="anchorMelange1220">#E6731E</color>
+
+    <color name="Kreinik001Silver">#C7CFD8</color>
+    <color name="Kreinik001HL">#DADFE5</color>
+    <color name="Kreinik001L">#DFDCC1</color>
+    <color name="Kreinik001V">#C7CFD8</color>
+    <color name="Kreinik001C">#C7CFD8</color>
+    <color name="Kreinik001P">#E1DED5</color>
+    <color name="Kreinik001J">#E1DED5</color>
+
+    <color name="Kreinik002Gold">#D0B798</color>
+    <color name="Kreinik002HL">#DACBAC</color>
+    <color name="Kreinik002L">#E3BF68</color>
+    <color name="Kreinik002V">#D0B798</color>
+    <color name="Kreinik002C">#DACAA7</color>
+    <color name="Kreinik002J">#DACAA7</color>
+    <color name="Kreinik002P">#B1A37E</color>
+
+    <color name="Kreinik003Red">#A01C17</color>
+    <color name="Kreinik003HL">#9F1E28</color>
+    <color name="Kreinik003V">#A32144</color>
+
+    <color name="Kreinik005Black">#0E1215</color>
+    <color name="Kreinik005C">#0E1215</color>
+    <color name="Kreinik005HL">#353A3E</color>
+    <color name="Kreinik005L">#301806</color>
+
+    <color name="Kreinik006Blue">#00537E</color>
+    <color name="Kreinik006HL">#0978A2</color>
+
+    <color name="Kreinik007Pink">#D8BCCA</color>
+    <color name="Kreinik007C">#D8BCCA</color>
+    <color name="Kreinik007HL">#BD9CA7</color>
+    <color name="Kreinik007L">#DA7597</color>
+
+    <color name="Kreinik008Green">#508F6A</color>
+    <color name="Kreinik008J">#13A382</color>
+    <color name="Kreinik008C">#378423</color>
+    <color name="Kreinik008HL">#2B7F5C</color>
+    <color name="Kreinik008L">#31C58C</color>
+
+    <color name="Kreinik009">#2B5048</color>
+    <color name="Kreinik009HL">#375C4A</color>
+    <color name="Kreinik009V">#31666C</color>
+
+    <color name="Kreinik010HL">#5B5F60</color>
+
+    <color name="Kreinik011HL">#7A808C</color>
+    <color name="Kreinik011C">#43312D</color>
+
+    <color name="Kreinik012">#6C5986</color>
+    <color name="Kreinik012HL">#5E2562</color>
+    <color name="Kreinik012C">#6E4074</color>
+
+    <color name="Kreinik013">#91817C</color>
+
+    <color name="Kreinik014">#AECAE0</color>
+    <color name="Kreinik014HL">#5AA2C0</color>
+
+    <color name="Kreinik015">#839C5A</color>
+    <color name="Kreinik015HL">#6C6E4F</color>
+    <color name="Kreinik015L">#99AC1F</color>
+
+    <color name="Kreinik016L">#303A1F</color>
+
+    <color name="Kreinik017HL">#C3B9A8</color>
+
+    <color name="Kreinik018">#1C263F</color>
+    <color name="Kreinik018HL">#16243D</color>
+    <color name="Kreinik018V">#083C64</color>
+
+    <color name="Kreinik019">#A8ACAF</color>
+
+    <color name="Kreinik021">#8D6753</color>
+    <color name="Kreinik021J">#8D6753</color>
+    <color name="Kreinik021HL">#996045</color>
+    <color name="Kreinik021L">#9C2715</color>
+    <color name="Kreinik021C">#803B1A</color>
+
+    <color name="Kreinik022">#412D2D</color>
+    <color name="Kreinik022L">#6D1605</color>
+
+    <color name="Kreinik023">#C3C0D3</color>
+
+    <color name="Kreinik024">#7B2643</color>
+    <color name="Kreinik024HL">#701A37</color>
+    <color name="Kreinik024L">#DE3473</color>
+
+    <color name="Kreinik025">#9EB7C7</color>
+
+    <color name="Kreinik026">#352E59</color>
+    <color name="Kreinik026L">#700A9A</color>
+    <color name="Kreinik026V">#49264D</color>
+
+    <color name="Kreinik027">#B57C60</color>
+    <color name="Kreinik027L">#C35532</color>
+
+    <color name="Kreinik028">#B7A050</color>
+    <color name="Kreinik028L">#FEC549</color>
+
+    <color name="Kreinik029">#6FBFD1</color>
+    <color name="Kreinik029L">#2685C5</color>
+
+    <color name="Kreinik031">#994150</color>
+
+    <color name="Kreinik032">#D6DADD</color>
+
+    <color name="Kreinik033">#0D5F7F</color>
+    <color name="Kreinik033L">#263A99</color>
+
+    <color name="Kreinik034">#4A4E45</color>
+    <color name="Kreinik034C">#463627</color>
+
+    <color name="Kreinik041">#D7C5D2</color>
+    <color name="Kreinik041C">#999AB4</color>
+
+    <color name="Kreinik042">#9C7688</color>
+    <color name="Kreinik042L">#AF306E</color>
+
+    <color name="Kreinik043">#9DA69D</color>
+
+    <color name="Kreinik044">#6AB2D8</color>
+
+    <color name="Kreinik045">#ADA064</color>
+
+    <color name="Kreinik051F">#F0BC85</color>
+    <color name="Kreinik051HL">#175D8F</color>
+
+    <color name="Kreinik052F">#E2DFCD</color>
+    <color name="Kreinik052HL">#735A4C</color>
+
+    <color name="Kreinik053F">#99BC85</color>
+
+    <color name="Kreinik054F">#F3DD70</color>
+
+    <color name="Kreinik055F">#F3817E</color>
+
+    <color name="Kreinik056F">#75B0C6</color>
+
+    <color name="Kreinik057F">#98A6C0</color>
+
+    <color name="Kreinik060">#0E293D</color>
+
+    <color name="Kreinik061">#8E2C33</color>
+
+    <color name="Kreinik070">#6C703B</color>
+
+    <color name="Kreinik071">#9B886F</color>
+
+    <color name="Kreinik072">#453226</color>
+
+    <color name="Kreinik080HL">#6C474E</color>
+    <color name="Kreinik080C">#A06662</color>
+
+    <color name="Kreinik085">#72957F</color>
+
+    <color name="Kreinik086C">#93A48B</color>
+
+    <color name="Kreinik087C">#B4B89D</color>
+
+    <color name="Kreinik089">#A2BDA4</color>
+
+    <color name="Kreinik091">#E9D585</color>
+
+    <color name="Kreinik092">#ECC3C7</color>
+
+    <color name="Kreinik093">#9F92A4</color>
+
+    <color name="Kreinik094">#84B7D2</color>
+
+    <color name="Kreinik095">#BAB6A9</color>
+
+    <color name="Kreinik096">#619880</color>
+
+    <color name="Kreinik100">#FDFEFF</color>
+    <color name="Kreinik100HL">#D1D2D6</color>
+
+    <color name="Kreinik101">#CBCFDA</color>
+
+    <color name="Kreinik102">#C6C0A7</color>
+    <color name="Kreinik102HL">#B6B0A8</color>
+    <color name="Kreinik102C">#FBFFCD</color>
+
+    <color name="Kreinik104C">#F8ECC2</color>
+
+    <color name="Kreinik105C">#8C8D88</color>
+
+    <color name="Kreinik107J">#9A152E</color>
+
+    <color name="Kreinik108J">#197028</color>
+
+    <color name="Kreinik110J">#252F27</color>
+
+    <color name="Kreinik115J">#BAC331</color>
+
+    <color name="Kreinik127">#DD9457</color>
+
+    <color name="Kreinik128J">#EC363C</color>
+
+    <color name="Kreinik131J">#AF5427</color>
+
+    <color name="Kreinik132J">#BDDFCD</color>
+
+    <color name="Kreinik133J">#F4C97B</color>
+
+    <color name="Kreinik134J">#EDF2E4</color>
+
+    <color name="Kreinik135J">#614413</color>
+
+    <color name="Kreinik150V">#CA833C</color>
+
+    <color name="Kreinik152V">#C97552</color>
+
+    <color name="Kreinik153V">#5A0D1F</color>
+
+    <color name="Kreinik154V">#776A4E</color>
+
+    <color name="Kreinik160J">#653210</color>
+
+    <color name="Kreinik165J">#775856</color>
+
+    <color name="Kreinik170J">#3A5A68</color>
+
+    <color name="Kreinik191">#F2EAD4</color>
+
+    <color name="Kreinik192">#D7CFD2</color>
+
+    <color name="Kreinik193">#DAD5D9</color>
+
+    <color name="Kreinik194">#C7DCE6</color>
+
+    <color name="Kreinik195">#D5D4DA</color>
+
+    <color name="Kreinik198">#C8D8CB</color>
+
+    <color name="Kreinik200J">#47352F</color>
+
+    <color name="Kreinik201C">#47352F</color>
+
+    <color name="Kreinik202HL">#D0B178</color>
+    <color name="Kreinik202C">#243045</color>
+
+    <color name="Kreinik203">#9A5034</color>
+
+    <color name="Kreinik205C">#9E9874</color>
+
+    <color name="Kreinik208C">#58242E</color>
+
+    <color name="Kreinik210">#A28A70</color>
+
+    <color name="Kreinik212">#99775C</color>
+
+    <color name="Kreinik215C">#966B53</color>
+
+    <color name="Kreinik216J">#CB636A</color>
+
+    <color name="Kreinik220J">#956809</color>
+
+    <color name="Kreinik221">#94773D</color>
+
+    <color name="Kreinik225C">#5F6363</color>
+
+    <color name="Kreinik235">#5C2114</color>
+
+    <color name="Kreinik238">#8B4C45</color>
+
+    <color name="Kreinik242HL">#893361</color>
+
+    <color name="Kreinik245J">#A65198</color>
+
+    <color name="Kreinik271">#7D7987</color>
+
+    <color name="Kreinik273">#E8AC8C</color>
+
+    <color name="Kreinik280J">#5380B4</color>
+
+    <color name="Kreinik307">#8E2A24</color>
+
+    <color name="Kreinik308">#712E33</color>
+
+    <color name="Kreinik321J">#B78D30</color>
+
+    <color name="Kreinik326">#702A44</color>
+
+    <color name="Kreinik329">#2E4E73</color>
+
+    <color name="Kreinik332">#C0484A</color>
+
+    <color name="Kreinik339">#1C6480</color>
+
+    <color name="Kreinik393">#3F869B</color>
+
+    <color name="Kreinik421">#893130</color>
+
+    <color name="Kreinik622">#004464</color>
+
+    <color name="Kreinik623">#4A75A0</color>
+
+    <color name="Kreinik684">#48A1B8</color>
+
+    <color name="Kreinik713">#E2CFD3</color>
+
+    <color name="Kreinik829">#A1D3C7</color>
+
+    <color name="Kreinik850">#445441</color>
+
+    <color name="Kreinik1000">#DDE2E6</color>
+
+    <color name="Kreinik1100">#878367</color>
+
+    <color name="Kreinik1200">#6E6A61</color>
+
+    <color name="Kreinik1223">#AEACC4</color>
+
+    <color name="Kreinik1232HL">#ACC1CC</color>
+
+    <color name="Kreinik1300">#565978</color>
+
+    <color name="Kreinik1432">#C0D2DF</color>
+
+    <color name="Kreinik1500">#B5B09D</color>
+
+    <color name="Kreinik1600">#494E54</color>
+
+    <color name="Kreinik1700">#E4AF81</color>
+
+    <color name="Kreinik1800">#80774C</color>
+
+    <color name="Kreinik1900">#986336</color>
+
+    <color name="Kreinik2000">#C19F62</color>
+
+    <color name="Kreinik2094HL">#6E5877</color>
+
+    <color name="Kreinik2100">#4E190A</color>
+
+    <color name="Kreinik2122">#392514</color>
+
+    <color name="Kreinik2132HL">#CDCAC8</color>
+
+    <color name="Kreinik2829">#BBBA7C</color>
+
+    <color name="Kreinik3200">#DEDBD4</color>
+
+    <color name="Kreinik3202">#8E7464</color>
+
+    <color name="Kreinik3214">#57889E</color>
+
+    <color name="Kreinik3215">#789074</color>
+
+    <color name="Kreinik3221">#817263</color>
+
+    <color name="Kreinik3223">#A5AEC6</color>
+
+    <color name="Kreinik3228">#A68956</color>
+
+    <color name="Kreinik3231">#728897</color>
+
+    <color name="Kreinik3232">#676056</color>
+
+    <color name="Kreinik3237">#8B7C90</color>
+
+    <color name="Kreinik3240">#B1AEBD</color>
+
+    <color name="Kreinik3250">#FFD69B</color>
+
+    <color name="Kreinik3260">#AA936E</color>
+
+    <color name="Kreinik3270">#FFBF83</color>
+
+    <color name="Kreinik3280">#FFE0B9</color>
+
+    <color name="Kreinik3503">#8B2E18</color>
+
+    <color name="Kreinik3506">#6ECDE2</color>
+
+    <color name="Kreinik3508">#73CB9B</color>
+
+    <color name="Kreinik3509">#218C57</color>
+
+    <color name="Kreinik3514">#5CA7B5</color>
+
+    <color name="Kreinik3533">#375DAB</color>
+
+    <color name="Kreinik3540">#101F22</color>
+
+    <color name="Kreinik4010HL">#4A77B4</color>
+
+    <color name="Kreinik4011V">#80905D</color>
+
+    <color name="Kreinik4012">#183525</color>
+
+    <color name="Kreinik4013">#743C56</color>
+
+    <color name="Kreinik4204">#7D8183</color>
+
+    <color name="Kreinik4205">#CECFD0</color>
+
+    <color name="Kreinik4206">#CAA5B7</color>
+
+    <color name="Kreinik4503">#8D5B6E</color>
+
+    <color name="Kreinik4505">#5E5D61</color>
+
+    <color name="Kreinik4507">#674557</color>
+
+    <color name="Kreinik4522">#3D362E</color>
+
+    <color name="Kreinik4536">#AB7051</color>
+
+    <color name="Kreinik4639">#93B5C8</color>
+
+    <color name="Kreinik5001">#A48D7C</color>
+
+    <color name="Kreinik5002">#B3E8ED</color>
+
+    <color name="Kreinik5003">#37797E</color>
+
+    <color name="Kreinik5004">#70414A</color>
+
+    <color name="Kreinik5005">#B29484</color>
+
+    <color name="Kreinik5006">#A4544A</color>
+
+    <color name="Kreinik5007">#9F7A97</color>
+
+    <color name="Kreinik5008">#59746D</color>
+
+    <color name="Kreinik5009">#808A7E</color>
+
+    <color name="Kreinik5010">#85858D</color>
+
+    <color name="Kreinik5011">#87AA9B</color>
+
+    <color name="Kreinik5012">#A1E2C4</color>
+
+    <color name="Kreinik5013">#513B52</color>
+
+    <color name="Kreinik5025">#C8763F</color>
+
+    <color name="Kreinik5026">#D65282</color>
+
+    <color name="Kreinik5027">#51964D</color>
+
+    <color name="Kreinik5028">#CFB04E</color>
+
+    <color name="Kreinik5500">#FC98D4</color>
+
+    <color name="Kreinik5505">#D01E1C</color>
+
+    <color name="Kreinik5510">#DB3624</color>
+
+    <color name="Kreinik5515">#E46B14</color>
+
+    <color name="Kreinik5520">#DBA434</color>
+
+    <color name="Kreinik5525">#FCFE7C</color>
+
+    <color name="Kreinik5530">#B4B2A4</color>
+
+    <color name="Kreinik5535">#76984C</color>
+
+    <color name="Kreinik5540">#462A74</color>
+
+    <color name="Kreinik5545">#743E8C</color>
+
+    <color name="Kreinik5550">#DAC6BC</color>
+
+    <color name="Kreinik5555">#FEECD3</color>
+
+    <color name="Kreinik5730">#878E7C</color>
+
+    <color name="Kreinik5740">#A7A5C4</color>
+
+    <color name="Kreinik5760">#E9F1E9</color>
+
+    <color name="Kreinik5804">#F4AD78</color>
+
+    <color name="Kreinik5805">#E7472B</color>
+
+    <color name="Kreinik5815">#D99727</color>
+
+    <color name="Kreinik5835">#7C7F27</color>
+
+    <color name="Kreinik5845">#7B5571</color>
+
+    <color name="Kreinik5982">#5F8D72</color>
+
+    <color name="Kreinik9032">#D4E3CC</color>
+
+    <color name="Kreinik9100">#E2CE9C</color>
+
+    <color name="Kreinik9132">#D3E40C</color>
+
+    <color name="Kreinik9192">#EECCAE</color>
+
+    <color name="Kreinik9194">#7BA285</color>
+
+    <color name="Kreinik9200">#D7B6B8</color>
+
+    <color name="Kreinik9294">#8FA4B7</color>
+
+    <color name="Kreinik9300">#E4CFDC</color>
+
+    <color name="Kreinik9400">#B2D2E7</color>
+
+    <color name="Kreinik9432">#C0BD70</color>
+
+    <color name="Kreinik9591">#FCDE86</color>
+
+    <color name="Kreinik9592">#C26F94</color>
+
+    <color name="Kreinik9593">#7E5889</color>
+
+    <color name="Kreinik9594">#6F96C1</color>
+
+    <color name="Kreinik9732">#5AB5F7</color>
+
+
+    </resources>
