@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "700615744271",
+    "project_id": "crosstrial-ae69f",
+    "storage_bucket": "crosstrial-ae69f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:700615744271:android:e17f1697a653dcdb263c7a",
+        "android_client_info": {
+          "package_name": "com.kos.crosstrial"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "700615744271-86lo7peshcccg7p4h9e3kqnk15b5phtv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAYTswmqRYXGDndttmiD-VYC1VgKEDj-o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "700615744271-86lo7peshcccg7p4h9e3kqnk15b5phtv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
