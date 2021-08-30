@@ -1022,7 +1022,7 @@
     <string name="load">Load</string>
     <string name="in_stock">In stock</string>
     <string name="load_state">The load will overwrite the current state of the application.Load?</string>
-    <string name="loadText">Load the last saved application state</string>
+    <string name="loadText">Load from device</string>
     <string name="yes">Yes</string>
     <string name="No">No</string>
     <string name="pathOfSave">The save file is located at: documents/CrossStitchAccount/recover.mp4</string>
@@ -1030,6 +1030,13 @@
     <string name="color">Color</string>
     <string name="kaunt">Count</string>
     <string name="articul">Articul</string>
+    <string name="save_to_device">Save</string>
+    <string name="loaded">Load Complete</string>
+    <string name="loadingPleaseWait">Loading... Please wait.</string>
+    <string name="load_from_cloud">Load From Cloud</string>
+    <string name="setup">Setup</string>
+    <string name="banner_ad_unit_id">ca-app-pub-9744475608161908/1059970340</string>
+    <string name="savingPleaseWait">Saving... Please wait.</string>
 
 
 </resources>

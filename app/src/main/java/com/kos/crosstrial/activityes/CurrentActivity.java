@@ -34,6 +34,7 @@ import static com.kos.crosstrial.adapters.CurrentThreadsApapter.currentThreadId;
 import static com.kos.crosstrial.adapters.CurrentThreadsApapter.currentThreadLength;
 import static com.kos.crosstrial.adapters.CurrentThreadsApapter.currentThreadNumberNit;
 import static com.kos.crosstrial.adapters.CurrentThreadsApapter.currentThreadfirm;
+import static com.kos.crosstrial.db.Constants.PASM_6;
 
 public class CurrentActivity extends AppCompatActivity {
     ArrayList<String> threadsListForSpinner;
@@ -155,6 +156,8 @@ public class CurrentActivity extends AppCompatActivity {
         if (len.length() > 0) {
             Double lengthCurrent = Double.parseDouble(len);
 
+            lengthCurrent = lengthCurrent/PASM_6;
+
             int colorNumber = dbManager.searchColorNumberFromDb(numberNit, firm);
 
             //Проверка на наличие цвета
@@ -186,12 +189,12 @@ public class CurrentActivity extends AppCompatActivity {
     }
 
     private void resetFirmButtonColor() {
-        bt_dialog_current_dmc.setBackgroundColor(Color.WHITE);
-        bt_dialog_current_cxc.setBackgroundColor(Color.WHITE);
-        bt_dialog_current_pnk.setBackgroundColor(Color.WHITE);
-        bt_dialog_current_gamma.setBackgroundColor(Color.WHITE);
-        bt_dialog_current_anchor.setBackgroundColor(Color.WHITE);
-        bt_dialog_current_kreinik.setBackgroundColor(Color.WHITE);
+        bt_dialog_current_dmc.setBackgroundColor(Color.TRANSPARENT);
+        bt_dialog_current_cxc.setBackgroundColor(Color.TRANSPARENT);
+        bt_dialog_current_pnk.setBackgroundColor(Color.TRANSPARENT);
+        bt_dialog_current_gamma.setBackgroundColor(Color.TRANSPARENT);
+        bt_dialog_current_anchor.setBackgroundColor(Color.TRANSPARENT);
+        bt_dialog_current_kreinik.setBackgroundColor(Color.TRANSPARENT);
     }
 
     public void onClickDMC(View view) {

@@ -24,6 +24,7 @@ public class DbHelper extends SQLiteOpenHelper {
         ContentValues contentValues = new ContentValues();
         contentValues.put(Constants.KOL_ZAP, "0");
         contentValues.put(Constants.FIRST_START, 0);
+        contentValues.put(Constants.PASM, 1);
         db.insert(Constants.TABLE_SET, null, contentValues);
 
     }

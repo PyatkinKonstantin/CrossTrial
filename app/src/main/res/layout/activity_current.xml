@@ -32,7 +32,7 @@
                 android:layout_height="30dp"
                 android:layout_marginTop="10dp"
                 android:layout_marginBottom="10dp"
-                android:background="@drawable/plus"
+                android:background="@drawable/plusfinal"
                 android:onClick="bt_addCurrentThread"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -52,7 +52,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-
     <Button
         android:id="@+id/but_menu"
         android:layout_width="50dp"
@@ -60,11 +59,10 @@
         android:layout_marginStart="10dp"
         android:layout_marginTop="5dp"
         android:padding="13dp"
-        android:backgroundTint="#00000000"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        app:cornerRadius="10dp"
         app:icon="@drawable/menu"
         app:iconSize="25dp"
-        app:iconTint="#000000"
-
         android:onClick="onClickMenuDelete"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -95,8 +93,9 @@
         android:layout_marginEnd="10dp"
         android:layout_marginTop="5dp"
         android:padding="13dp"
-        android:backgroundTint="#00000000"
-        app:icon="@drawable/ba"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        app:cornerRadius="10dp"
+        app:icon="@drawable/backfinal"
         app:iconSize="26dp"
         app:iconTint="#000000"
         android:onClick="onClickHome"

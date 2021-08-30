@@ -20,6 +20,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import static com.kos.crosstrial.activityes.CurrentActivity.dialogDelete;
+import static com.kos.crosstrial.db.Constants.PASM_6;
 
 public class CurrentThreadsApapter extends RecyclerView.Adapter<CurrentThreadsApapter.CurrentThreadsHolder> {
     public static int currentThreadId = 0;
@@ -58,16 +59,19 @@ public class CurrentThreadsApapter extends RecyclerView.Adapter<CurrentThreadsAp
         String firm = arrayList.get(position).getFirm();
         holder.tv_itemCurrentThreadsFirm.setText(firm);
         //Текущая длина
-        Double length = arrayList.get(position).getLengthCurrent();
-        String lengthCurrent = String.valueOf(length);
-        holder.tv_itemCurrentThreadsLength.setText(lengthCurrent);
-
+        Double length = arrayList.get(position).getLengthCurrent() * PASM_6;
+        //String lengthCurrent = String.valueOf(length);
+        String lengthCurrent = String.format("%.2f", length);
+        holder.tv_itemCurrentThreadsLength.setText(lengthCurrent.replace(",","."));
         //Остаток длина пасма
-        Double pasm = length / 8.0;
+        Double pasm = length / 8.0 / PASM_6;
         String pasmLength = String.format("%.1f", pasm);
         holder.tv_itemCurrentThreadsPasm.setText(pasmLength);
+        //Остаток длина
+        Double lengthOstatok = arrayList.get(position).getLengthOstatok() * PASM_6;
+        String lengthOst = String.format("%.2f", lengthOstatok);
+        holder.tv_itemCurrentThreadsTotalLength.setText(lengthOst);
 
-        holder.tv_itemCurrentThreadsTotalLength.setText(String.valueOf(arrayList.get(position).getLengthOstatok()));
 
         Double leng = arrayList.get(position).getLengthOstatok();
         if (leng > 4) {

@@ -51,7 +51,7 @@
         android:layout_width="30dp"
         android:layout_height="30dp"
         android:layout_marginStart="12dp"
-        android:background="@drawable/plus"
+        android:background="@drawable/plusfinal"
         android:onClick="bt_dialogAddCurrentThread"
         app:layout_constraintBottom_toBottomOf="@+id/et_dialog_current_length"
         app:layout_constraintStart_toEndOf="@+id/et_dialog_current_length" />

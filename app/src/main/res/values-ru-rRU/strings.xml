@@ -618,7 +618,7 @@
     <string name="action_settings">actionSettings</string>
     <string name="in_stock">В наличии</string>
     <string name="load_state">Загрузка перезапишет текущее состояние приложения. Загрузить?</string>
-    <string name="loadText">Загрузка последнего сохраненного состояния приложения</string>
+    <string name="loadText">Загрузить из устройства</string>
     <string name="yes">Да</string>
     <string name="No">Нет</string>
     <string name="pathOfSave">Файл сохранения находится в: documents/CrossStitchAccount/recover.mp4</string>
@@ -626,6 +626,11 @@
     <string name="color">Цвет</string>
     <string name="kaunt">Каунт</string>
     <string name="articul">Артикул</string>
+    <string name="loaded">Загружено</string>
+    <string name="loadingPleaseWait">Загрузка... Пожалуйста, подождите.</string>
+    <string name="load_from_cloud">Загрузить из облака</string>
+    <string name="setup">Настройки</string>
+    <string name="savingPleaseWait">Сохранение... Пожалуйста подождите.</string>
 
 
 </resources>
