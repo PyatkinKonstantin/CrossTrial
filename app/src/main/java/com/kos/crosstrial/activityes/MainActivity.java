@@ -49,7 +49,6 @@ public class MainActivity extends AppCompatActivity {
 
     private InterstitialAd mInterstitialAd;
 
-    SaveLoadActivity saveLoadclass = new SaveLoadActivity();
     Trial trialClass = new Trial();
     static String endOfTrial;
     ArrayList<StitchItem> stitches;

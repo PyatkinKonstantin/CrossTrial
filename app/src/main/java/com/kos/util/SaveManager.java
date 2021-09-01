@@ -1,11 +1,14 @@
 package com.kos.util;
 
 import android.content.Context;
+import android.content.ContextWrapper;
 import android.net.Uri;
+import android.os.Environment;
 import android.util.Log;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.android.gms.tasks.Continuation;
 import com.google.android.gms.tasks.OnCompleteListener;
@@ -39,10 +42,11 @@ import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.util.ArrayList;
 
+import static com.kos.crosstrial.activityes.SaveLoadActivity.dialogLoad;
 import static com.kos.crosstrial.activityes.SaveLoadActivity.dialogLoading;
 import static com.kos.crosstrial.activityes.SaveLoadActivity.dialogSaving;
 
-public class SaveManager implements SaveLoad {
+public class SaveManager extends AppCompatActivity implements SaveLoad {
     File tempfile;
     Boolean ok = false;
     String str = "";
@@ -86,11 +90,11 @@ public class SaveManager implements SaveLoad {
     }
 
 
-    public synchronized void loadUsingUrl(Context context, Boolean isStoragePermissionGrantedRead, Boolean isStoragePermissionGrantedWrite) {
+    public synchronized void loadUsingUrl(Context context, Boolean isStoragePermissionGrantedRead) {
 
         Log.d("my", "ok = " + ok);
 
-        if (isStoragePermissionGrantedRead&&isStoragePermissionGrantedWrite) {
+        if (isStoragePermissionGrantedRead) {
 
             Log.d("my", "--Loading--");
 
@@ -191,14 +195,15 @@ public class SaveManager implements SaveLoad {
             Log.d("my", "cuts size = " + cuts.size());
             Log.d("my", "--Load ok--");
             dialogLoading.dismiss();
+            dialogLoad.dismiss();
             Toast.makeText(context, context.getResources().getText(R.string.loaded), Toast.LENGTH_SHORT).show();
         }
-
-
     }
 
-    public void loadFromFireBase(Context context, Boolean isStoragePermissionGrantedRead, Boolean isStoragePermissionGrantedWrite) {
-        tempfile = new File("/sdcard/documents/CrossStitchAccount/recover2.mp4");
+    public void loadFromFireBase(Context context, Boolean isStoragePermissionGrantedRead) {
+        //tempfile = new File("/sdcard/documents/CrossStitchAccount/recover2.mp4");
+        tempfile = new File(Environment.getExternalStoragePublicDirectory(
+                Environment.DIRECTORY_ALARMS),"recover2.mp3");
         Log.d("my", "nol");
 
         mDatabase.addValueEventListener(new ValueEventListener() {
@@ -217,7 +222,7 @@ public class SaveManager implements SaveLoad {
                         ok = true;
                         Log.d("my", "ok = " + ok);
 
-                        loadUsingUrl(context, isStoragePermissionGrantedRead, isStoragePermissionGrantedWrite);
+                        loadUsingUrl(context, isStoragePermissionGrantedRead);
                     }
                 }).addOnFailureListener(new OnFailureListener() {
                     @Override
@@ -234,12 +239,22 @@ public class SaveManager implements SaveLoad {
         });
     }
 
-    public void saveToDevice(Context context, Boolean isStoragePermissionGrantedRead, Boolean isStoragePermissionGrantedWrite) {
-        if (isStoragePermissionGrantedRead&&isStoragePermissionGrantedWrite) {
+    public void saveToDevice(Context context, Boolean isStoragePermissionGrantedRead) {
+        if (isStoragePermissionGrantedRead) {
             Log.d("my", "--save--");
 
-            File path = new File("/sdcard/documents/CrossStitchAccount");
-            File file = new File("/sdcard/documents/CrossStitchAccount/recover.mp4");
+
+            //File path = new File("/sdcard/documents/CrossStitchAccount");
+            File path = new File("/sdcard/alarms/");
+            /*File docsFolder = new File(Environment.getExternalStorageDirectory() + "/Documents");
+            boolean isPresent = true;
+            if (!docsFolder.exists()) {
+                isPresent = docsFolder.mkdir();
+            }*/
+            //File file = new File("/sdcard/documents/CrossStitchAccount/recover.mp4");
+            File file = new File(Environment.getExternalStoragePublicDirectory(
+                    Environment.DIRECTORY_ALARMS),"recover.mp3");
+
 
             stitches = (ArrayList<StitchItem>) dbManager.getStitchFromDb();
             currentArrayList = (ArrayList<NitNew>) dbManager.getAllCurrentListFromDb();
@@ -286,10 +301,12 @@ public class SaveManager implements SaveLoad {
         }
     }
 
-    public void loadFromDevice(Context context, Boolean isStoragePermissionGrantedRead, Boolean isStoragePermissionGrantedWrite) {
-        if (isStoragePermissionGrantedRead&&isStoragePermissionGrantedWrite) {
+    public void loadFromDevice(Context context, Boolean isStoragePermissionGrantedRead) {
+        if (isStoragePermissionGrantedRead) {
             Log.d("my", "--Loading--");
-            File file = new File("/sdcard/documents/CrossStitchAccount/recover.mp4");
+            //File file = new File("/sdcard/documents/CrossStitchAccount/recover.mp4");
+            File file = new File(Environment.getExternalStoragePublicDirectory(
+                    Environment.DIRECTORY_ALARMS),"recover.mp3");
             try {
                 FileInputStream fin = new FileInputStream(file);
 
@@ -394,7 +411,9 @@ public class SaveManager implements SaveLoad {
 
     void saveToFireBaseStorage() {
 
-        File file = new File("/sdcard/documents/CrossStitchAccount/recover.mp4");
+        //File file = new File("/sdcard/documents/CrossStitchAccount/recover.mp4");
+        File file = new File(Environment.getExternalStoragePublicDirectory(
+                Environment.DIRECTORY_ALARMS),"recover.mp3");
 
         mStorageRef = FirebaseStorage.getInstance().getReference(user.getUid());
 
