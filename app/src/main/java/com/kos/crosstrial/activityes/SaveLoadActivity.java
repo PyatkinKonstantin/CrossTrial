@@ -60,7 +60,7 @@ public class SaveLoadActivity extends AppCompatActivity {
         init();
     }
     void init(){
-        if (Build.VERSION.SDK_INT <= 29) {
+        /*if (Build.VERSION.SDK_INT <= 29) {
             Log.d("my","sdk <11");
             isStoragePermissionGrantedWrite();
         }
@@ -68,7 +68,7 @@ public class SaveLoadActivity extends AppCompatActivity {
         if (Build.VERSION.SDK_INT >= 30) {
             Log.d("my","sdk =11");
             isStoragePermissionGrantedRead();
-        }
+        }*/
 
         dialogLoad = new Dialog(this);
         dialogLoad.setContentView(R.layout.dialog_load);
@@ -85,7 +85,7 @@ public class SaveLoadActivity extends AppCompatActivity {
             public void onClick(View v) {
                 dialogLoading.show();
                 SaveLoad load = new SaveManager(SaveLoadActivity.this);
-                load.loadFromFireBase(SaveLoadActivity.this,isStoragePermissionGrantedRead());
+                load.loadFromFireBase(SaveLoadActivity.this);
             }
         });
 
@@ -96,8 +96,6 @@ public class SaveLoadActivity extends AppCompatActivity {
         tv_user_name = findViewById(R.id.tv_user_name);
         googleAccountLPicture = findViewById(R.id.googleAccountLPicture);
 
-
-
         GoogleSignInOptions gso = new GoogleSignInOptions
                 .Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
                 .requestIdToken(getString(R.string.default_web_client_id))
@@ -106,7 +104,6 @@ public class SaveLoadActivity extends AppCompatActivity {
 
         mAuth = FirebaseAuth.getInstance();
         mGoogleSignInClient = GoogleSignIn.getClient(this, gso);
-
     }
 
     @Override
@@ -169,13 +166,11 @@ public class SaveLoadActivity extends AppCompatActivity {
         tv_user_name.setText(cUser.getDisplayName());
         Picasso.get().load( cUser.getPhotoUrl()).into(googleAccountLPicture);
     }
-
-
     public void onClickHomeFromSaveLoad(View view) {
         finish();
     }
 
-    public boolean isStoragePermissionGrantedWrite() {
+    /*public boolean isStoragePermissionGrantedWrite() {
         if (Build.VERSION.SDK_INT >= 23) {
             if (checkSelfPermission(android.Manifest.permission.WRITE_EXTERNAL_STORAGE) == PackageManager.PERMISSION_GRANTED) {
                 Log.d("my","write");
@@ -202,34 +197,26 @@ public class SaveLoadActivity extends AppCompatActivity {
         } else { //permission is automatically granted on sdk<23 upon installation
             return true;
         }
-    }
-
-
-
+    }*/
 
     public void saveToDevic(View view) {
         dialogSaving.show();
         SaveLoad save = new SaveManager(this);
-        save.saveToDevice(this, true);
+        save.saveToDevice(this);
     }
 
     public void loadFromDevic(View view) {
-        dialogLoading.show();
-        new Thread(new Runnable() {
+        //dialogLoading.show();
+        SaveLoad load = new SaveManager(getApplicationContext());
+        load.loadFromDevice(getApplicationContext());
+        /*new Thread(new Runnable() {
             @Override
             public void run() {
-                SaveLoad load = new SaveManager(getApplicationContext());
-                load.loadFromDevice(getApplicationContext(), isStoragePermissionGrantedRead());
+
                 finish();
             }
-        }).start();
+        }).start();*/
     }
-
-    /*public void loadFromFBase(View view) {
-        dialogLoading.show();
-        SaveLoad load = new SaveManager(this);
-        load.loadFromFireBase(this,isStoragePermissionGrantedRead(),isStoragePermissionGrantedWrite());
-    }*/
 
     public void loadFromFBase(View view) {
         dialogLoad.show();

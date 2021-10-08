@@ -77,7 +77,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        loadAd();
+        //loadAd();
     }
     public void loadAd() {
         AdRequest adRequest = new AdRequest.Builder().build();

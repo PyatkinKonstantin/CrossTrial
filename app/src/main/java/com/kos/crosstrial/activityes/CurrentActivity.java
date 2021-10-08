@@ -270,7 +270,7 @@ public class CurrentActivity extends AppCompatActivity {
 
         dialogDelete.dismiss();
     }
-
+    //удаление нити
     public void onClickYes(View view) {
         dbManager.deleteTreadFromCurrentStitch(currentThreadId);
 

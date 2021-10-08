@@ -74,7 +74,11 @@ public class ThreadsAdapter extends RecyclerView.Adapter<ThreadsAdapter.ThreadsH
         }
 
         //Остаток длина пасма
-        Double pasm = length / 8.0 / PASM_6;
+        double pasmFirm = 8.0;
+        if (nitNewNewArrayList.get(position).getFirm().equals("pnk")){
+            pasmFirm = 10.0;
+        }
+        Double pasm = length / pasmFirm / PASM_6;
         String pasm1 = String.format("%.1f", pasm);
         String pasmLength = String.valueOf(pasm1);
         holder.tv_itemThreadsActivityPasm.setText(pasmLength);

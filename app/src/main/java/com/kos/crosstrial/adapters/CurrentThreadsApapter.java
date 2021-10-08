@@ -64,7 +64,11 @@ public class CurrentThreadsApapter extends RecyclerView.Adapter<CurrentThreadsAp
         String lengthCurrent = String.format("%.2f", length);
         holder.tv_itemCurrentThreadsLength.setText(lengthCurrent.replace(",","."));
         //Остаток длина пасма
-        Double pasm = length / 8.0 / PASM_6;
+        double pasmFirm = 8.0;
+        if (arrayList.get(position).getFirm().equals("pnk")){
+            pasmFirm = 10.0;
+        }
+        Double pasm = length / pasmFirm / PASM_6;
         String pasmLength = String.format("%.1f", pasm);
         holder.tv_itemCurrentThreadsPasm.setText(pasmLength);
         //Остаток длина
