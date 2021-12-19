@@ -67,6 +67,34 @@ public class DbManager {
         return kolZap;
     }
 
+    public void setPASM6(int pasm6) {
+        ContentValues values = new ContentValues();
+        values.put(Constants.PASM, pasm6);
+
+        String selection1 = Constants._ID + " LIKE ?";
+        String[] selectionArgs1 = {"1"};
+
+        int count = db.update(
+                Constants.TABLE_SET,
+                values,
+                selection1,
+                selectionArgs1);
+    }
+
+    public int getPASM6() {
+        int pasm6 = 1;
+        String selection = Constants._ID + " = ?";
+        String[] selectionArgs = {"1"};
+        Cursor cur = db.query(Constants.TABLE_SET, null, selection, selectionArgs, null, null, null);
+
+        while (cur.moveToNext()) {
+
+            pasm6 = cur.getInt(cur.getColumnIndex(Constants.PASM));
+        }
+        cur.close();
+        return pasm6;
+    }
+
 
     public void insertStitchToDb(String stitchName, String stitchNotes) {
         ContentValues contentValues = new ContentValues();

@@ -2,12 +2,10 @@ package com.kos.crosstrial.activityes;
 
 import android.Manifest;
 import android.app.Activity;
-import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.os.Build;
 import android.os.Bundle;
-import android.os.Handler;
 import android.util.Log;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
@@ -17,17 +15,10 @@ import android.widget.TextView;
 import androidx.annotation.Nullable;
 import androidx.core.app.ActivityCompat;
 
-import com.kos.crossstich.Nit;
 import com.kos.crosstrial.items.NitNew;
 import com.kos.crosstrial.R;
 import com.kos.crosstrial.db.DbManager;
-import com.kos.util.AutoLoad;
 
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.IOException;
-import java.io.ObjectInputStream;
 import java.util.ArrayList;
 import java.util.Date;
 
@@ -36,7 +27,6 @@ public class SplashScreenActivity extends Activity {
     Date firstStart;
     long firstStartTime;
     TextView spl_load;
-    AutoLoad autoLoad = new AutoLoad();
     private Animation logo_anim;
     private ImageView logo;
 
@@ -52,6 +42,14 @@ public class SplashScreenActivity extends Activity {
     }
 
     void init(){
+        if (Build.VERSION.SDK_INT <= 29) {
+            isStoragePermissionGrantedWrite();
+        }
+
+        if (Build.VERSION.SDK_INT >= 30) {
+            isStoragePermissionGrantedRead();
+        }
+
         logo_anim = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.alfa_anim);
         logo = findViewById(R.id.logo);
         logo.startAnimation(logo_anim);
@@ -64,11 +62,8 @@ public class SplashScreenActivity extends Activity {
             firstStart = new Date();
             firstStartTime = firstStart.getTime();
             dbManager.setFirstStartDate(firstStartTime);
-
         }
-
         spl_load = findViewById(R.id.spl_load);
-
     }
 
     @Override
@@ -84,7 +79,7 @@ public class SplashScreenActivity extends Activity {
                     public void run() {
                         dbManager.openDb();
                         loadAllBase();
-                        loadOldFromApp();
+                        //loadOldFromApp();
                         dbManager.closeDb();
                         Intent mainIntent = new Intent(SplashScreenActivity.this, MainActivity.class);
                         SplashScreenActivity.this.startActivity(mainIntent);
@@ -3291,15 +3286,12 @@ public class SplashScreenActivity extends Activity {
         return col;
     }
 
-    public boolean isStoragePermissionGrantedRead() {
+    public boolean isStoragePermissionGrantedWrite() {
         if (Build.VERSION.SDK_INT >= 23) {
-            if (checkSelfPermission(Manifest.permission.READ_EXTERNAL_STORAGE)
-                    == PackageManager.PERMISSION_GRANTED)   {
+            if (checkSelfPermission(android.Manifest.permission.WRITE_EXTERNAL_STORAGE) == PackageManager.PERMISSION_GRANTED) {
                 return true;
-
             } else {
-                ActivityCompat.requestPermissions(this,
-                        new String[]{Manifest.permission.READ_EXTERNAL_STORAGE}, 1);
+                ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.WRITE_EXTERNAL_STORAGE}, 1);
                 return false;
             }
         } else { //permission is automatically granted on sdk<23 upon installation
@@ -3307,7 +3299,21 @@ public class SplashScreenActivity extends Activity {
         }
     }
 
-    public void loadOldFromApp() {
+    public boolean isStoragePermissionGrantedRead() {
+        if (Build.VERSION.SDK_INT >= 23) {
+            if (checkSelfPermission(Manifest.permission.READ_EXTERNAL_STORAGE) == PackageManager.PERMISSION_GRANTED) {
+                return true;
+
+            } else {
+                ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.READ_EXTERNAL_STORAGE}, 1);
+                return false;
+            }
+        } else { //permission is automatically granted on sdk<23 upon installation
+            return true;
+        }
+    }
+
+    /*public void loadOldFromApp() {
 
         ArrayList<Nit> recoveryNit = new ArrayList<>();
         ArrayList<String> allCrossStich = new ArrayList<>();
@@ -3387,6 +3393,6 @@ public class SplashScreenActivity extends Activity {
                 }
             }
         }
-    }
+    }*/
 
 }

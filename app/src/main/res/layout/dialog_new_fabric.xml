@@ -130,7 +130,7 @@
         android:layout_height="30dp"
         android:layout_marginStart="10dp"
         android:layout_marginTop="20dp"
-        android:background="@drawable/plus"
+        android:background="@drawable/plusfinal"
         android:onClick="onClickPlusFabric"
         app:layout_constraintStart_toEndOf="@+id/tv_dialogFabric_Number"
         app:layout_constraintTop_toBottomOf="@+id/tv_dialogFabric_Number" />
@@ -141,7 +141,7 @@
         android:layout_height="30dp"
         android:layout_marginStart="10dp"
         android:layout_marginTop="12dp"
-        android:background="@drawable/cancel"
+        android:background="@drawable/cancelfinal"
         android:onClick="onClickCancelOsn"
         app:layout_constraintStart_toEndOf="@+id/tv_dialogFabric_Firm"
         app:layout_constraintTop_toTopOf="parent" />

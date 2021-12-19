@@ -33,7 +33,9 @@ import java.util.ArrayList;
 import static com.kos.crosstrial.adapters.CurrentThreadsApapter.currentThreadId;
 import static com.kos.crosstrial.adapters.CurrentThreadsApapter.currentThreadLength;
 import static com.kos.crosstrial.adapters.CurrentThreadsApapter.currentThreadNumberNit;
+import static com.kos.crosstrial.adapters.CurrentThreadsApapter.currentThreadOstatok;
 import static com.kos.crosstrial.adapters.CurrentThreadsApapter.currentThreadfirm;
+import static com.kos.crosstrial.db.Constants.PASM_6;
 
 public class CurrentActivity extends AppCompatActivity {
     ArrayList<String> threadsListForSpinner;
@@ -44,6 +46,8 @@ public class CurrentActivity extends AppCompatActivity {
     Dialog dialogAddCurrentThread;
     Dialog dialogAddCurrentThread2;
     public static Dialog dialogDelete;
+    public static Dialog dialog_change_or_delete_current_thread;
+    public static Dialog dialog_edit_current_length;
     public static Dialog dialog_delete_stitch;
     public Dialog dialog_cancel_stitch;
     DbManager dbManager;
@@ -61,6 +65,8 @@ public class CurrentActivity extends AppCompatActivity {
     Button bt_dialog_deleteStitch_yes;
     Button bt_dialog_cancelStitch_no;
     Button bt_dialog_cancelStitch_yes;
+    Button bt_confirm;
+    EditText et_confirm;
     EditText et_dialog_current_number;
     EditText et_dialog_current_length;
     ImageButton bt_dialog_current_plus;
@@ -90,11 +96,15 @@ public class CurrentActivity extends AppCompatActivity {
         dialogAddCurrentThread = new Dialog(this);
         dialogAddCurrentThread2 = new Dialog(this);
         dialogDelete = new Dialog(this);
+        dialog_change_or_delete_current_thread = new Dialog(this);
+        dialog_edit_current_length = new Dialog(this);
         dialog_delete_stitch = new Dialog(this);
         dialog_cancel_stitch = new Dialog(this);
         dialogAddCurrentThread.setContentView(R.layout.dialog_add_current_thread);
         dialogAddCurrentThread2.setContentView(R.layout.dialog_add_current_thread2);
         dialogDelete.setContentView(R.layout.dialog_delete);
+        dialog_change_or_delete_current_thread.setContentView(R.layout.dialog_change_or_delete_current_thread);
+        dialog_edit_current_length.setContentView(R.layout.dialog_edit_current_length);
         dialog_delete_stitch.setContentView(R.layout.dialog_delete_stitch);
         dialog_cancel_stitch.setContentView(R.layout.dialog_cancel_stitch);
         bt_dialog_current_dmc = dialogAddCurrentThread.findViewById(R.id.bt_dialog_current_dmc);
@@ -108,6 +118,10 @@ public class CurrentActivity extends AppCompatActivity {
         bt_dialog_current_plus = dialogAddCurrentThread2.findViewById(R.id.bt_dialog_current_plus);
         bt_dialog_delete_no = dialogDelete.findViewById(R.id.bt_dialog_delete_no);
         bt_dialog_delete_yes = dialogDelete.findViewById(R.id.bt_dialog_delete_yes);
+
+        bt_confirm = dialog_edit_current_length.findViewById(R.id.bt_confirm);
+        et_confirm = dialog_edit_current_length.findViewById(R.id.et_confirm);
+
         bt_dialog_deleteStitch_no = dialogDelete.findViewById(R.id.bt_dialog_deleteStitch_no);
         bt_dialog_deleteStitch_yes = dialogDelete.findViewById(R.id.bt_dialog_deleteStitch_yes);
         bt_dialog_cancelStitch_no = dialogDelete.findViewById(R.id.bt_dialog_cancelStitch_no);
@@ -155,6 +169,8 @@ public class CurrentActivity extends AppCompatActivity {
         if (len.length() > 0) {
             Double lengthCurrent = Double.parseDouble(len);
 
+            lengthCurrent = lengthCurrent/PASM_6;
+
             int colorNumber = dbManager.searchColorNumberFromDb(numberNit, firm);
 
             //Проверка на наличие цвета
@@ -186,12 +202,12 @@ public class CurrentActivity extends AppCompatActivity {
     }
 
     private void resetFirmButtonColor() {
-        bt_dialog_current_dmc.setBackgroundColor(Color.WHITE);
-        bt_dialog_current_cxc.setBackgroundColor(Color.WHITE);
-        bt_dialog_current_pnk.setBackgroundColor(Color.WHITE);
-        bt_dialog_current_gamma.setBackgroundColor(Color.WHITE);
-        bt_dialog_current_anchor.setBackgroundColor(Color.WHITE);
-        bt_dialog_current_kreinik.setBackgroundColor(Color.WHITE);
+        bt_dialog_current_dmc.setBackgroundColor(Color.TRANSPARENT);
+        bt_dialog_current_cxc.setBackgroundColor(Color.TRANSPARENT);
+        bt_dialog_current_pnk.setBackgroundColor(Color.TRANSPARENT);
+        bt_dialog_current_gamma.setBackgroundColor(Color.TRANSPARENT);
+        bt_dialog_current_anchor.setBackgroundColor(Color.TRANSPARENT);
+        bt_dialog_current_kreinik.setBackgroundColor(Color.TRANSPARENT);
     }
 
     public void onClickDMC(View view) {
@@ -267,7 +283,7 @@ public class CurrentActivity extends AppCompatActivity {
 
         dialogDelete.dismiss();
     }
-
+    //удаление нити
     public void onClickYes(View view) {
         dbManager.deleteTreadFromCurrentStitch(currentThreadId);
 
@@ -280,8 +296,30 @@ public class CurrentActivity extends AppCompatActivity {
 
         currentThreadsApapter.updateCurrentThreadsAdapter(dbManager.getCurrentListFromDb(getStitchNameFromIntent(), Constants.SORT_ASC));
         dialogDelete.dismiss();
+    }
 
+    public void confirm_change(View view) {
+        String id = String.valueOf(dbManager.searchIdThreadFromDb(currentThreadNumberNit, currentThreadfirm));
+        //String idCurrent = String.valueOf(dbManager.searchIdThreadFromTableCurrentDb(currentThreadNumberNit, currentThreadfirm));
+        Double length = Double.parseDouble(et_confirm.getText().toString());
+        //Toast.makeText(getApplicationContext(), id/*String.valueOf(length)*/, Toast.LENGTH_SHORT).show();
+        Double raznica = length - currentThreadLength ;
+        Double lengthOstatok =  currentThreadOstatok - raznica;
 
+        dbManager.updateThreadCurrentToDb(length, String.valueOf(currentThreadId));
+        dbManager.updateThreadOstatokToDb(lengthOstatok, id);
+
+        currentThreadsApapter.updateCurrentThreadsAdapter(dbManager.getCurrentListFromDb(getStitchNameFromIntent(), Constants.SORT_ASC));
+        dialog_edit_current_length.dismiss();
+    }
+
+    public void onClickChangeLength(View view) {
+        dialog_edit_current_length.show();
+        dialog_change_or_delete_current_thread.dismiss();
+    }
+    public void onClickDeleteCurrentThread(View view) {
+        dialogDelete.show();
+        dialog_change_or_delete_current_thread.dismiss();
     }
 
     //Кнопка меню
@@ -342,4 +380,6 @@ public class CurrentActivity extends AppCompatActivity {
         Toast.makeText(getBaseContext(), "Процесс отменен", Toast.LENGTH_SHORT).show();
         finish();
     }
+
+
 }

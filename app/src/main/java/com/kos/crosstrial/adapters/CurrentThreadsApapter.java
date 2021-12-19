@@ -2,11 +2,13 @@ package com.kos.crosstrial.adapters;
 
 
 import android.content.Context;
+import android.graphics.Color;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.FrameLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.core.content.ContextCompat;
@@ -15,17 +17,21 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.kos.crosstrial.items.NitNew;
 import com.kos.crosstrial.R;
 import com.kos.crosstrial.db.DbManager;
+import com.kos.util.Utils;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import static com.kos.crosstrial.activityes.CurrentActivity.dialogDelete;
+import static com.kos.crosstrial.activityes.CurrentActivity.dialog_change_or_delete_current_thread;
+import static com.kos.crosstrial.db.Constants.PASM_6;
 
 public class CurrentThreadsApapter extends RecyclerView.Adapter<CurrentThreadsApapter.CurrentThreadsHolder> {
     public static int currentThreadId = 0;
     public static String currentThreadNumberNit = "";
     public static String currentThreadfirm = "";
     public static Double currentThreadLength = 0.0;
+    public static Double currentThreadOstatok = 0.0;
 
     private ArrayList<NitNew> arrayList = new ArrayList<>();
     private Context context;
@@ -49,6 +55,9 @@ public class CurrentThreadsApapter extends RecyclerView.Adapter<CurrentThreadsAp
     public void onBindViewHolder(@NonNull CurrentThreadsHolder holder, int position) {
         //Номер
         holder.tv_itemCurrentThreadNumber.setText(arrayList.get(position).getNumberNit());
+        String fir = arrayList.get(position).getFirm();
+        int coll = Utils.textColorOfFirm(context, fir);
+        holder.tv_itemCurrentThreadNumber.setTextColor(coll);
         //Цвет фрэйм
         int cnum = arrayList.get(position).getColorNumber();
         holder.frame_itemCurrentThreadsActivityColor.setBackgroundColor(ContextCompat.getColor(context, cnum));
@@ -57,17 +66,27 @@ public class CurrentThreadsApapter extends RecyclerView.Adapter<CurrentThreadsAp
         //Название фирмы
         String firm = arrayList.get(position).getFirm();
         holder.tv_itemCurrentThreadsFirm.setText(firm);
-        //Текущая длина
-        Double length = arrayList.get(position).getLengthCurrent();
-        String lengthCurrent = String.valueOf(length);
-        holder.tv_itemCurrentThreadsLength.setText(lengthCurrent);
+        int col = Utils.textColorOfFirm(context, firm);
+        holder.tv_itemCurrentThreadsFirm.setTextColor(col);
 
+        //Текущая длина
+        Double length = arrayList.get(position).getLengthCurrent() * PASM_6;
+        //String lengthCurrent = String.valueOf(length);
+        String lengthCurrent = String.format("%.2f", length);
+        holder.tv_itemCurrentThreadsLength.setText(lengthCurrent.replace(",","."));
         //Остаток длина пасма
-        Double pasm = length / 8.0;
+        double pasmFirm = 8.0;
+        if (arrayList.get(position).getFirm().equals("pnk")){
+            pasmFirm = 10.0;
+        }
+        Double pasm = length / pasmFirm / PASM_6;
         String pasmLength = String.format("%.1f", pasm);
         holder.tv_itemCurrentThreadsPasm.setText(pasmLength);
+        //Остаток длина
+        Double lengthOstatok = arrayList.get(position).getLengthOstatok() * PASM_6;
+        String lengthOst = String.format("%.2f", lengthOstatok);
+        holder.tv_itemCurrentThreadsTotalLength.setText(lengthOst);
 
-        holder.tv_itemCurrentThreadsTotalLength.setText(String.valueOf(arrayList.get(position).getLengthOstatok()));
 
         Double leng = arrayList.get(position).getLengthOstatok();
         if (leng > 4) {
@@ -129,8 +148,9 @@ public class CurrentThreadsApapter extends RecyclerView.Adapter<CurrentThreadsAp
             currentThreadNumberNit = arrayList.get(getAdapterPosition()).getNumberNit();
             currentThreadfirm = arrayList.get(getAdapterPosition()).getFirm();
             currentThreadLength = arrayList.get(getAdapterPosition()).getLengthCurrent();
+            currentThreadOstatok = arrayList.get(getAdapterPosition()).getLengthOstatok();
 
-            dialogDelete.show();
+            dialog_change_or_delete_current_thread.show();
         }
     }
     public void updateCurrentThreadsAdapter(List<NitNew> newList) {

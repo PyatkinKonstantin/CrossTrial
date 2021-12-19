@@ -1,6 +1,9 @@
 package com.kos.crosstrial.db;
 
 public class Constants {
+    public static int PASM_6 = 1;
+
+    public static final int RC_SIGN_IN = 9001;
     public static final String INTENT_STITCH_NAME = "intentStitchName";
 
     public static final String SORT_ASC = " ASC";
@@ -13,7 +16,8 @@ public class Constants {
     public static final String DB_NAME = "cross_stitch_db.db";
     public static final String KOL_ZAP = "kol_zap";
     public static final String FIRST_START = "first_start";
-    public static final int DB_VERSION = 1;
+    public static final String PASM = "pasm";
+    public static final int DB_VERSION = 2;
 
 
     public static final String TABLE_STITCHES_STRUCTURE = "CREATE TABLE IF NOT EXISTS " +
@@ -69,7 +73,8 @@ public class Constants {
     public static final String TABLE_SET_STRUCTURE = "CREATE TABLE IF NOT EXISTS " +
             TABLE_SET + " (" + _ID + " INTEGER PRIMARY KEY," +
             KOL_ZAP + " INT," +
-            FIRST_START + " INT)";
+            FIRST_START + " INT," +
+            PASM + " INT)";
     public static final String  DROP_TABLE_SET = "DROP TABLE IF EXISTS " + TABLE_SET;
 
 

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "77549416179",
+    "project_id": "crosstrial-97c18",
+    "storage_bucket": "crosstrial-97c18.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:77549416179:android:190878e26a1debddd6d186",
+        "android_client_info": {
+          "package_name": "com.kos.crosstrial"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "77549416179-pnrt56bddhqnqemggmkc5npio5cpu2g7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kos.crosstrial",
+            "certificate_hash": "1c8975d1354ad2af03adaee9bf0fc7d472dfa1da"
+          }
+        },
+        {
+          "client_id": "77549416179-802jn82p54032hvf6rtm2t4kkfids89r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAju0NBSnlyGMsQ-1_KyVHjcTNC2DpJIlk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "77549416179-802jn82p54032hvf6rtm2t4kkfids89r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

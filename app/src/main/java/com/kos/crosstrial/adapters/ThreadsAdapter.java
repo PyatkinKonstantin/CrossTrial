@@ -22,6 +22,7 @@ import static com.kos.crosstrial.activityes.ThreadsActivity.dialogAddThread;
 import static com.kos.crosstrial.activityes.ThreadsActivity.idToChange;
 import static com.kos.crosstrial.activityes.ThreadsActivity.oldValue;
 import static com.kos.crosstrial.activityes.ThreadsActivity.tv_dialogThreadName;
+import static com.kos.crosstrial.db.Constants.PASM_6;
 
 public class ThreadsAdapter extends RecyclerView.Adapter<ThreadsAdapter.ThreadsHolder> {
     private ArrayList<NitNew> nitNewNewArrayList;
@@ -52,8 +53,9 @@ public class ThreadsAdapter extends RecyclerView.Adapter<ThreadsAdapter.ThreadsH
         holder.tv_itemThreadsActivityName.setText(nitNewNewArrayList.get(position).getColorName());
 
         //Остаток длина
-        Double length = nitNewNewArrayList.get(position).getLengthOstatok();
-        String lengthOstatok = String.valueOf(length);
+        Double length = nitNewNewArrayList.get(position).getLengthOstatok()*PASM_6;
+        //String lengthOstatok = String.valueOf(length);
+        String lengthOstatok = String.format("%.2f", length);
         holder.tv_itemThreadsActivityLength.setText(lengthOstatok);
 
         if (length > 4) {
@@ -72,7 +74,11 @@ public class ThreadsAdapter extends RecyclerView.Adapter<ThreadsAdapter.ThreadsH
         }
 
         //Остаток длина пасма
-        Double pasm = length / 8.0;
+        double pasmFirm = 8.0;
+        if (nitNewNewArrayList.get(position).getFirm().equals("pnk")){
+            pasmFirm = 10.0;
+        }
+        Double pasm = length / pasmFirm / PASM_6;
         String pasm1 = String.format("%.1f", pasm);
         String pasmLength = String.valueOf(pasm1);
         holder.tv_itemThreadsActivityPasm.setText(pasmLength);
