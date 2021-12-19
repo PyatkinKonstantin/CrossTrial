@@ -24,6 +24,7 @@ import com.google.android.gms.auth.api.signin.GoogleSignInClient;
 import com.google.android.gms.auth.api.signin.GoogleSignInOptions;
 import com.google.android.gms.common.api.ApiException;
 import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthCredential;
 import com.google.firebase.auth.AuthResult;
@@ -115,13 +116,14 @@ public class SaveLoadActivity extends AppCompatActivity {
         }
         else {
             tv_user_name.setText(cUser.getDisplayName());
-            Picasso.get().load( cUser.getPhotoUrl()).into(googleAccountLPicture);
+            Picasso.get().load(cUser.getPhotoUrl()).into(googleAccountLPicture);
         }
     }
 
     private void signIn() {
         Intent signInIntent = mGoogleSignInClient.getSignInIntent();
         startActivityForResult(signInIntent, RC_SIGN_IN);
+
     }
 
     @Override
@@ -131,14 +133,22 @@ public class SaveLoadActivity extends AppCompatActivity {
         if (requestCode == RC_SIGN_IN) {
 
             Task<GoogleSignInAccount> task = GoogleSignIn.getSignedInAccountFromIntent(data);
+            //Toast.makeText(getApplicationContext(),  "" + task.isSuccessful(), Toast.LENGTH_LONG).show();
+
             try {
+                //Toast.makeText(getApplicationContext(), "firebaseAuthWithGoogle: + account.getId()", Toast.LENGTH_LONG).show();
+
                 // Google Sign In was successful, authenticate with Firebase
                 GoogleSignInAccount account = task.getResult(ApiException.class);
+
                 //Log.d("my", "firebaseAuthWithGoogle:" + account.getId());
                 firebaseAuthWithGoogle(account.getIdToken());
             } catch (ApiException e) {
+
+                Toast.makeText(getApplicationContext(),""+ e,Toast.LENGTH_SHORT).show();
+
                 // Google Sign In failed, update UI appropriately
-                //Log.w(TAG, "Google sign in failed", e);
+                Log.d("koss", "Google sign in failed", e);
             }
         }
     }
@@ -152,7 +162,7 @@ public class SaveLoadActivity extends AppCompatActivity {
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if (task.isSuccessful()) {
                             FirebaseUser user = mAuth.getCurrentUser();
-                            //Toast.makeText(getApplicationContext(),"Вы вошли как " + user.getDisplayName(),Toast.LENGTH_SHORT).show();
+                            Toast.makeText(getApplicationContext(),"Вы вошли как " + user.getDisplayName(),Toast.LENGTH_SHORT).show();
                             updateUI(user);
 
                         } else {
@@ -160,6 +170,7 @@ public class SaveLoadActivity extends AppCompatActivity {
                         }
                     }
                 });
+
     }
 
     private void updateUI(FirebaseUser cUser) {

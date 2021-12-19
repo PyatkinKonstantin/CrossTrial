@@ -4,11 +4,11 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
+    android:layout_height="match_parent"
     android:padding="10dp">
 
     <Button
-        android:id="@+id/bt_dialog_delete_no"
+        android:id="@+id/bt_dialog_delete_currentThread"
         android:layout_width="wrap_content"
         android:layout_height="40dp"
         android:layout_marginStart="16dp"
@@ -16,14 +16,14 @@
         style="@style/Widget.MaterialComponents.Button.OutlinedButton"
         app:cornerRadius="10dp"
         android:fontFamily="@font/akadem"
-        android:onClick="onClickNo"
-        android:text="Нет"
+        android:onClick="onClickDeleteCurrentThread"
+        android:text="@string/del"
         android:textColor="#000000"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/bt_dialog_delete_yes"
+        android:id="@+id/bt_dialog_change_length_currentThread"
         style="@style/Widget.MaterialComponents.Button.OutlinedButton"
         android:layout_width="wrap_content"
         android:layout_height="40dp"
@@ -31,23 +31,23 @@
         android:layout_marginTop="60dp"
         android:layout_marginEnd="16dp"
         android:fontFamily="@font/akadem"
-        android:onClick="onClickYes"
-        android:text="Да"
+        android:onClick="onClickChangeLength"
+        android:text="@string/change_length"
         android:textColor="#000000"
         app:cornerRadius="10dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/bt_dialog_delete_no"
+        app:layout_constraintStart_toEndOf="@+id/bt_dialog_delete_currentThread"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/tv_dialogDeleteText"
+        android:id="@+id/tv_dialog_change_length_currentThread"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
         android:layout_marginTop="10dp"
         android:layout_marginEnd="10dp"
         android:fontFamily="@font/akadem"
-        android:text="@string/delete_thread"
+        android:text="@string/delete_thread_or_edit"
         android:textSize="20sp"
         android:gravity="center"
         app:layout_constraintEnd_toEndOf="parent"

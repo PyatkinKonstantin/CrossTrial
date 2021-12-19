@@ -1037,6 +1037,10 @@
     <string name="setup">Setup</string>
     <string name="banner_ad_unit_id">ca-app-pub-9744475608161908/1059970340</string>
     <string name="savingPleaseWait">Saving... Please wait.</string>
+    <string name="change_length">Change length</string>
+    <string name="del">Delete</string>
+    <string name="delete_thread_or_edit">Delete thread or edit?</string>
+    <string name="default_web_client_id2" translatable="false">77549416179-933iq6ufdvrvpladmdg73vtjoo3c3s81.apps.googleusercontent.com</string>
 
 
 </resources>

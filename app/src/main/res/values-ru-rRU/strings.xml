@@ -631,6 +631,9 @@
     <string name="load_from_cloud">Загрузить из облака</string>
     <string name="setup">Настройки</string>
     <string name="savingPleaseWait">Сохранение... Пожалуйста подождите.</string>
+    <string name="change_length">Изменить длину</string>
+    <string name="del">Удалить</string>
+    <string name="delete_thread_or_edit">Удалить или изменить нить?</string>
 
 
 </resources>

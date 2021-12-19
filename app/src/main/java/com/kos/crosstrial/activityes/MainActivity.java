@@ -54,6 +54,7 @@ public class MainActivity extends AppCompatActivity {
     ArrayList<StitchItem> stitches;
 
     private DbManager dbManager;
+    
     public EditText et_add_stich;
     private RecyclerView rvNewCrossStich;
     private StitchAdapter stitchAdapter;

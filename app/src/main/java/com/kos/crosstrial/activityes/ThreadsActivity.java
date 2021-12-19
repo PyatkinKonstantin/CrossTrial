@@ -328,15 +328,14 @@ public class ThreadsActivity extends AppCompatActivity {
     public void addNit(View view) {
         Double oldVal = Double.parseDouble(oldValue.replace(",", "."));
         String valueStr = et_dialogAdd.getText().toString();
-        Double addValueDouble = Double.parseDouble(valueStr);
-        if (valueStr.length() == 0) {
-            Toast.makeText(this, "Не введена длина", Toast.LENGTH_SHORT).show();
-        } else {
 
+
+        if (valueStr.length() == 0) {
+            Toast.makeText(this, "Не введена длина. Введите длину и нажмите \"плюс\"", Toast.LENGTH_LONG).show();
+        } else {
+            Double addValueDouble = Double.parseDouble(valueStr);
             addValueDouble = addValueDouble / PASM_6;
             oldVal = Double.parseDouble(oldValue.replace(",", ".")) / PASM_6;
-
-
             Double value = oldVal + addValueDouble;
             dbManager.updateThreadOstatokToDb(value, idToChange);
             threadsAdapter.updateThreadsAdapter(dbManager.getAllThredsOfFirmFromDb(in_stock.isChecked(), firma, Constants.SORT_ASC));
@@ -348,15 +347,12 @@ public class ThreadsActivity extends AppCompatActivity {
     public void removeNit(View view) {
         Double oldVal = Double.parseDouble(oldValue.replace(",", "."));
         String valueStr = et_dialogAdd.getText().toString();
-        Double addValueDouble = Double.parseDouble(valueStr);
         if (valueStr.length() == 0) {
-            Toast.makeText(this, "Не введена длина", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Не введена длина. Введите длину и нажмите \"минус\"", Toast.LENGTH_LONG).show();
         } else {
-
+            Double addValueDouble = Double.parseDouble(valueStr);
             addValueDouble = addValueDouble / PASM_6;
             oldVal = Double.parseDouble(oldValue.replace(",", ".")) / PASM_6;
-
-
             Double value = oldVal - addValueDouble;
             dbManager.updateThreadOstatokToDb(value, idToChange);
             threadsAdapter.updateThreadsAdapter(dbManager.getAllThredsOfFirmFromDb(in_stock.isChecked(), firma, Constants.SORT_ASC));
@@ -369,6 +365,7 @@ public class ThreadsActivity extends AppCompatActivity {
         String sort = Constants.SORT_ASC;
         threadsAdapter.updateThreadsAdapter(dbManager.getSortByNalichieThreadFromDb(firma, sort));
     }*/
+
     ArrayList<NitNew> listForThreadAdapter(){
         ArrayList<NitNew> list = (ArrayList<NitNew>) dbManager.getAllThredsOfFirmFromDb(in_stock.isChecked(),firma, Constants.SORT_ASC);
         ArrayList<NitNew> temp = new ArrayList<>();
