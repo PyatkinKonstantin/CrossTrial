@@ -49,12 +49,12 @@ public class MainActivity extends AppCompatActivity {
 
     private InterstitialAd mInterstitialAd;
 
+    SaveLoadActivity saveLoadclass = new SaveLoadActivity();
     Trial trialClass = new Trial();
     static String endOfTrial;
     ArrayList<StitchItem> stitches;
 
     private DbManager dbManager;
-    
     public EditText et_add_stich;
     private RecyclerView rvNewCrossStich;
     private StitchAdapter stitchAdapter;
@@ -78,7 +78,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        //loadAd();
+        loadAd();
     }
     public void loadAd() {
         AdRequest adRequest = new AdRequest.Builder().build();
